@@ -1,0 +1,128 @@
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.7
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+uid=0(root) gid=0(root) groups=0(root),1004(aid_input),1007(aid_log),1011(aid_adb),1015(aid_sdcard_rw),1028(aid_sdcard_r),1078(aid_ext_data_rw),1079(aid_ext_obb_rw),3001(aid_net_bt_admin),3002(aid_net_bt),3003(aid_inet),3006(aid_net_bw_stats),3009(aid_readproc),3011(aid_uhid),3012(aid_readtracefs),50528(aid_all_a528)
+HOME=/root
+arm64
+Another process has locked the database for writing, and might currently be
+modifying it, some of the following problems might just be due to that.
+
+The following packages have been unpacked but not yet configured.
+They must be configured using dpkg --configure or the configure
+menu option in dselect for them to work:
+ arc-theme            Flat theme with transparent elements
+ fonts-noto           metapackage to pull in all Noto fonts
+ fonts-noto-core      "No Tofu" font families with large Unicode coverage (core
+ gnome-themes-extra:arm64 Adwaita GTK 2 theme â€” engine
+ gtk2-engines-murrine:arm64 cairo-based gtk+-2.0 theme engine
+ gtk2-engines-pixbuf:arm64 pixbuf-based theme for GTK 2
+ libgtk2.0-0t64:arm64 GTK graphical user interface library - old version
+ libgtk2.0-common     common files for the GTK graphical user interface library
+
+The following packages are only half configured, probably due to problems
+configuring them the first time.  The configuration should be retried using
+dpkg --configure <package> or the configure menu option in dselect:
+ papirus-icon-theme   Papirus open source icon theme for Linux
+
+The following packages have been triggered, but the trigger processing
+has not yet been done.  Trigger processing can be requested using
+dselect or dpkg --configure --pending (or dpkg --triggers-only):
+ fontconfig           generic font configuration library - support binaries
+ libc-bin             GNU C Library: Binaries
+
+dpkg-query: no packages found matching x11-apps
+dpkg-query: no packages found matching xdotool
+dpkg-query: no packages found matching wmctrl
+dpkg-query: no packages found matching python3-gi
+dpkg-query: no packages found matching gir1.2-gtk-3.0
+arc-theme	iU 	20221218-1
+atril	ii 	1.26.2-4+deb13u1
+engrampa	ii 	1.26.2-5
+firefox-esr	un 	
+fonts-noto-cjk	ii 	1:20240730+repack1-1
+fonts-noto-core	iU 	20201225-2
+mousepad	ii 	0.6.3-1
+papirus-icon-theme	iF 	20250501-1
+python3	ii 	3.13.5-1
+ristretto	ii 	0.13.3-1
+thunar	ii 	4.20.2-1+deb13u1
+x11-utils	ii 	7.7+7
+xfce4	ii 	4.20.1
+xfce4-clipman-plugin	ii 	2:1.6.6-1+b1
+xfce4-panel	ii 	4.20.4-1
+xfce4-settings	ii 	4.20.1-1
+xfce4-taskmanager	ii 	1.5.8-1
+xfce4-terminal	ii 	1.1.4-1
+xfce4-whiskermenu-plugin	ii 	2.9.2-1
+Types: deb
+# http://snapshot.debian.org/archive/debian/20261104T212339Z
+URIs: http://deb.debian.org/debian
+Suites: stable stable-updates
+Components: main
+Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
+
+Types: deb
+# http://snapshot.debian.org/archive/debian-security/20261104T212339Z
+URIs: http://deb.debian.org/debian-security
+Suites: stable-security
+Components: main
+Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
+Default-hdpi
+Default
+Emacs
+Daloa
+Artwiz-boxed
+Kokodi
+Default-xhdpi
+Moheli
+Breeze-ob
+Bear2
+Nightmare
+Mikachu
+Clearlooks
+Clearlooks-3.4
+Clearlooks-Olive
+Natura
+Onyx-Citrus
+Onyx
+Nightmare-01
+Nightmare-02
+Nightmare-03
+Syscrash
+Orang
+Adwaita-dark
+Adwaita
+Arc-Dark
+Raleigh
+Arc
+Arc-Darker
+Arc-Lighter
+Papirus-Dark
+hicolor
+locolor
+Adwaita
+default
+Papirus
+Papirus-Light
+-rw-r-----. 1 root root 0 Nov 18 08:01 /var/cache/apt/archives/lock
+-rw-r-----. 1 root root 0 Nov 18 08:00 /var/lib/apt/lists/lock
+-rw-r-----. 1 root root 0 Nov 19 07:26 /var/lib/dpkg/lock
+-rw-r-----. 1 root root 0 Nov  4 21:23 /var/lib/dpkg/lock-frontend
+LOCK_BUSY /var/lib/dpkg/lock
+LOCK_BUSY /var/lib/dpkg/lock-frontend
+LOCK_BUSY /var/cache/apt/archives/lock
+LOCK_FREE /var/lib/apt/lists/lock
+_NET_SUPPORTING_WM_CHECK(WINDOW): window id # 0xe00032
+_NET_CLIENT_LIST(WINDOW): window id # 0x1000007, 0xc00003, 0xc0000a
+Screen 0: minimum 1 x 1, current 1280 x 960, maximum 32767 x 32767
+builtin connected 1280x960+0+0 0mm x 0mm
+   1280x960     119.89* 
+Filesystem        Size  Used Avail Use% Mounted on
+/dev/block/dm-61  226G  127G   99G  57% /

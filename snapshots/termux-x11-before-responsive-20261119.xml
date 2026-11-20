@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="hideCutout" value="true" />
+    <boolean name="displayStretch" value="false" />
+    <string name="notificationButton1Action">exit</string>
+    <boolean name="enforceCharBasedInput" value="true" />
+    <string name="forceOrientation">auto</string>
+    <boolean name="adjustResolution" value="false" />
+    <boolean name="tapToMove" value="true" />
+    <boolean name="enableAccessibilityServiceAutomatically" value="false" />
+    <string name="backButtonAction">toggle soft keyboard</string>
+    <boolean name="ignoreGamepadEvents" value="true" />
+    <boolean name="adjustHeightForEK" value="true" />
+    <string name="notificationTapAction">open preferences</string>
+    <boolean name="showAdditionalKbd" value="false" />
+    <boolean name="stylusButtonContactModifierMode" value="true" />
+    <boolean name="additionalKbdVisible" value="true" />
+    <int name="opacityEKBar" value="100" />
+    <string name="displayResolutionCustom">1280x1024</string>
+    <boolean name="stylusIsMouse" value="true" />
+    <boolean name="clipboardEnable" value="true" />
+    <boolean name="pauseKeyInterceptingWithEsc" value="false" />
+    <string name="mediaKeysAction">no action</string>
+    <boolean name="preferScancodes" value="true" />
+    <boolean name="storeSecondaryDisplayPreferencesSeparately" value="true" />
+    <boolean name="showIMEWhileExternalConnected" value="true" />
+    <boolean name="useTermuxEKBarBehaviour" value="false" />
+    <boolean name="showMouseHelper" value="false" />
+    <string name="transformCapturedPointer">no</string>
+    <string name="displayResolutionExact">1280x960</string>
+    <boolean name="keepScreenOn" value="true" />
+    <boolean name="pointerCapture" value="true" />
+    <string name="swipeDownAction">toggle additional key bar</string>
+    <string name="touchMode">1</string>
+    <string name="displayFilteringMode">nearest</string>
+    <boolean name="dexMetaKeyCapture" value="false" />
+    <boolean name="scaleTouchpad" value="true" />
+    <boolean name="hardwareKbdScancodesWorkaround" value="true" />
+    <string name="notificationButton0Action">open preferences</string>
+    <string name="volumeUpAction">no action</string>
+    <boolean name="fullscreen" value="false" />
+    <boolean name="Reseed" value="true" />
+    <boolean name="PIP" value="true" />
+    <int name="capturedPointerSpeedFactor" value="100" />
+    <string name="displayResolutionMode">exact</string>
+    <string name="swipeUpAction">no action</string>
+    <boolean name="filterOutWinkey" value="false" />
+    <int name="displayScale" value="100" />
+    <string name="volumeDownAction">no action</string>
+    <boolean name="showStylusClickOverride" value="false" />
+</map>

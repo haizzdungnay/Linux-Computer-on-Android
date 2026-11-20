@@ -1,0 +1,19 @@
+PANELS [["12582913", {"WINDOW": 12582913, "X": 10, "Y": 10, "WIDTH": 10, "HEIGHT": 10, "SCREEN": 0}], ["12582915", {"WINDOW": 12582915, "X": 0, "Y": 0, "WIDTH": 1600, "HEIGHT": 39, "SCREEN": 0}], ["12582922", {"WINDOW": 12582922, "X": 511, "Y": 1174, "WIDTH": 578, "HEIGHT": 65, "SCREEN": 0}], ["12582991", {"WINDOW": 12582991, "X": 511, "Y": 1056, "WIDTH": 578, "HEIGHT": 12, "SCREEN": 0}]]
+REVEAL STRIP [('12582991', {'WINDOW': 12582991, 'X': 511, 'Y': 1056, 'WIDTH': 578, 'HEIGHT': 12, 'SCREEN': 0})]
+ACTIVE 35651587 WM_CLASS(STRING) = "Navigator", "firefox-esr"
+_NET_WM_PID(CARDINAL) = 22933
+_NET_WM_NAME(UTF8_STRING) = "Cài đặt — Mozilla Firefox"
+_NET_WM_STATE(ATOM) = _NET_WM_STATE_FOCUSED
+DESKTOP DOCK VISIBLE {'WINDOW': 12582922, 'X': 511, 'Y': 1003, 'WIDTH': 578, 'HEIGHT': 65, 'SCREEN': 0}
+OVERLAPPED DOCK HIDDEN {'WINDOW': 12582922, 'X': 511, 'Y': 1174, 'WIDTH': 578, 'HEIGHT': 65, 'SCREEN': 0}
+REVEALED FROM 7PX {'WINDOW': 12582922, 'X': 511, 'Y': 1003, 'WIDTH': 578, 'HEIGHT': 65, 'SCREEN': 0}
+HIDDEN AFTER LEAVE {'WINDOW': 12582922, 'X': 511, 'Y': 1174, 'WIDTH': 578, 'HEIGHT': 65, 'SCREEN': 0}
+FINAL DESKTOP VISIBLE {'WINDOW': 12582922, 'X': 511, 'Y': 1003, 'WIDTH': 578, 'HEIGHT': 65, 'SCREEN': 0}
+PASS: Mojave settings, assets, launchers, UID/session, software rendering, compositor off, 1600x1068
+PASS: intelligent hide, 12px trigger, reveal at7px, hide when overlapped, desktop visible
+
+(xfce4-screenshooter:2278): dbind-WARNING **: 01:22:35.824: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:2341): dbind-WARNING **: 01:22:37.949: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:2376): dbind-WARNING **: 01:22:38.704: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

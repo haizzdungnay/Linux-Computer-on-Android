@@ -1,0 +1,5 @@
+VALIDATED_MENU_ENTRY netsurf-gtk
+VALIDATED_MENU_ENTRY atril
+VALIDATED_MENU_ENTRY org.xfce.ristretto
+VALIDATED_MENU_ENTRY org.xfce.mousepad
+VALIDATED_MENU_ENTRY engrampa

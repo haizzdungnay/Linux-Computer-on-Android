@@ -1,0 +1,11 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+SEARCH RESULT [('0x2200003', 'WM_CLASS(STRING) = "mousepad", "Mousepad"\n_NET_WM_NAME(UTF8_STRING) = "Untitled 1 - Mousepad"\nWM_STATE(WM_STATE):\n\t\twindow state: Normal\n\t\ticon window: 0x0')]
+PASS: menu search opened Mousepad; initial poll was too early
+FINAL PROPERTIES Screen 0: minimum 1 x 1, current 1280 x 960, maximum 32767 x 32767
+builtin connected 1280x960+0+0 0mm x 0mm
+   1280x960     119.89*
+PASS: Mojave settings, assets, UID/session, software rendering, compositor off, 1280x960
+
+(xfce4-screenshooter:642): dbind-WARNING **: 09:24:09.821: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:657): dbind-WARNING **: 09:24:10.886: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

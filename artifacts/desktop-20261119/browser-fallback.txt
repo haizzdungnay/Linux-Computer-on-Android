@@ -1,0 +1,69 @@
+FIREFOX RECENT CRASH
+{'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 238 loader: 0 (t=9.21065) '}
+{'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 238 loader: 0 (t=10.4986) '}
+FIREFOX SANDBOX / FONTS
+27842 22913 S firefox-esr
+FONT_TEST_REVERTED
+debconf: falling back to frontend: Noninteractive
+Fetched 3393 kB in 1s (3293 kB/s)
+Selecting previously unselected package fonts-dejavu-extra.
+
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 142973 files and directories currently installed.)
+
+Preparing to unpack .../fonts-dejavu-extra_2.37-8_all.deb ...
+
+Unpacking fonts-dejavu-extra (2.37-8) ...
+
+Selecting previously unselected package fonts-dejavu.
+
+Preparing to unpack .../fonts-dejavu_2.37-8_all.deb ...
+
+Unpacking fonts-dejavu (2.37-8) ...
+
+Selecting previously unselected package netsurf-common.
+
+Preparing to unpack .../netsurf-common_3.11-2_all.deb ...
+
+Unpacking netsurf-common (3.11-2) ...
+
+Selecting previously unselected package netsurf-gtk.
+
+Preparing to unpack .../netsurf-gtk_3.11-2+b1_arm64.deb ...
+
+Unpacking netsurf-gtk (3.11-2+b1) ...
+
+Setting up fonts-dejavu-extra (2.37-8) ...
+
+Setting up fonts-dejavu (2.37-8) ...
+
+Setting up netsurf-common (3.11-2) ...
+
+Setting up netsurf-gtk (3.11-2+b1) ...
+
+update-alternatives: using /usr/bin/netsurf-gtk to provide /usr/bin/netsurf (netsurf-browser) in auto mode
+
+Processing triggers for desktop-file-utils (0.28-1) ...
+
+Processing triggers for fontconfig (2.15.0-2.3) ...
+

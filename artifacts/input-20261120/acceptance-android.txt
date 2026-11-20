@@ -1,0 +1,20 @@
+event8 [  478408.365585] EV_KEY       BTN_MOUSE            UP                  
+event8 [  478408.424679] EV_KEY       BTN_TOUCH            UP                  
+event8 [  478408.424679] EV_KEY       BTN_TOOL_FINGER      UP                  
+Android READY
+478408.639 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event8 [  478409.204871] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  478409.204871] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  478409.204871] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  478409.365892] EV_KEY       BTN_MOUSE            UP                  
+event8 [  478409.414184] EV_KEY       BTN_TOUCH            UP                  
+event8 [  478409.414184] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  478409.711930] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  478409.711930] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  478410.225919] EV_KEY       BTN_TOUCH            UP                  
+event8 [  478410.225919] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  478410.424683] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  478410.424683] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  478410.509813] EV_KEY       BTN_TOUCH            UP                  
+event8 [  478410.509813] EV_KEY       BTN_TOOL_FINGER      UP                  
+Android STOPPED

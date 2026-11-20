@@ -1,0 +1,20 @@
+CORE {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 3390}
+PASS: Mojave settings, assets, launchers, UID/session, software rendering, compositor off, 1600x1068
+PARENT 22933 TRACER 22930 UID10528 DISPLAY:2 software1 no sandbox overrides
+CHILD 23060 SECCOMP 2 FILTERS 1 HOME_PRESENT True
+CHILD 23068 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23105 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23112 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23220 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23265 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23350 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23370 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23377 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+CHILD 23410 SECCOMP 2 FILTERS 2 HOME_PRESENT False
+prefs.js SANDBOX PREFS []
+user.js SANDBOX PREFS []
+HTTPS DEFAULT firefox-esr.desktop
+HELPER PASS: URL validation; Firefox helper {"ok": true, "pid": 20220, "display": ":2"}
+PASS: browser parent/session, child seccomp filters, default sandbox prefs, helper, desktop
+
+(xfce4-screenshooter:18675): dbind-WARNING **: 10:33:59.553: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

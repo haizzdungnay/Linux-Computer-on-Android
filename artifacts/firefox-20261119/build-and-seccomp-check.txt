@@ -1,0 +1,158 @@
+--- a/src/tracee/event.c
++++ b/src/tracee/event.c
+@@ -749,8 +749,11 @@
+ 					tracee->skip_next_seccomp_signal = false;
+ 					tracee->restore_sysarg1_after_sigsys = false;
+ 					signal = 0;
++				} else if (siginfo.si_errno == 0) {
++					signal = handle_seccomp_event(tracee);
+ 				} else {
+-					signal = handle_seccomp_event(tracee);
++					/* Upstream 7bf5cfe6: deliver browser sandbox traps. */
++					signal = SIGSYS;
+ 				}
+ 			} else {
+ 				VERBOSE(tracee, 1, "non-seccomp SIGSYS");
+--- a/src/syscall/enter.c
++++ b/src/syscall/enter.c
+@@ -2322,6 +2322,23 @@
+ 			(peek_reg(tracee, CURRENT, SYSARG_3) & AT_SYMLINK_NOFOLLOW) ? SYMLINK : REGULAR
+ 		);
+ 		break;
++
++	case PR_rt_sigprocmask:
++	{
++		word_t how = peek_reg(tracee, CURRENT, SYSARG_1);
++		word_t sigset_addr = peek_reg(tracee, CURRENT, SYSARG_2);
++		word_t sigsetsize = peek_reg(tracee, CURRENT, SYSARG_4);
++		if ((how == SIG_BLOCK || how == SIG_SETMASK) && sigset_addr != 0 && sigsetsize == sizeof(sigset_t)) {
++			sigset_t mask;
++			if (read_data(tracee, &mask, sigset_addr, sizeof(sigset_t)) == 0 && sigismember(&mask, SIGSYS)) {
++				sigdelset(&mask, SIGSYS);
++				word_t new_sigset_addr = alloc_mem(tracee, sizeof(sigset_t));
++				if (new_sigset_addr && write_data(tracee, new_sigset_addr, &mask, sizeof(sigset_t)) == 0)
++					poke_reg(tracee, SYSARG_2, new_sigset_addr);
++			}
++		}
++		break;
++	}
+ 
+ 	case PR_prctl:
+ 		/* Prevent tracees from setting dumpable flag.
+--- a/src/syscall/seccomp.c
++++ b/src/syscall/seccomp.c
+@@ -404,6 +404,7 @@
+ 	{ PR_renameat,		FILTER_SYSEXIT },
+ 	{ PR_renameat2,		FILTER_SYSEXIT },
+ 	{ PR_rmdir,		0 },
++	{ PR_rt_sigprocmask,	0 },
+ 	{ PR_setrlimit,		FILTER_SYSEXIT },
+ 	{ PR_setxattr,		0 },
+ 	{ PR_socketcall,	FILTER_SYSEXIT },
+
+BUILD EXIT 0
+id0/utimensat.o
+  CC	extension/fake_id0/access.o
+  CC	extension/fake_id0/exec.o
+  CC	extension/fake_id0/link.o
+  CC	extension/fake_id0/symlink.o
+  CC	extension/fake_id0/mk.o
+  CC	extension/fake_id0/stat.o
+  CC	extension/fake_id0/helper_functions.o
+  CC	extension/fake_id0/fake_id0.o
+./extension/fake_id0/helper_functions.c:185:3: warning: misleading indentation; statement is not part of the previous 'else' [-Wmisleading-indentation]
+  185 |                 emulated_gid = config->egid;
+      |                 ^
+./extension/fake_id0/helper_functions.c:183:2: note: previous statement is here
+  183 |         else
+      |         ^
+1 warning generated.
+  CC	extension/hidden_files/hidden_files.o
+  CC	extension/mountinfo/mountinfo.o
+  CC	extension/port_switch/port_switch.o
+  CC	extension/sysvipc/sysvipc.o
+./extension/port_switch/port_switch.c:174:100: warning: sizeof on array function parameter will return size of 'long *' instead of 'long[]' [-Wsizeof-array-argument]
+  174 |                     write_data(tracee, peek_reg(tracee, CURRENT, SYSARG_2), socketcall_arg2, sizeof(socketcall_arg2));
+      |                                                                                                    ^
+./extension/port_switch/port_switch.c:145:121: note: declared here
+  145 | void mod_port(Tracee *tracee, bool is_socketcall, bool is_bind, bool is_udp, struct sockaddr_storage *my_sockaddr, long socketcall_arg2[]) {   
+      |                                                                                                                         ^
+./extension/port_switch/port_switch.c:182:100: warning: sizeof on array function parameter will return size of 'long *' instead of 'long[]' [-Wsizeof-array-argument]
+  182 |                     write_data(tracee, peek_reg(tracee, CURRENT, SYSARG_2), socketcall_arg2, sizeof(socketcall_arg2));
+      |                                                                                                    ^
+./extension/port_switch/port_switch.c:145:121: note: declared here
+  145 | void mod_port(Tracee *tracee, bool is_socketcall, bool is_bind, bool is_udp, struct sockaddr_storage *my_sockaddr, long socketcall_arg2[]) {   
+      |                                                                                                                         ^
+./extension/port_switch/port_switch.c:204:100: warning: sizeof on array function parameter will return size of 'long *' instead of 'long[]' [-Wsizeof-array-argument]
+  204 |                     write_data(tracee, peek_reg(tracee, CURRENT, SYSARG_2), socketcall_arg2, sizeof(socketcall_arg2));
+      |                                                                                                    ^
+./extension/port_switch/port_switch.c:145:121: note: declared here
+  145 | void mod_port(Tracee *tracee, bool is_socketcall, bool is_bind, bool is_udp, struct sockaddr_storage *my_sockaddr, long socketcall_arg2[]) {   
+      |                                                                                                                         ^
+./extension/port_switch/port_switch.c:212:100: warning: sizeof on array function parameter will return size of 'long *' instead of 'long[]' [-Wsizeof-array-argument]
+  212 |                     write_data(tracee, peek_reg(tracee, CURRENT, SYSARG_2), socketcall_arg2, sizeof(socketcall_arg2));
+      |                                                                                                    ^
+./extension/port_switch/port_switch.c:145:121: note: declared here
+  145 | void mod_port(Tracee *tracee, bool is_socketcall, bool is_bind, bool is_udp, struct sockaddr_storage *my_sockaddr, long socketcall_arg2[]) {   
+      |                                                                                                                         ^
+4 warnings generated.
+  CC	extension/sysvipc/sysvipc_msg.o
+  CC	extension/sysvipc/sysvipc_sem.o
+  CC	extension/sysvipc/sysvipc_shm.o
+  CC	extension/link2symlink/link2symlink.o
+./extension/sysvipc/sysvipc_shm.c:814:10: warning: 'mktemp' is deprecated: mktemp is unsafe, use mkstemp or tmpfile instead [-Wdeprecated-declarations]
+  814 |                 (void) mktemp(path);
+      |                        ^
+/data/data/com.termux/files/usr/bin/../../usr/include/stdlib.h:64:66: note: 'mktemp' has been explicitly marked deprecated here
+   64 | char* _Nullable mktemp(char* _Nonnull __template) __attribute__((__deprecated__("mktemp is unsafe, use mkstemp or tmpfile instead")));
+      |                                                                  ^
+1 warning generated.
+  CC	extension/fix_symlink_size/fix_symlink_size.o
+  CC	loader/loader.o
+./loader/loader.c:253:5: warning: inline asm clobber list contains reserved registers: SP [-Winline-asm]
+  253 |                                 BRANCH(stmt->start.stack_pointer, stmt->start.entry_point);
+      |                                 ^
+./loader/assembly-arm64.h:32:3: note: expanded from macro 'BRANCH'
+   32 |                 "// Restore initial stack pointer.      \n\t"   \
+      |                 ^
+./loader/loader.c:253:5: note: Reserved registers on the clobber list may not be preserved across the asm statement, and clobbering them may lead to undefined behaviour.
+./loader/assembly-arm64.h:32:3: note: expanded from macro 'BRANCH'
+   32 |                 "// Restore initial stack pointer.      \n\t"   \
+      |                 ^
+1 warning generated.
+  CC	loader/assembly.o
+  CC	loader/loader-m32.o
+./loader/loader.c:253:5: warning: inline asm clobber list contains reserved registers: SP, PC [-Winline-asm]
+  253 |                                 BRANCH(stmt->start.stack_pointer, stmt->start.entry_point);
+      |                                 ^
+./loader/assembly-arm.h:32:3: note: expanded from macro 'BRANCH'
+   32 |                 "// Restore initial stack pointer.      \n\t"   \
+      |                 ^
+./loader/loader.c:253:5: note: Reserved registers on the clobber list may not be preserved across the asm statement, and clobbering them may lead to undefined behaviour.
+./loader/assembly-arm.h:32:3: note: expanded from macro 'BRANCH'
+   32 |                 "// Restore initial stack pointer.      \n\t"   \
+      |                 ^
+1 warning generated.
+  CC	loader/assembly-m32.o
+  LD	loader/loader
+  LD	loader/loader-m32
+readelf -s loader/loader | awk -f loader/loader-info.awk > loader/loader-info.c
+  GEN	build.h
+  CC	loader/loader-info.o
+  CC	cli/cli.o
+  CC	cli/proot.o
+./cli/cli.c:572:14: warning: unused variable 'pointers' [-Wunused-variable]
+  572 |         void *const pointers[] = { this_function, call_site };
+      |                     ^~~~~~~~
+1 warning generated.
+  CC	execve/aoxp.o
+  CC	path/path.o
+  CC	syscall/seccomp.o
+  CC	tracee/mem.o
+  CC	extension/extension.o
+  LD	proot
+rm .check_seccomp_filter.o .check_process_vm.o .check_seccomp_filter .check_process_vm
+make: Leaving directory '/data/data/com.termux/files/home/.local/share/linux-desktop/firefox-sandbox/proot-5.1.107.86/src'
+
+PATCHED CHECK 0 handler=1 result=4242 denied=-1 errno=13 seccomp=2
+ 

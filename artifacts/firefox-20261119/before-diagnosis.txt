@@ -1,0 +1,37 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+FIREFOX PROCESSES
+PROFILE INI
+installs.ini [3B6073811A6ABF12]
+Default=gtehrka8.default-esr
+Locked=1
+
+
+profiles.ini [Profile1]
+Name=default
+IsRelative=1
+Path=u15y5ych.default
+Default=1
+
+[Profile0]
+Name=default-esr
+IsRelative=1
+Path=gtehrka8.default-esr
+
+[General]
+StartWithLastProfile=1
+Version=2
+
+[Install3B6073811A6ABF12]
+Default=gtehrka8.default-esr
+Locked=1
+
+
+PREF user_pref("services.settings.blocklists.gfx.last_check", 1795075976);
+FONTMATCH Noto Serif | /usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf
+NETWORK 2606:4700:10::6814:179a example.com
+2606:4700:10::ac42:93f3 example.com
+BINARY /usr/lib/firefox-esr/firefox-esr
+PROFILE CACHE
+fontconfig []
+mozilla ['/root/.ld-test/xfce-cache/mozilla/firefox']
+LOGS ['/root/.local/share/linux-desktop/evidence/firefox.log', '/root/.local/share/linux-desktop/evidence/firefox-font-fix.log', '/root/.local/share/linux-desktop/evidence/firefox-font-fix.png', '/root/.local/share/linux-desktop/evidence/firefox-after-restart.png', '/root/.local/share/linux-desktop/evidence/firefox-sandbox.log', '/root/.local/share/linux-desktop/evidence/firefox-close-state.png', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/src/apps/scalable/firefox-aurora.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/src/apps/scalable/firefox-developer-icon.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/src/apps/scalable/firefox.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/src/apps/scalable/firefox_mk2.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/src/apps/scalable/firefox-nightly.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/src/apps/symbolic/firefox-symbolic.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-beta-bin.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-gtk3.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-original.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox3.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-developer.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-esr.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-nightly-icon.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-3.5.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-developer-edition.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-3.0.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-aurora-icon.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-beta.svg', '/root/.local/share/linux-desktop/appearance/20261119/WhiteSur-icon-theme-73d8040da51a9ed74e47c7366e7e9ff437601a5c/links/apps/scalable/firefox-dev.svg']

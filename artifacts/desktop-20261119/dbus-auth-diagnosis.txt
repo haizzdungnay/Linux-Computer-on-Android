@@ -1,0 +1,206 @@
+DBUS AUTH
+0 b'REJECTED EXTERNAL\r\n'
+10528 b'OK f72ea08b82f73a6b0dd0c46a6afd79d8\r\n'
+(empty) b'DATA\r\n'
+XFCE LOGS
+/root/.ld-test/logs/xfce4-panel.log
+
+(exo-open:7731): dbind-WARNING **: 10:16:53.883: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:7733): dbind-WARNING **: 10:16:54.078: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-appfinder:9428): dbind-WARNING **: 10:25:35.924: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-display-settings:9606): dbind-WARNING **: 10:26:02.702: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(exo-open:26860): dbind-WARNING **: 03:00:35.028: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:26877): dbind-WARNING **: 03:00:35.266: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+/root/.ld-test/logs/xfce4-terminal.log
+
+(xfce4-terminal:5425): dbind-WARNING **: 10:11:59.267: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-terminal:5425): xfce4-terminal-WARNING **: 10:11:59.389: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+/root/.ld-test/logs/xfdesktop.log
+
+(xfdesktop:5324): dbind-WARNING **: 10:11:56.220: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+** (xfdesktop:5324): CRITICAL **: 10:11:57.133: xfdesktop_regular_file_icon_new: assertion 'G_IS_FILE_INFO(file_info)' failed
+
+(xfdesktop:5324): GLib-GObject-CRITICAL **: 10:11:57.134: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (xfdesktop:5324): WARNING **: 10:11:57.194: Thumbnailer failed calling GetFlavors
+
+** (xfdesktop:5324): WARNING **: 10:11:58.482: Failed to get system bus: Could not connect: No such file or directory
+/root/.ld-test/logs/xfsettingsd.log
+
+(xfsettingsd:5115): dbind-WARNING **: 10:11:37.073: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfsettingsd:5115): xfsettingsd-WARNING **: 10:11:38.440: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(xfsettingsd:5115): xfsettingsd-WARNING **: 10:11:39.438: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+Xlib:  extension "DPMS" missing on display ":2".
+/root/.ld-test/logs/xfwm4.log
+
+(xfwm4:5146): dbind-WARNING **: 10:11:38.718: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfwm4:5146): xfwm4-WARNING **: 10:11:54.877: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+CONFIGS
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="clock"/>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-10" type="string" value="actions"/>
+    <property name="plugin-11" type="string" value="showdesktop"/>
+    <property name="plugin-12" type="string" value="separator"/>
+    <property name="plugin-13" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17949967191.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17949967192.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17949967203.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17949967204.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="separator"/>
+    <property name="plugin-18" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/root"/>
+    </property>
+  </property>
+</channel>
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xsettings" version="1.0">
+  <property name="Net" type="empty">
+    <property name="ThemeName" type="empty"/>
+    <property name="IconThemeName" type="empty"/>
+    <property name="DoubleClickTime" type="empty"/>
+    <property name="DoubleClickDistance" type="empty"/>
+    <property name="DndDragThreshold" type="empty"/>
+    <property name="CursorBlink" type="empty"/>
+    <property name="CursorBlinkTime" type="empty"/>
+    <property name="SoundThemeName" type="empty"/>
+    <property name="EnableEventSounds" type="empty"/>
+    <property name="EnableInputFeedbackSounds" type="empty"/>
+  </property>
+  <property name="Xft" type="empty">
+    <property name="DPI" type="empty"/>
+    <property name="Antialias" type="empty"/>
+    <property name="Hinting" type="empty"/>
+    <property name="HintStyle" type="empty"/>
+    <property name="RGBA" type="empty"/>
+  </property>
+  <property name="Gtk" type="empty">
+    <property name="CanChangeAccels" type="empty"/>
+    <property name="ColorPalette" type="empty"/>
+    <property name="FontName" type="empty"/>
+    <property name="MonospaceFontName" type="empty"/>
+    <property name="IconSizes" type="empty"/>
+    <property name="KeyThemeName" type="empty"/>
+    <property name="MenuImages" type="empty"/>
+    <property name="ButtonImages" type="empty"/>
+    <property name="MenuBarAccel" type="empty"/>
+    <property name="CursorThemeName" type="empty"/>
+    <property name="CursorThemeSize" type="empty"/>
+    <property name="DecorationLayout" type="string" value="icon,menu:minimize,maximize,close"/>
+    <property name="DialogsUseHeader" type="empty"/>
+    <property name="TitlebarMiddleClick" type="empty"/>
+  </property>
+  <property name="Gdk" type="empty">
+    <property name="WindowScalingFactor" type="empty"/>
+  </property>
+</channel>
+USERS
+root:x:0:0:root:/root:/bin/bash
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+SETUID PROBE
+BEFORE 0 0
+AFTER 10528 10528
+1  Failed to register on connection to "unix:path=/tmp/dbus-wDHR1WjWUc" message bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+APT PROGRESS
+ 2088  2087 S       28:56 apt-get
+ 9021  2088 S       16:37 dpkg
+ 9026  9021 S       16:37 papirus-icon-th
+15089  9026 t       02:38 gtk-update-icon
+2026-11-19 07:26:56 status half-configured gnome-themes-extra-data:all 3.28-4
+2026-11-19 07:26:56 status installed gnome-themes-extra-data:all 3.28-4
+2026-11-19 07:26:56 configure papirus-icon-theme:all 20250501-1 <none>
+2026-11-19 07:26:56 status unpacked papirus-icon-theme:all 20250501-1
+2026-11-19 07:26:56 status half-configured papirus-icon-theme:all 20250501-1

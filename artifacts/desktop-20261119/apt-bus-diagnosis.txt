@@ -1,0 +1,145 @@
+2088 (2087, 'apt-get', 'S (sleeping)') apt-get -y --no-install-recommends install arc-theme papirus-icon-theme fonts-noto fonts-noto-cjk 
+STAT ['S', '2087', '2079', '2079', '0', '-1', '4194304', '27647', '210461', '115', '11326', '198', '919', '1881', '22181', '20', '0', '1', '0', '123543940', '86970368', '0']
+WCHAN do_select
+9021 (2088, 'dpkg', 'S (sleeping)') /usr/bin/dpkg --status-fd 17 --configure --pending 
+STAT ['S', '2088', '9021', '9021', '34818', '9021', '4194304', '1006', '402', '8', '2', '0', '6', '0', '3', '20', '0', '1', '0', '123617853', '8024064', '59']
+WCHAN do_wait
+9026 (9021, 'papirus-icon-th', 'S (sleeping)') /bin/sh /var/lib/dpkg/info/papirus-icon-theme.postinst configure  
+STAT ['S', '9021', '9021', '9021', '34818', '9021', '4194304', '119', '16667', '30', '1668', '0', '1', '1047', '23311', '20', '0', '1', '0', '123617882', '2465792', '101']
+WCHAN do_wait
+15089 (9026, 'gtk-update-icon', 't (tracing stop)') gtk-update-icon-cache --force --quiet /usr/share/icons/Papirus-Light 
+STAT ['t', '9026', '9021', '9021', '34818', '9021', '4194304', '2831', '0', '15', '0', '133', '3579', '0', '0', '20', '0', '1', '0', '123701773', '20516864', '3120']
+WCHAN 0
+UPTIME 124.08 932.80
+
+BUS 5102 (5101, 'dbus-daemon', 'S (sleeping)') dbus-daemon --nofork --print-address 6 --session 
+BUSENV ['HOME=/root', 'DISPLAY=:2', 'XDG_CONFIG_HOME=/root/.ld-test/xfce-config', 'XDG_CACHE_HOME=/root/.ld-test/xfce-cache', 'XDG_RUNTIME_DIR=/root/.ld-test/xfce-run']
+BUS 16062 (1, 'dbus-daemon', 'S (sleeping)') /usr/bin/dbus-daemon --syslog --fork --print-pid 7 --print-address 9 --session 
+BUSENV ['HOME=/root', 'DISPLAY=:2']
+BUS 21681 (21680, 'dbus-daemon', 'S (sleeping)') dbus-daemon --nofork --print-address 6 --session 
+BUSENV ['HOME=/root', 'DISPLAY=:2']
+PermissionError
+2026-11-19 07:26:56 configure fonts-noto-mono:all 20201225-2 <none>
+2026-11-19 07:26:56 status unpacked fonts-noto-mono:all 20201225-2
+2026-11-19 07:26:56 status half-configured fonts-noto-mono:all 20201225-2
+2026-11-19 07:26:56 status installed fonts-noto-mono:all 20201225-2
+2026-11-19 07:26:56 configure fonts-noto-cjk:all 1:20240730+repack1-1 <none>
+2026-11-19 07:26:56 status unpacked fonts-noto-cjk:all 1:20240730+repack1-1
+2026-11-19 07:26:56 status half-configured fonts-noto-cjk:all 1:20240730+repack1-1
+2026-11-19 07:26:56 status installed fonts-noto-cjk:all 1:20240730+repack1-1
+2026-11-19 07:26:56 configure gnome-themes-extra-data:all 3.28-4 <none>
+2026-11-19 07:26:56 status unpacked gnome-themes-extra-data:all 3.28-4
+2026-11-19 07:26:56 status half-configured gnome-themes-extra-data:all 3.28-4
+2026-11-19 07:26:56 status installed gnome-themes-extra-data:all 3.28-4
+2026-11-19 07:26:56 configure papirus-icon-theme:all 20250501-1 <none>
+2026-11-19 07:26:56 status unpacked papirus-icon-theme:all 20250501-1
+2026-11-19 07:26:56 status half-configured papirus-icon-theme:all 20250501-1
+srwxrwxrwx. 1 root root    0 Nov 18 10:11 /tmp/dbus-wDHR1WjWUc
+
+/root/.ld-test/logs:
+total 24
+-rw-r--r--. 1 root root 4370 Nov 19 03:00 xfce4-panel.log
+-rw-r--r--. 1 root root  406 Nov 18 10:11 xfce4-terminal.log
+-rw-r--r--. 1 root root  783 Nov 18 10:11 xfdesktop.log
+-rw-r--r--. 1 root root  557 Nov 18 10:11 xfsettingsd.log
+-rw-r--r--. 1 root root  379 Nov 18 10:11 xfwm4.log
+
+CONFIG FILES
+xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+xfce4/xfconf/xfce-perchannel-xml/displays.xml
+xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml
+xfce4/desktop/accels.scm
+xfce4/desktop/icons.screen0.yaml
+xfce4/panel/launcher-13/17949967191.desktop
+xfce4/panel/launcher-14/17949967192.desktop
+xfce4/panel/launcher-15/17949967203.desktop
+xfce4/panel/launcher-16/17949967204.desktop
+Thunar/accels.scm
+Thunar/uca.xml
+
+DBUS CONFIG
+<!-- This configuration file controls the per-user-login-session message bus.
+     Add a session-local.conf and edit that rather than changing this 
+     file directly. -->
+
+<!DOCTYPE busconfig PUBLIC "-//freedesktop//DTD D-Bus Bus Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
+<busconfig>
+  <!-- Our well-known bus type, don't change this -->
+  <type>session</type>
+
+  <!-- If we fork, keep the user's original umask to avoid affecting
+       the behavior of child processes. -->
+  <keep_umask/>
+
+  <listen>unix:tmpdir=/tmp</listen>
+
+  <!-- On Unix systems, the most secure authentication mechanism is
+  EXTERNAL, which uses credential-passing over Unix sockets.
+
+  This authentication mechanism is not available on Windows,
+  is not suitable for use with the tcp: or nonce-tcp: transports,
+  and will not work on obscure flavours of Unix that do not have
+  a supported credentials-passing mechanism. On those platforms/transports,
+  comment out the <auth> element to allow fallback to DBUS_COOKIE_SHA1. -->
+  <auth>EXTERNAL</auth>
+
+  <standard_session_servicedirs />
+
+  <policy context="default">
+    <!-- Allow everything to be sent -->
+    <allow send_destination="*" eavesdrop="true"/>
+    <!-- Allow everything to be received -->
+    <allow eavesdrop="true"/>
+    <!-- Allow anyone to own anything -->
+    <allow own="*"/>
+  </policy>
+
+  <!-- Include legacy configuration location -->
+  <include ignore_missing="yes">/etc/dbus-1/session.conf</include>
+
+  <!-- Config files are placed here that among other things, 
+       further restrict the above policy for specific services. -->
+  <includedir>session.d</includedir>
+
+  <includedir>/etc/dbus-1/session.d</includedir>
+
+  <!-- This is included last so local configuration can override what's 
+       in this standard file -->
+  <include ignore_missing="yes">/etc/dbus-1/session-local.conf</include>
+
+  <include if_selinux_enabled="yes" selinux_root_relative="yes">contexts/dbus_contexts</include>
+
+  <!-- For the session bus, override the default relatively-low limits 
+       with essentially infinite limits, since the bus is just running 
+       as the user anyway, using up bus resources is not something we need 
+       to worry about. In some cases, we do set the limits lower than 
+       "all available memory" if exceeding the limit is almost certainly a bug, 
+       having the bus enforce a limit is nicer than a huge memory leak. But the 
+       intent is that these limits should never be hit. -->
+
+  <!-- the memory limits are 1G instead of say 4G because they can't exceed 32-bit signed int max -->
+  <limit name="max_incoming_bytes">1000000000</limit>
+  <limit name="max_incoming_unix_fds">250000000</limit>
+  <limit name="max_outgoing_bytes">1000000000</limit>
+  <limit name="max_outgoing_unix_fds">250000000</limit>
+  <limit name="max_message_size">1000000000</limit>
+  <!-- We do not override max_message_unix_fds here since the in-kernel
+       limit is also relatively low -->
+  <limit name="service_start_timeout">120000</limit>  
+  <limit name="auth_timeout">240000</limit>
+  <limit name="pending_fd_timeout">150000</limit>
+  <limit name="max_completed_connections">100000</limit>  
+  <limit name="max_incomplete_connections">10000</limit>
+  <limit name="max_connections_per_user">100000</limit>
+  <limit name="max_pending_service_starts">10000</limit>
+  <limit name="max_names_per_connection">50000</limit>
+  <limit name="max_match_rules_per_connection">50000</limit>
+  <limit name="max_replies_per_connection">50000</limit>
+
+</busconfig>

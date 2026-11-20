@@ -1,0 +1,108 @@
+Screen 0: minimum 1 x 1, current 1280 x 960, maximum 32767 x 32767
+builtin connected 1280x960+0+0 (0x3e) normal (normal) 0mm x 0mm
+	Identifier: 0x40
+	Timestamp:  328770049
+	Subpixel:   unknown
+	Gamma:      1.0:1.0:1.0
+	Brightness: 0.0
+	Clones:    
+	CRTC:       0
+	CRTCs:      0
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	non-desktop: 0 
+		supported: 0, 1
+  1280x960 (0x3e) 217.750MHz -HSync +VSync *current
+        h: width  1280 start 1384 end 1520 total 1760 skew    0 clock 123.72KHz
+        v: height  960 start  963 end  967 total 1032           clock 119.89Hz
+/configver                                        2
+/panels                                           [1,2]
+/panels/dark-mode                                 true
+/panels/panel-1/autohide-behavior                 1
+/panels/panel-1/background-style                  0
+/panels/panel-1/icon-size                         24
+/panels/panel-1/length                            100
+/panels/panel-1/plugin-ids                        [21,2,3,6,8,1]
+/panels/panel-1/position                          p=6;x=0;y=0
+/panels/panel-1/position-locked                   true
+/panels/panel-1/size                              38
+/panels/panel-2/autohide-behavior                 0
+/panels/panel-2/background-style                  0
+/panels/panel-2/icon-size                         48
+/panels/panel-2/length                            1
+/panels/panel-2/length-adjust                     true
+/panels/panel-2/plugin-ids                        [14,15,13,24,23,16]
+/panels/panel-2/position                          p=0;x=640;y=920
+/panels/panel-2/position-locked                   true
+/panels/panel-2/size                              64
+/plugins/plugin-1                                 xfce4-clipman-plugin
+/plugins/plugin-10                                actions
+/plugins/plugin-11                                showdesktop
+/plugins/plugin-12                                separator
+/plugins/plugin-13                                launcher
+/plugins/plugin-13/items                          [17949967191.desktop]
+/plugins/plugin-14                                launcher
+/plugins/plugin-14/items                          [17949967192.desktop]
+/plugins/plugin-15                                launcher
+/plugins/plugin-15/items                          [firefox.desktop]
+/plugins/plugin-16                                launcher
+/plugins/plugin-16/items                          [taskmanager.desktop]
+/plugins/plugin-17                                separator
+/plugins/plugin-18                                directorymenu
+/plugins/plugin-18/base-directory                 /root
+/plugins/plugin-2                                 tasklist
+/plugins/plugin-2/flat-buttons                    true
+/plugins/plugin-2/grouping                        1
+/plugins/plugin-2/show-handle                     false
+/plugins/plugin-2/show-labels                     false
+/plugins/plugin-2/show-tooltips                   true
+/plugins/plugin-21                                whiskermenu
+/plugins/plugin-21/button-icon                    distributor-logo-debian
+/plugins/plugin-21/button-title                   Menu
+/plugins/plugin-21/category-icon-size             1
+/plugins/plugin-21/category-show-name             false
+/plugins/plugin-21/favorites                      [firefox-esr.desktop,xfce4-terminal.desktop,thunar.desktop,org.xfce.mousepad.desktop,xfce-settings-manager.desktop,xfce4-taskmanager.desktop,org.xfce.ristretto.desktop]
+/plugins/plugin-21/launcher-icon-size             2
+/plugins/plugin-21/launcher-show-description      false
+/plugins/plugin-21/launcher-show-name             true
+/plugins/plugin-21/menu-height                    520
+/plugins/plugin-21/menu-width                     350
+/plugins/plugin-21/position-categories-alternate  true
+/plugins/plugin-21/position-profile-alternate     true
+/plugins/plugin-21/position-search-alternate      true
+/plugins/plugin-21/recent                         [org.xfce.mousepad.desktop]
+/plugins/plugin-21/show-button-icon               true
+/plugins/plugin-21/show-button-title              true
+/plugins/plugin-21/show-command-hibernate         false
+/plugins/plugin-21/show-command-lockscreen        false
+/plugins/plugin-21/show-command-logout            false
+/plugins/plugin-21/show-command-logoutuser        false
+/plugins/plugin-21/show-command-restart           false
+/plugins/plugin-21/show-command-settings          true
+/plugins/plugin-21/show-command-shutdown          false
+/plugins/plugin-21/show-command-suspend           false
+/plugins/plugin-21/show-command-switchuser        false
+/plugins/plugin-23                                launcher
+/plugins/plugin-23/items                          [settings.desktop]
+/plugins/plugin-24                                launcher
+/plugins/plugin-24/items                          [editor.desktop]
+/plugins/plugin-3                                 separator
+/plugins/plugin-3/expand                          true
+/plugins/plugin-3/style                           0
+/plugins/plugin-4                                 pager
+/plugins/plugin-5                                 separator
+/plugins/plugin-5/style                           0
+/plugins/plugin-6                                 systray
+/plugins/plugin-6/square-icons                    true
+/plugins/plugin-7                                 separator
+/plugins/plugin-7/style                           0
+/plugins/plugin-8                                 clock
+/plugins/plugin-8/digital-date-format             %a, %d %b
+/plugins/plugin-8/digital-layout                  3
+/plugins/plugin-8/digital-time-font               Noto Sans Bold 10
+/plugins/plugin-8/digital-time-format             %H:%M
+/plugins/plugin-8/timezone                        Asia/Ho_Chi_Minh
+/plugins/plugin-9                                 separator
+/plugins/plugin-9/style                           0

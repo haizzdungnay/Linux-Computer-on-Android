@@ -1,0 +1,474 @@
+event6 [  477586.347796] EV_KEY       KEY_TAB              DOWN                
+event6 [  477586.426366] EV_KEY       KEY_TAB              UP                  
+Android READY
+event6 [  477586.541362] EV_KEY       KEY_TAB              DOWN                
+477586.550 Android Gesture converter buttonState=0x00000000
+477586.579 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  477586.653794] EV_KEY       KEY_TAB              UP                  
+event6 [  477586.775463] EV_KEY       KEY_TAB              DOWN                
+event6 [  477586.898554] EV_KEY       KEY_TAB              UP                  
+event6 [  477587.005800] EV_KEY       KEY_TAB              DOWN                
+event6 [  477587.105449] EV_KEY       KEY_TAB              UP                  
+event6 [  477587.209021] EV_KEY       KEY_TAB              DOWN                
+event6 [  477587.311938] EV_KEY       KEY_TAB              UP                  
+event6 [  477587.420730] EV_KEY       KEY_TAB              DOWN                
+event6 [  477587.511912] EV_KEY       KEY_TAB              UP                  
+event6 [  477587.624461] EV_KEY       KEY_TAB              DOWN                
+event6 [  477587.730625] EV_KEY       KEY_TAB              UP                  
+event6 [  477588.353172] EV_KEY       KEY_LEFTMETA         UP                  
+477589.375495] contacts=1
+event8 [  477589.375495] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477589.375495] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477590.271914] contacts=0
+event8 [  477590.271914] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477590.271914] EV_KEY       BTN_TOOL_FINGER      UP                  
+event6 [  477590.968610] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477591.290505] EV_KEY       KEY_TAB              DOWN                
+event6 [  477591.480362] EV_KEY       KEY_TAB              UP                  
+477591.789 FOCUS window= MiuiKeyboardShortcuts app= Termux:X11  capture=none viewer=25973
+event6 [  477593.552754] EV_KEY       KEY_LEFTMETA         UP                  
+event8 [  477594.175159] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477594.175159] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477594.175159] contacts=1
+477595.101952] contacts=0
+event8 [  477595.101952] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477595.101952] EV_KEY       BTN_TOOL_FINGER      UP                  
+477596.150583] contacts=1
+event8 [  477596.150583] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477596.150583] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477596.167900] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477596.338467] EV_KEY       BTN_MOUSE            UP                  
+477596.383204] contacts=0
+event8 [  477596.383204] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477596.383204] EV_KEY       BTN_TOOL_FINGER      UP                  
+477596.580 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477596.579 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+477596.940 Android Gesture converter buttonState=0x00000000
+event6 [  477597.087708] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477597.168312] EV_KEY       KEY_LEFTMETA         UP                  
+event6 [  477597.246907] EV_KEY       KEY_LEFTMETA         DOWN                
+477597.300 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS
+event6 [  477597.346683] EV_KEY       KEY_LEFTMETA         UP                  
+477597.322 RESUMED Android Launcher
+477597.445 RESUMED Android Launcher
+477597.660 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477597.729 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+477598.380 RESUMED other Android app
+event6 [  477598.439924] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477598.571387] EV_KEY       KEY_LEFTMETA         UP                  
+event6 [  477598.671297] EV_KEY       KEY_LEFTMETA         DOWN                
+477598.703 RESUMED Android Launcher
+477598.759 FOCUS window= other Android app app= other Android app  capture=none viewer=25973
+477598.774 RESUMED Android Launcher
+event6 [  477598.792626] EV_KEY       KEY_LEFTMETA         UP                  
+477598.910 Android Gesture converter buttonState=0x00000000
+477599.229 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+477599.629 RESUMED Termux:X11
+event6 [  477599.745341] EV_KEY       KEY_LEFTMETA         DOWN                
+477599.799 FOCUS window= null app= Termux:X11  capture=none viewer=25973
+477600.249 FOCUS window= MiuiKeyboardShortcuts app= Termux:X11  capture=none viewer=25973
+event6 [  477600.300203] EV_KEY       KEY_TAB              DOWN                
+event6 [  477600.423792] EV_KEY       KEY_TAB              UP                  
+477600.779 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  477600.951259] EV_KEY       KEY_TAB              DOWN                
+event6 [  477601.094246] EV_KEY       KEY_TAB              UP                  
+event6 [  477601.618004] EV_KEY       KEY_LEFTMETA         UP                  
+477617.707821] contacts=1
+event8 [  477617.707821] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477617.707821] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477618.207566] contacts=0
+event8 [  477618.207566] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477618.207566] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477619.224374] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477619.224374] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477619.224374] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477619.224374] contacts=1
+event8 [  477619.376692] EV_KEY       BTN_MOUSE            UP                  
+477619.430 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477619.436813] contacts=0
+event8 [  477619.436813] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477619.436813] EV_KEY       BTN_TOOL_FINGER      UP                  
+477619.760 Android Gesture converter buttonState=0x00000000 BUTTON_RELEASE
+477619.791173] contacts=1
+event8 [  477619.791173] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477619.791173] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477619.791173] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477619.815337] EV_KEY       BTN_MOUSE            UP                  
+event8 [  477619.854659] EV_KEY       BTN_TOUCH            UP                  
+477619.854659] contacts=0
+event8 [  477619.854659] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477619.948375] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477619.948375] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477619.948375] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477619.948375] contacts=1
+event8 [  477620.020572] EV_KEY       BTN_MOUSE            UP                  
+event8 [  477620.052991] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477620.052991] EV_KEY       BTN_TOOL_FINGER      UP                  
+477620.052991] contacts=0
+477620.070 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477620.139661] contacts=1
+event8 [  477620.139661] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477620.139661] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477620.139661] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477620.200138] EV_KEY       BTN_MOUSE            UP                  
+477620.230976] contacts=0
+event8 [  477620.230976] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477620.230976] EV_KEY       BTN_TOOL_FINGER      UP                  
+477620.346923] contacts=1
+event8 [  477620.346923] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477620.346923] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477620.346923] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477620.425120] contacts=0
+event8 [  477620.425120] EV_KEY       BTN_MOUSE            UP                  
+event8 [  477620.425120] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477620.425120] EV_KEY       BTN_TOOL_FINGER      UP                  
+477621.030 Android Gesture converter buttonState=0x00000000
+event6 [  477622.037866] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477622.231568] EV_KEY       KEY_TAB              DOWN                
+event6 [  477622.358120] EV_KEY       KEY_TAB              UP                  
+event6 [  477623.690522] EV_KEY       KEY_LEFTMETA         UP                  
+event6 [  477624.217956] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477624.292820] EV_KEY       KEY_TAB              DOWN                
+event6 [  477624.416210] EV_KEY       KEY_TAB              UP                  
+event6 [  477624.529321] EV_KEY       KEY_TAB              DOWN                
+event6 [  477624.644684] EV_KEY       KEY_TAB              UP                  
+event6 [  477624.750461] EV_KEY       KEY_TAB              DOWN                
+event6 [  477624.873767] EV_KEY       KEY_TAB              UP                  
+event6 [  477624.902546] EV_KEY       KEY_LEFTMETA         UP                  
+event8 [  477625.237342] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477625.237342] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477625.237342] contacts=1
+477625.540327] contacts=0
+event8 [  477625.540327] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477625.540327] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477625.809176] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477625.809176] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477625.809176] contacts=1
+477626.015388] contacts=0
+event8 [  477626.015388] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477626.015388] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477626.176166] EV_KEY       BTN_TOUCH            DOWN                
+477626.176166] contacts=1
+event8 [  477626.176166] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477626.628615] EV_KEY       BTN_TOUCH            UP                  
+477626.628615] contacts=0
+event8 [  477626.628615] EV_KEY       BTN_TOOL_FINGER      UP                  
+event6 [  477628.095197] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477628.267329] EV_KEY       KEY_TAB              DOWN                
+event6 [  477628.390397] EV_KEY       KEY_TAB              UP                  
+event6 [  477628.510450] EV_KEY       KEY_LEFTMETA         UP                  
+event6 [  477628.914348] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477629.128945] EV_KEY       KEY_LEFTMETA         UP                  
+event6 [  477629.440635] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477629.570724] EV_KEY       KEY_TAB              DOWN                
+event6 [  477629.701448] EV_KEY       KEY_TAB              UP                  
+event6 [  477630.202565] EV_KEY       KEY_LEFTMETA         UP                  
+event8 [  477630.861005] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477630.861005] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477630.861005] contacts=1
+event8 [  477630.887580] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477630.887580] EV_KEY       BTN_TOOL_TRIPLETAP   DOWN                
+477630.887580] contacts=2
+477630.887580] contacts=3
+477630.984 RESUMED Android Launcher
+477631.072 RESUMED Android Launcher
+477631.200836] contacts=3
+477631.200836] contacts=2
+event8 [  477631.200836] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477631.200836] EV_KEY       BTN_TOOL_TRIPLETAP   UP                  
+477631.226672] contacts=1
+event8 [  477631.226672] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477631.226672] EV_KEY       BTN_TOOL_FINGER      UP                  
+477631.579339] contacts=2
+event8 [  477631.579339] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477631.579339] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477631.749 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+event8 [  477632.827801] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477632.827801] EV_KEY       BTN_TOOL_FINGER      UP                  
+477632.827801] contacts=1
+477632.961128] contacts=2
+event8 [  477632.961128] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477632.961128] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477633.006769] contacts=1
+event8 [  477633.006769] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477633.006769] EV_KEY       BTN_TOOL_FINGER      UP                  
+477633.180 Android Gesture converter buttonState=0x00000001 BUTTON_PRESS
+477633.215 RESUMED other Android app
+477633.479 FOCUS window= other Android app app= other Android app  capture=none viewer=25973
+477633.520 Android Gesture converter buttonState=0x00000000
+477633.722775] contacts=2
+event8 [  477633.722775] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477633.722775] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477635.646968] contacts=1
+event8 [  477635.646968] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477635.646968] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477635.832405] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477635.832405] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477635.832405] contacts=2
+event8 [  477635.857212] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477635.857212] EV_KEY       BTN_TOOL_FINGER      UP                  
+477635.857212] contacts=1
+477635.990 Android Gesture converter buttonState=0x00000001 BUTTON_PRESS
+477636.340 Android Gesture converter buttonState=0x00000000 BUTTON_RELEASE
+477636.594730] contacts=2
+event8 [  477636.594730] EV_KEY       BTN_TOUCH            DOWN                
+477636.594730] contacts=3
+event8 [  477636.594730] EV_KEY       BTN_TOOL_DOUBLETAP   DOWN                
+477636.616110] contacts=4
+event8 [  477636.616110] EV_KEY       BTN_TOOL_DOUBLETAP   UP                  
+event8 [  477636.616110] EV_KEY       BTN_TOOL_TRIPLETAP   DOWN                
+477636.656 RESUMED Android Launcher
+477636.700 Android Gesture converter buttonState=0x00000000
+477636.705 RESUMED Android Launcher
+event8 [  477636.915114] EV_KEY       BTN_TOOL_DOUBLETAP   DOWN                
+event8 [  477636.915114] EV_KEY       BTN_TOOL_TRIPLETAP   UP                  
+477636.915114] contacts=3
+event8 [  477636.933404] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477636.933404] EV_KEY       BTN_TOOL_DOUBLETAP   UP                  
+477636.933404] contacts=2
+477636.945913] contacts=1
+event8 [  477636.945913] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477636.945913] EV_KEY       BTN_TOOL_FINGER      UP                  
+477636.989 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+event8 [  477637.169331] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477637.169331] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477637.169331] contacts=2
+event8 [  477637.915245] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477637.915245] EV_KEY       BTN_TOOL_FINGER      UP                  
+477637.915245] contacts=1
+event8 [  477638.082367] EV_KEY       BTN_TOUCH            DOWN                
+477638.082367] contacts=2
+event8 [  477638.082367] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477638.127459] EV_KEY       BTN_TOUCH            UP                  
+477638.127459] contacts=1
+event8 [  477638.127459] EV_KEY       BTN_TOOL_FINGER      UP                  
+477638.280 Android Gesture converter buttonState=0x00000001 BUTTON_PRESS
+477638.333 RESUMED Termux:X11
+477638.579 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+477638.640 Android Gesture converter buttonState=0x00000000 BUTTON_RELEASE
+477638.930 Android Gesture converter buttonState=0x00000000
+477638.940383] contacts=2
+event8 [  477638.940383] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477638.940383] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477639.295016] contacts=1
+event8 [  477639.295016] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477639.295016] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477639.474575] EV_KEY       BTN_TOUCH            DOWN                
+477639.474575] contacts=2
+event8 [  477639.474575] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477639.533905] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477639.533905] EV_KEY       BTN_TOOL_FINGER      UP                  
+477639.533905] contacts=1
+477639.890 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477640.240 Android Gesture converter buttonState=0x00000000
+477640.470591] contacts=2
+event8 [  477640.470591] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477640.470591] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477640.554618] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477640.554618] EV_KEY       BTN_TOOL_FINGER      UP                  
+477640.554618] contacts=1
+477640.910 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477641.250 Android Gesture converter buttonState=0x00000000
+477660.109646] contacts=2
+event8 [  477660.109646] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477660.109646] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477660.942795] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477660.942795] EV_KEY       BTN_TOOL_FINGER      UP                  
+477660.942795] contacts=1
+event8 [  477661.176575] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477661.176575] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477661.176575] contacts=2
+event8 [  477661.195132] EV_KEY       BTN_TOUCH            UP                  
+477661.195132] contacts=1
+event8 [  477661.195132] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477661.334142] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477661.334142] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477661.334142] contacts=2
+477661.450 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS
+477661.800 Android Gesture converter buttonState=0x00000000
+477662.693814] contacts=1
+event8 [  477662.693814] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477662.693814] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477663.149469] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477663.149469] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477663.149469] contacts=2
+event8 [  477663.893399] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477663.893399] EV_KEY       BTN_TOOL_FINGER      UP                  
+477663.893399] contacts=1
+477664.072241] contacts=2
+event8 [  477664.072241] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477664.072241] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477664.130562] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477664.130562] EV_KEY       BTN_TOOL_FINGER      UP                  
+477664.130562] contacts=1
+477664.244845] contacts=2
+event8 [  477664.244845] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477664.244845] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477664.380 Android Gesture converter buttonState=0x00000001 BUTTON_PRESS
+event8 [  477664.692998] EV_KEY       BTN_TOUCH            UP                  
+477664.692998] contacts=1
+event8 [  477664.692998] EV_KEY       BTN_TOOL_FINGER      UP                  
+477664.730 Android Gesture converter buttonState=0x00000001
+477665.060 Android Gesture converter buttonState=0x00000000 BUTTON_RELEASE
+477665.390 Android Gesture converter buttonState=0x00000000
+477665.485632] contacts=2
+event8 [  477665.485632] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477665.485632] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477665.531110] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477665.531110] EV_KEY       BTN_TOOL_FINGER      UP                  
+477665.531110] contacts=1
+event8 [  477665.643578] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477665.643578] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477665.643578] contacts=2
+477665.723858] contacts=1
+event8 [  477665.723858] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477665.723858] EV_KEY       BTN_TOOL_FINGER      UP                  
+477665.730 Android Gesture converter buttonState=0x00000001 BUTTON_PRESS
+477666.070 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477666.410 Android Gesture converter buttonState=0x00000000
+event8 [  477666.696223] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477666.696223] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477666.696223] contacts=2
+477666.754995] contacts=1
+event8 [  477666.754995] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477666.754995] EV_KEY       BTN_TOOL_FINGER      UP                  
+477667.070 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+event8 [  477667.403617] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477667.403617] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477667.403617] contacts=2
+477667.420 Android Gesture converter buttonState=0x00000000
+event8 [  477667.483272] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477667.483272] EV_KEY       BTN_TOOL_FINGER      UP                  
+477667.483272] contacts=1
+477667.760 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS
+477667.923552] contacts=2
+event8 [  477667.923552] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477667.923552] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477667.992676] contacts=1
+event8 [  477667.992676] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477667.992676] EV_KEY       BTN_TOOL_FINGER      UP                  
+477668.100 Android Gesture converter buttonState=0x00000001
+event8 [  477668.250960] EV_KEY       BTN_TOUCH            DOWN                
+477668.250960] contacts=2
+event8 [  477668.250960] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477668.323539] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477668.323539] EV_KEY       BTN_TOOL_FINGER      UP                  
+477668.323539] contacts=1
+477668.429890] contacts=2
+event8 [  477668.429890] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477668.429890] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477668.529112] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477668.529112] EV_KEY       BTN_TOOL_FINGER      UP                  
+477668.529112] contacts=1
+477668.760 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS
+477669.090 Android Gesture converter buttonState=0x00000000
+477670.125691] contacts=2
+event8 [  477670.125691] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477670.125691] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477670.201868] contacts=1
+event8 [  477670.201868] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477670.201868] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477670.321696] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477670.321696] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477670.321696] contacts=2
+event8 [  477671.096990] EV_KEY       BTN_TOUCH            UP                  
+477671.096990] contacts=1
+event8 [  477671.096990] EV_KEY       BTN_TOOL_FINGER      UP                  
+477671.263774] contacts=2
+event8 [  477671.263774] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477671.263774] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477671.315365] contacts=1
+event8 [  477671.315365] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477671.315365] EV_KEY       BTN_TOOL_FINGER      UP                  
+477671.670 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477671.868089] contacts=2
+event8 [  477671.868089] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477671.868089] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477671.996280] EV_KEY       BTN_MOUSE            DOWN                
+477672.040 Android Gesture converter buttonState=0x00000000
+event8 [  477672.070382] EV_KEY       BTN_MOUSE            UP                  
+477672.129742] contacts=1
+event8 [  477672.129742] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477672.129742] EV_KEY       BTN_TOOL_FINGER      UP                  
+477672.390 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+event8 [  477672.712706] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477672.712706] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477672.712706] contacts=2
+477672.730 Android Gesture converter buttonState=0x00000000
+event8 [  477673.146635] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477673.146635] EV_KEY       BTN_TOOL_FINGER      UP                  
+477673.146635] contacts=1
+event6 [  477676.329336] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  477676.619253] EV_KEY       KEY_TAB              DOWN                
+477676.714 RESUMED Android Launcher
+event6 [  477676.746360] EV_KEY       KEY_TAB              UP                  
+477677.089 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+event6 [  477677.632450] EV_KEY       KEY_LEFTMETA         UP                  
+477678.023755] contacts=2
+event8 [  477678.023755] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477678.023755] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477678.429230] contacts=1
+event8 [  477678.429230] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477678.429230] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477678.597554] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477678.597554] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477678.597554] contacts=2
+477678.620463] contacts=1
+event8 [  477678.620463] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477678.620463] EV_KEY       BTN_TOOL_FINGER      UP                  
+477678.803 RESUMED Termux:X11
+477678.920 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477679.099 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+477679.220 Android Gesture converter buttonState=0x00000000
+event8 [  477680.488766] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477680.488766] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477680.488766] contacts=2
+477681.210512] contacts=1
+event8 [  477681.210512] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477681.210512] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477681.357558] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477681.357558] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477681.357558] contacts=2
+477681.449227] contacts=1
+event8 [  477681.449227] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477681.449227] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  477681.721640] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477681.721640] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477681.721640] contacts=2
+477681.800 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477682.130 Android Gesture converter buttonState=0x00000000
+event8 [  477682.843042] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477682.843042] EV_KEY       BTN_TOOL_FINGER      UP                  
+477682.843042] contacts=1
+477683.062352] contacts=2
+event8 [  477683.062352] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477683.062352] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477683.106202] contacts=1
+event8 [  477683.106202] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477683.106202] EV_KEY       BTN_TOOL_FINGER      UP                  
+477683.440 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477683.790 Android Gesture converter buttonState=0x00000000
+event8 [  477689.081758] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  477689.081758] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477689.081758] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477689.081758] contacts=2
+event8 [  477689.230491] EV_KEY       BTN_MOUSE            UP                  
+477689.280 Android Gesture converter buttonState=0x00000000 BUTTON_PRESS BUTTON_RELEASE
+477689.309979] contacts=1
+event8 [  477689.309979] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477689.309979] EV_KEY       BTN_TOOL_FINGER      UP                  
+477689.630 Android Gesture converter buttonState=0x00000000 BUTTON_RELEASE
+477689.960 Android Gesture converter buttonState=0x00000000
+477690.466744] contacts=2
+event8 [  477690.466744] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477690.466744] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  477690.700650] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477690.700650] EV_KEY       BTN_TOOL_FINGER      UP                  
+477690.700650] contacts=1
+event8 [  477691.946668] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  477691.946668] EV_KEY       BTN_TOOL_FINGER      DOWN                
+477691.946668] contacts=2
+event8 [  477692.371430] EV_KEY       BTN_TOUCH            UP                  
+event8 [  477692.371430] EV_KEY       BTN_TOOL_FINGER      UP                  
+477692.371430] contacts=1
+Android STOPPED

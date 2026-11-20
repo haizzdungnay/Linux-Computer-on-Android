@@ -1,0 +1,2 @@
+MiuiKeyboardShortcutInfo{mShortcutKeyCode=meta 61, mEnable=false, mType=3, mPackageName='null', mClassName='null', mHistoryKeyCode=0, mCustomized=true}
+  mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}

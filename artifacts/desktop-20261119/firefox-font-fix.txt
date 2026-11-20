@@ -1,0 +1,6 @@
+4d46f969-5d78-e359-e6c8-536484934d15.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 255 loader: 0 (t=12.5211) ', 'ContentSandboxLevel': '6', 'URL': 'moz-extension://256e17c9-8d5f-40fd-97f9-847f6b25e54d/_generated_background_page.html'}
+1d26e111-cbb8-1fc8-a3a3-57211874256a.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 255 loader: 0 (t=13.9251) ', 'ContentSandboxLevel': '6', 'URL': 'moz-extension://256e17c9-8d5f-40fd-97f9-847f6b25e54d/_generated_background_page.html'}
+32e48e13-a3be-7bbc-ad8c-c84e86c70e26.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 255 loader: 0 (t=18.0251) ', 'ContentSandboxLevel': '6', 'URL': 'about:newtab'}
+PROFILE /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr
+user_pref("services.settings.blocklists.gfx.last_check", 1795075976);
+WROTE /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/user.js

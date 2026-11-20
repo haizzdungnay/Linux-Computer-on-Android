@@ -1,0 +1,1 @@
+PASS: live XFCE settings verified on :2; compositor off; backup: /root/.local/share/linux-desktop/backups/20261119-tablet-ui

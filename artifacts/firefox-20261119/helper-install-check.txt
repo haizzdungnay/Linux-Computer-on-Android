@@ -1,0 +1,9 @@
+proot 302392b58fa9238ac90e40c8219ad2b5685a55f097b5efe9ea215a469f437ab9
+loader 44ef39c1e1a18c09f6e4c4b5d6f8bba82d30596598bd155ec162d05c5122ff04
+loader32 25f6bd90bc5a3d3088026289a0d3eaf3e502bd2b00e5cb74fadd9791132efa34
+ENSURE 0 {"ok": true, "pid": 20220, "display": ":2"}
+ 
+CHECK 0 handler=1 result=4242 denied=-1 errno=13 seccomp=2
+PASS: URL validation; Firefox helper {"ok": true, "pid": 20220, "display": ":2"}
+ 
+RESUME BACKUP /data/data/com.termux/files/home/.local/share/linux-desktop/firefox-sandbox/before-launcher-20261119

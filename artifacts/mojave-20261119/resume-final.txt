@@ -1,0 +1,3 @@
+Starting: Intent { cmp=com.termux.x11/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+RESUME_REQUESTED: existing XFCE on :2; no desktop process started.

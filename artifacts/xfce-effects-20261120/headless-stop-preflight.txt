@@ -1,0 +1,3 @@
+Headless stop via pidfd PASS
+No managed Picom running
+Owned Picom: False, X11 selection: 0x0

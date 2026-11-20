@@ -1,0 +1,34 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+LAUNCH PASS files 0x2000fb4 1515 WM_CLASS(STRING) = "thunar", "Thunar"
+_NET_WM_NAME(UTF8_STRING) = "root - Thunar"
+_NET_WM_PID(CARDINAL) = 1515
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+LAUNCH PASS browser 0x2200003 31721 WM_CLASS(STRING) = "netsurf", "Netsurf"
+_NET_WM_NAME(UTF8_STRING) = "about:blank - NetSurf"
+_NET_WM_PID(CARDINAL) = 31721
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+LAUNCH PASS editor 0x2400003 31738 WM_CLASS(STRING) = "mousepad", "Mousepad"
+_NET_WM_NAME(UTF8_STRING) = "Untitled 1 - Mousepad"
+_NET_WM_PID(CARDINAL) = 31738
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+LAUNCH PASS settings 0x2600003 31765 WM_CLASS(STRING) = "xfce4-settings-manager", "Xfce4-settings-manager"
+_NET_WM_NAME(UTF8_STRING) = "Settings"
+_NET_WM_PID(CARDINAL) = 31765
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+LAUNCH PASS tasks 0x2800003 31787 WM_CLASS(STRING) = "xfce4-taskmanager", "Xfce4-taskmanager"
+_NET_WM_NAME(UTF8_STRING) = "Task Manager"
+_NET_WM_PID(CARDINAL) = 31787
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+Traceback (most recent call last):
+  File "<stdin>", line 22, in <module>
+AssertionError

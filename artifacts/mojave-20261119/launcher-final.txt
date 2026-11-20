@@ -1,0 +1,8 @@
+CLOSE TEST WINDOW files 0x2000fb4 _NET_WM_NAME(UTF8_STRING) = "root - Thunar"
+CLOSE TEST WINDOW browser 0x2200003 _NET_WM_NAME(UTF8_STRING) = "Welcome to NetSurf - NetSurf"
+CLOSE TEST WINDOW editor 0x2400003 _NET_WM_NAME(UTF8_STRING) = "Untitled 1 - Mousepad"
+CLOSE TEST WINDOW settings 0x2600003 _NET_WM_NAME(UTF8_STRING) = "Settings"
+CLOSE TEST WINDOW tasks 0x2800003 _NET_WM_NAME(UTF8_STRING) = "Task Manager"
+TEST LAUNCHERS CLOSED; original windows preserved
+
+(xfce4-screenshooter:32003): dbind-WARNING **: 09:21:12.779: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

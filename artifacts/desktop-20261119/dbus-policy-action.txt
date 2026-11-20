@@ -1,0 +1,28 @@
+73e34daac42fffe400db4f278f5218bbabcb8465db6a9445330456f48d7f951b  /root/.local/share/linux-desktop/backups/20261119-before-ui/xfce-config.tar
+WROTE /etc/dbus-1/session.d/90-linux-desktop-termux.conf
+CLIENT_UID 10528
+0 method return time=1795074448.346818 sender=org.freedesktop.DBus -> destination=:1.45 serial=3 reply_serial=2
+   array [
+      string "org.freedesktop.DBus"
+      string "org.xfce.Panel"
+      string ":1.7"
+      string ":1.8"
+      string "org.xfce.Appfinder"
+      string ":1.33"
+      string ":1.45"
+      string "org.kde.StatusNotifierWatcher"
+      string ":1.35"
+      string ":1.0"
+      string ":1.14"
+      string "org.xfce.xfdesktop"
+      string ":1.1"
+      string ":1.15"
+      string "org.xfce.SettingsDaemon"
+      string ":1.16"
+      string ":1.3"
+      string ":1.4"
+      string ":1.18"
+      string ":1.5"
+      string ":1.6"
+   ]
+ 

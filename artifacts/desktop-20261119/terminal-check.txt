@@ -1,0 +1,12 @@
+terminal-ok
+APT
+ 2088  2087 S       49:44 apt-get
+ 9021  2088 S       37:25 dpkg
+ 9026  9021 S       37:25 papirus-icon-th
+22700 17590 R       01:33 gtk-update-icon
+2026-11-19 07:26:56 status installed gnome-themes-extra-data:all 3.28-4
+2026-11-19 07:26:56 configure papirus-icon-theme:all 20250501-1 <none>
+2026-11-19 07:26:56 status unpacked papirus-icon-theme:all 20250501-1
+2026-11-19 07:26:56 status half-configured papirus-icon-theme:all 20250501-1
+
+(xfce4-screenshooter:23129): dbind-WARNING **: 08:04:21.105: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

@@ -1,0 +1,30 @@
+# Gradle & Android build / cache / local state
+android/.gradle/
+android/.gradle-user/
+android/.kotlin/
+android/.tmp/
+android/.android-home/
+android/build/
+android/app/build/
+android/test-classes/
+android/local.properties
+*.iml
+
+# Temporary files
+.tmp-loader.apk
+.tmp-wrapper
+*.tmp
+*.log
+
+# Python cache & test temp directories
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+tests/tmp*/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

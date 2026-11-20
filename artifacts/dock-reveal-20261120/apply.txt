@@ -1,0 +1,7 @@
+CORE BEFORE {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 3390}
+CORE AFTER {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 1293}
+PASS: Mojave settings, assets, launchers, UID/session, software rendering, compositor off, 1600x1068
+BACKUP /root/.local/share/linux-desktop/backups/20261120-dock-reveal
+READONLY CHECK PASS; restart affected only panel
+
+(xfce4-panel:1282): dbind-WARNING **: 01:19:21.540: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

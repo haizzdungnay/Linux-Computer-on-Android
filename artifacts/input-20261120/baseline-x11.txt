@@ -1,0 +1,54 @@
+X11 probe started epoch=1795140303.040514610
+X11 uptime=124.08
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2c00022, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3200022, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3600022, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000022, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+124.08 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2200003, 0x0
+124.08 (RawKeyPress) device=3(8) detail=37
+124.08 (RawKeyRelease) device=3(8) detail=37
+124.08 (RawKeyRelease) device=3(8) detail=37
+124.08 (RawButtonPress) device=2(6) detail=1
+124.08 (ButtonPress) device=6(6) detail=1
+124.08 (RawButtonRelease) device=2(6) detail=1
+124.08 (ButtonRelease) device=6(6) detail=1
+124.08 (RawKeyPress) device=3(8) detail=37
+124.08 (RawKeyRelease) device=3(8) detail=37
+124.08 (RawKeyRelease) device=3(8) detail=37
+124.08 (RawKeyPress) device=3(8) detail=50
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyPress) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyPress) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=64
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyRelease) device=3(8) detail=50
+124.08 (RawKeyPress) device=3(8) detail=50
+X11 probe finished epoch=1795140404.169009728

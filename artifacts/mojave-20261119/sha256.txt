@@ -1,0 +1,4 @@
+dfe111065e386ce3792e797b64427a4abf50d74dfd830ecac10298da043c44ed  C:\Users\PC\linux-desktop\snapshots\xfce-style-20261119-before.tar
+2b6b735d1ed72c885062bf2bcc29348abf4c21900c429254ef2407841ff2c3fd  C:\Users\PC\linux-desktop\snapshots\xfce-style-20261119-working.tar.gz
+17c33bf31f93f07bd626cf1c3a3ae22261236a16ab6e6e13d9f04f9eab7aabda  C:\Users\PC\linux-desktop\scripts\style-tablet-xfce.py
+d709c8759facf6194547015aa29ce6392e9d2c77f338fc003044d80c2b7fb7e6  C:\Users\PC\linux-desktop\artifacts\mojave-20261119\planet-space-129992.jpg

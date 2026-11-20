@@ -1,0 +1,125 @@
+AUTH AND HELLO
+AUTH 0 b'OK f72ea08b82f73a6b0dd0c46a6afd79d8\r\n'
+HELLO 0 b''
+AUTH 10528 b'OK f72ea08b82f73a6b0dd0c46a6afd79d8\r\n'
+HELLO 10528 b''
+BUS UID AND CONFIG
+X11 WINDOWS
+
+xwininfo: Window id: 0x511 (the root window) (has no name)
+
+  Root window id: 0x511 (the root window) (has no name)
+  Parent window id: 0x0 (none)
+     28 children:
+     0x1600001 "xfce4-appfinder": ("xfce4-appfinder" "Xfce4-appfinder")  10x10+10+10  +10+10
+     0x140027b "wrapper-2.0": ("wrapper-2.0" "Wrapper-2.0")  132x135+1148+27  +1148+27
+        1 child:
+        0x140027c (has no name): ()  1x1+-1+-1  +1147+26
+     0xc03e17 "xfce4-panel": ("xfce4-panel" "Xfce4-panel")  228x156+1052+27  +1052+27
+        1 child:
+        0xc03e18 (has no name): ()  1x1+-1+-1  +1051+26
+     0xc01c7a "xfce4-panel": ("xfce4-panel" "Xfce4-panel")  306x3+487+957  +487+957
+        1 child:
+        0xc01c7b (has no name): ()  1x1+-1+-1  +486+956
+     0x800004 "xfsettingsd": ()  10x10+-100+-100  +-100+-100
+     0x100003d "xfdesktop": ()  10x10+-100+-100  +-100+-100
+     0xc00063 (has no name): ()  10x10+0+0  +0+0
+     0x1200007 "wrapper-2.0": ()  10x10+-100+-100  +-100+-100
+     0x1400001 "wrapper-2.0": ("wrapper-2.0" "Wrapper-2.0")  10x10+10+10  +10+10
+     0x1200001 "wrapper-2.0": ("wrapper-2.0" "Wrapper-2.0")  10x10+10+10  +10+10
+     0xe0191a (has no name): ()  1280x960+0+0  +0+0
+     0x1000003 "Xfdesktop Manager Selection": ("xfdesktop" "Xfdesktop")  1x1+-100+-100  +-100+-100
+        1 child:
+        0x1000004 (has no name): ()  1x1+-1+-1  +-101+-101
+     0x1000001 "xfdesktop": ("xfdesktop" "Xfdesktop")  10x10+10+10  +10+10
+     0xc00001 "xfce4-panel": ("xfce4-panel" "Xfce4-panel")  10x10+10+10  +10+10
+     0xe00032 "Xfwm4": ("xfwm4" "Xfwm4")  5x5+-1000+-1000  +-1000+-1000
+        1 child:
+        0xe00033 (has no name): ()  1x1+-1+-1  +-1001+-1001
+     0xe00030 (has no name): ()  10x10+-100+-100  +-100+-100
+     0xe00001 "xfwm4": ("xfwm4" "Xfwm4")  10x10+10+10  +10+10
+     0x800003 (has no name): ()  10x10+0+0  +0+0
+     0x800002 (has no name): ()  1x1+-1+-1  +-1+-1
+     0x800001 "xfsettingsd": ("xfsettingsd" "Xfsettingsd")  10x10+10+10  +10+10
+     0x200001 (has no name): ()  10x10+-20+-20  +-20+-20
+     0xe00036 (has no name): ()  1x960+-1+0  +-1+0
+     0xe00037 (has no name): ()  1x960+1280+0  +1280+0
+     0xe00038 (has no name): ()  1280x1+0+-1  +0+-1
+     0xe00039 (has no name): ()  1280x1+0+960  +0+960
+     0xe0191c (has no name): ()  1280x27+0+0  +0+0
+        16 children:
+        0xc00003 "xfce4-panel": ("xfce4-panel" "Xfce4-panel")  1280x27+0+0  +0+0
+           3 children:
+           0xc00009 (has no name): ()  28x26+1252+0  +1252+0
+              1 child:
+              0x1400003 "wrapper-2.0": ("wrapper-2.0" "Wrapper-2.0")  28x26+0+0  +1252+0
+                 1 child:
+                 0x1400004 (has no name): ()  1x1+-1+-1  +1251+-1
+           0xc00008 (has no name): ()  1x26+1167+0  +1167+0
+              1 child:
+              0x1200003 "wrapper-2.0": ("wrapper-2.0" "Wrapper-2.0")  1x26+0+0  +1167+0
+                 1 child:
+                 0x1200004 (has no name): ()  1x1+-1+-1  +1166+-1
+           0xc00004 (has no name): ()  1x1+-1+-1  +-1+-1
+        0xe0192b (has no name): ()  1x1+0+0  +0+0
+        0xe0192a (has no name): ()  1x1+0+0  +0+0
+        0xe01929 (has no name): ()  1x1+0+0  +0+0
+        0xe01928 (has no name): ()  1x1+0+0  +0+0
+        0xe01927 (has no name): ()  1x1+0+0  +0+0
+        0xe01926 (has no name): ()  1x1+0+0  +0+0
+        0xe01925 (has no name): ()  1x1+0+0  +0+0
+        0xe01924 (has no name): ()  1x1+0+0  +0+0
+        0xe01923 (has no name): ()  1x1+0+0  +0+0
+        0xe01922 (has no name): ()  1x1+0+0  +0+0
+        0xe01921 (has no name): ()  1x1+0+0  +0+0
+        0xe01920 (has no name): ()  1x1+0+0  +0+0
+        0xe0191f (has no name): ()  1x1+0+0  +0+0
+        0xe0191e (has no name): ()  1x1+0+0  +0+0
+        0xe0191d (has no name): ()  1x1+0+0  +0+0
+     0xe01a41 (has no name): ()  306x49+487+911  +487+911
+        16 children:
+        0xc0000a "xfce4-panel": ("xfce4-panel" "Xfce4-panel")  306x49+0+0  +487+911
+           1 child:
+           0xc0000b (has no name): ()  1x1+-1+-1  +486+910
+        0xe01a50 (has no name): ()  1x1+0+0  +487+911
+        0xe01a4f (has no name): ()  1x1+0+0  +487+911
+        0xe01a4e (has no name): ()  1x1+0+0  +487+911
+        0xe01a4d (has no name): ()  1x1+0+0  +487+911
+        0xe01a4c (has no name): ()  1x1+0+0  +487+911
+        0xe01a4b (has no name): ()  1x1+0+0  +487+911
+        0xe01a4a (has no name): ()  1x1+0+0  +487+911
+        0xe01a49 (has no name): ()  1x1+0+0  +487+911
+        0xe01a48 (has no name): ()  1x1+0+0  +487+911
+        0xe01a47 (has no name): ()  1x1+0+0  +487+911
+        0xe01a46 (has no name): ()  1x1+0+0  +487+911
+        0xe01a45 (has no name): ()  1x1+0+0  +487+911
+        0xe01a44 (has no name): ()  1x1+0+0  +487+911
+        0xe01a43 (has no name): ()  1x1+0+0  +487+911
+        0xe01a42 (has no name): ()  1x1+0+0  +487+911
+     0xe018ea (has no name): ()  1280x960+0+0  +0+0
+        16 children:
+        0x1000007 "Desktop": ("xfdesktop" "Xfdesktop")  1280x960+0+0  +0+0
+           1 child:
+           0x1000008 (has no name): ()  1x1+-1+-1  +-1+-1
+        0xe018f9 (has no name): ()  1x1+0+0  +0+0
+        0xe018f8 (has no name): ()  1x1+0+0  +0+0
+        0xe018f7 (has no name): ()  1x1+0+0  +0+0
+        0xe018f6 (has no name): ()  1x1+0+0  +0+0
+        0xe018f5 (has no name): ()  1x1+0+0  +0+0
+        0xe018f4 (has no name): ()  1x1+0+0  +0+0
+        0xe018f3 (has no name): ()  1x1+0+0  +0+0
+        0xe018f2 (has no name): ()  1x1+0+0  +0+0
+        0xe018f1 (has no name): ()  1x1+0+0  +0+0
+        0xe018f0 (has no name): ()  1x1+0+0  +0+0
+        0xe018ef (has no name): ()  1x1+0+0  +0+0
+        0xe018ee (has no name): ()  1x1+0+0  +0+0
+        0xe018ed (has no name): ()  1x1+0+0  +0+0
+        0xe018ec (has no name): ()  1x1+0+0  +0+0
+        0xe018eb (has no name): ()  1x1+0+0  +0+0
+
+APT PROGRESS
+ 2088  2087 S       29:25 apt-get
+ 9021  2088 S       17:05 dpkg
+ 9026  9021 S       17:05 papirus-icon-th
+15089  9026 R       03:06 gtk-update-icon
+find: '/usr/share/dbus-1/session.d': No such file or directory

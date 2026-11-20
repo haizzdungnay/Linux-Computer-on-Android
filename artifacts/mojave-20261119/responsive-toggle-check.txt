@@ -1,0 +1,11 @@
+fullscreen=false
+Screen 0: minimum 1 x 1, current 1600 x 1023, maximum 32767 x 32767
+builtin connected 1600x1023+0+0 0mm x 0mm
+   1600x1023    119.92* 
+
+
+fullscreen=true
+Screen 0: minimum 1 x 1, current 1600 x 1068, maximum 32767 x 32767
+builtin connected 1600x1068+0+0 0mm x 0mm
+   1600x1068    119.94* 
+

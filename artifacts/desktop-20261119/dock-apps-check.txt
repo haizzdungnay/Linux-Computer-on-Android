@@ -1,0 +1,7 @@
+CLOSE_OWN_TEST 0x2000003 xfce4-settings-manager
+CLOSE_OWN_TEST 0x2200003 xfce4-taskmanager
+DOCK_CLICKED files
+DOCK_CLICKED settings
+DOCK_CLICKED editor
+
+(xfce4-screenshooter:1559): dbind-WARNING **: 08:25:21.977: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

@@ -1,0 +1,84 @@
+FILTERED STDERR [Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:27310: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.553: Theme parsing error: gtk.css:1:27310: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149222: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.582: Theme parsing error: gtk.css:1:149222: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149358: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.583: Theme parsing error: gtk.css:1:149358: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.589: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.590: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.593: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:27310: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.452: Theme parsing error: gtk.css:1:27310: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149222: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.458: Theme parsing error: gtk.css:1:149222: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149358: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.458: Theme parsing error: gtk.css:1:149358: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.465: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.465: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.468: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:27310: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.505: Theme parsing error: gtk.css:1:27310: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149222: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.511: Theme parsing error: gtk.css:1:149222: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149358: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.511: Theme parsing error: gtk.css:1:149358: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.517: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.518: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+(firefox-esr:6351): Gtk-WARNING **: 09:30:35.521: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6544 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6607 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6646 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6682 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6727 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6794 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[Parent 6351, IPC I/O Parent] WARNING: process 6887 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[Parent 6351, IPC I/O Parent] WARNING: process 6903 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+FIRST STDERR [Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:27310: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.553: Theme parsing error: gtk.css:1:27310: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149222: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.582: Theme parsing error: gtk.css:1:149222: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:149358: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.583: Theme parsing error: gtk.css:1:149358: unknown syntax for transform
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.589: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name
+[Parent 6351, Main Thread] WARNING: Theme parsing error: gtk.css:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:6351): Gtk-WARNING **: 09:30:34.590: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/6ae06608-aa40-1ff9-997c-c0238ec1063b.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=4.74992) ', 'URL': 'https://example.com/', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/196f6f4b-682d-8cd9-0454-392bec1ab562.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=7.19792) ', 'URL': 'moz-extension://256e17c9-8d5f-40fd-97f9-847f6b25e54d/_generated_background_page.html', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/196cb4a7-7433-bb18-bed7-b327c65bfe33.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=8.55392) ', 'URL': 'moz-extension://b2dd3768-fbc8-4069-8dc5-c37ab9ec11de/_generated_background_page.html', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/37e83249-ddc4-30b1-9d12-6a090fe48726.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=9.64592) ', 'URL': 'moz-extension://256e17c9-8d5f-40fd-97f9-847f6b25e54d/_generated_background_page.html', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/669a7870-88b1-e065-2b9f-1e7f7d77fe16.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=10.8099) ', 'URL': 'moz-extension://c7394842-c602-4cac-9c3d-d6f35efb987a/_generated_background_page.html', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/50faeb6c-4aa1-69b1-0b65-93111de4c53d.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=13.4059) ', 'URL': 'moz-extension://b2dd3768-fbc8-4069-8dc5-c37ab9ec11de/_generated_background_page.html', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/77b90f33-f6ef-f0e4-e499-242f71bf2564.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=12.0139) ', 'URL': 'moz-extension://256e17c9-8d5f-40fd-97f9-847f6b25e54d/_generated_background_page.html', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+CRASH /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/minidumps/7f8c2b3f-7ab1-4c4a-b818-2d0c057f3b56.extra {'MozCrashReason': 'unable to find a usable font (serif)', 'ContentSandboxLevel': '6', 'GraphicsCriticalError': '|[C0][GFX1]: no fonts - init: 1 fonts: 259 loader: 0 (t=13.5619) ', 'URL': 'about:newtab', 'ContentSandboxCapabilities': '31', 'StartupTime': None, 'CrashTime': None}
+MOZILLA ROOT DIRS ['/root/.ld-test/xfce-config/mozilla/firefox-esr', '/root/.ld-test/xfce-config/mozilla/firefox']
+PROC 6355 /usr/lib/firefox-esr/crashhelper 6351 10 /tmp/ 12 
+PROC 6517 /usr/lib/firefox-esr/firefox-esr -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {63d5776b-0d53-444d-8c28-e926c52fa9b1} -parentPid 6351 -greomni /usr/lib/firefox-esr/omni
+PROC 6521 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20261103151912 -prefsHandle 0:33278 -prefMapHandle 1:288744 -sandboxReporter 2 -ipcHandle 3 -initialChannelId {b48d48b4
+PROC 6550 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20261103151912 -prefsHandle 0:33381 -prefMapHandle 1:288744 -sandboxReporter 2 -ipcHandle 3 -initialChannelId {9129d5f5
+PROC 6744 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20261103151912 -sandboxingKind 0 -prefsHandle 0:47194 -prefMapHandle 1:288744 -sandboxReporter 2 -ipcHandle 3 -initialC
+PROC 6769 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:44649 -prefMapHandle 1:288744 -jsInitHandle 2:156236 -parentBuildID 20261103151912 -sandboxReporter 3 -ip
+PROC 6824 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:44649 -prefMapHandle 1:288744 -jsInitHandle 2:156236 -parentBuildID 20261103151912 -sandboxReporter 3 -ip
+PROC 6846 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:44649 -prefMapHandle 1:288744 -jsInitHandle 2:156236 -parentBuildID 20261103151912 -sandboxReporter 3 -ip

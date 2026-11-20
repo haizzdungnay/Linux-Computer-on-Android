@@ -1,0 +1,52 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+Screen 0: minimum 1 x 1, current 1600 x 1023, maximum 32767 x 32767
+builtin connected 1600x1023+0+0 0mm x 0mm
+   1600x1023    119.92*
+PASS: Mojave settings, assets, launchers, UID/session, software rendering, compositor off, 1600x1023
+PANELS
+12582913 xfce4-panel WINDOW=12582913
+X=10
+Y=10
+WIDTH=10
+HEIGHT=10
+SCREEN=0
+12598475 xfce4-panel WINDOW=12598475
+X=-99
+Y=-99
+WIDTH=1
+HEIGHT=1
+SCREEN=0
+12643407 xfce4-panel WINDOW=12643407
+X=0
+Y=0
+WIDTH=1280
+HEIGHT=3
+SCREEN=0
+12582915 xfce4-panel WINDOW=12582915
+X=0
+Y=0
+WIDTH=1600
+HEIGHT=39
+SCREEN=0
+12582922 xfce4-panel WINDOW=12582922
+X=447
+Y=1066
+WIDTH=386
+HEIGHT=65
+SCREEN=0
+12648168 xfce4-panel WINDOW=12648168
+X=607
+Y=1020
+WIDTH=386
+HEIGHT=3
+SCREEN=0
+OTHER DISPLAY :1 1  Can't open display :1
+
+OTHER DISPLAY :3 0 Screen 0: minimum 1 x 1, current 1600 x 1068, maximum 32767 x 32767
+builtin connected 1600x1068+0+0 0mm x 0mm
+   1600x1068    119.94* 
+ 
+
+(xfce4-screenshooter:26441): dbind-WARNING **: 10:04:42.518: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:26453): dbind-WARNING **: 10:04:44.285: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

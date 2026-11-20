@@ -1,0 +1,285 @@
+Android READY
+476270.219 FOCUS window= Termux:X11 app= Termux:X11  capture=X11 viewer=25973
+event8 [  476275.047790] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476275.047790] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476277.972670] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476277.972670] EV_KEY       BTN_TOOL_FINGER      UP                  
+event6 [  476279.252162] EV_KEY       KEY_TAB              DOWN                
+event6 [  476279.362881] EV_KEY       KEY_TAB              UP                  
+event6 [  476280.855269] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  476281.220608] EV_KEY       KEY_TAB              DOWN                
+event6 [  476281.318405] EV_KEY       KEY_TAB              UP                  
+476281.518 RESUMED Android Launcher
+event6 [  476281.880550] EV_KEY       KEY_TAB              DOWN                
+event6 [  476281.960905] EV_KEY       KEY_TAB              UP                  
+event6 [  476282.106646] EV_KEY       KEY_TAB              DOWN                
+event6 [  476282.188353] EV_KEY       KEY_TAB              UP                  
+476282.227 RESUMED Termux:X11
+476282.289 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+476282.839 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  476282.901118] EV_KEY       KEY_TAB              DOWN                
+event6 [  476283.031003] EV_KEY       KEY_TAB              UP                  
+event6 [  476283.489349] EV_KEY       KEY_TAB              DOWN                
+476283.557 RESUMED Android Launcher
+event6 [  476283.616196] EV_KEY       KEY_TAB              UP                  
+476283.869 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+event6 [  476284.383896] EV_KEY       KEY_TAB              DOWN                
+476284.451 RESUMED Termux:X11
+event6 [  476284.507665] EV_KEY       KEY_TAB              UP                  
+event6 [  476284.880940] EV_KEY       KEY_LEFTMETA         UP                  
+476284.959 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  476285.505912] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  476285.771093] EV_KEY       KEY_TAB              DOWN                
+476285.845 RESUMED Android Launcher
+event6 [  476285.917162] EV_KEY       KEY_TAB              UP                  
+476286.229 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+event6 [  476286.699343] EV_KEY       KEY_TAB              DOWN                
+476286.764 RESUMED Termux:X11
+event6 [  476286.832415] EV_KEY       KEY_TAB              UP                  
+event6 [  476287.160137] EV_KEY       KEY_LEFTMETA         UP                  
+476287.189 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  476287.700298] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  476287.784540] EV_KEY       KEY_TAB              DOWN                
+476287.850 RESUMED Android Launcher
+event6 [  476287.929804] EV_KEY       KEY_TAB              UP                  
+476288.209 FOCUS window= Android Launcher app= Android Launcher  capture=none viewer=25973
+event6 [  476288.503710] EV_KEY       KEY_TAB              DOWN                
+476288.565 RESUMED Termux:X11
+event6 [  476288.611472] EV_KEY       KEY_TAB              UP                  
+476288.809 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  476288.911898] EV_KEY       KEY_LEFTMETA         UP                  
+event8 [  476295.341876] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476295.341876] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476296.131277] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476296.131277] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476296.251780] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476296.251780] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476296.316440] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476296.316440] EV_KEY       BTN_TOOL_FINGER      UP                  
+476296.889 FOCUS window= Termux:X11 app= Termux:X11  capture=X11 viewer=25973
+event8 [  476310.885424] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476310.885424] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476310.986234] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  476311.425396] EV_KEY       BTN_MOUSE            UP                  
+event8 [  476311.892261] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476311.892261] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476312.639516] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  476312.639516] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476312.639516] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476312.844336] EV_KEY       BTN_MOUSE            UP                  
+event8 [  476313.777515] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476313.777515] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476314.141986] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  476314.141986] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476314.141986] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476314.347057] EV_KEY       BTN_MOUSE            UP                  
+event8 [  476315.709122] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476315.709122] EV_KEY       BTN_TOOL_FINGER      UP                  
+event6 [  476319.345449] EV_KEY       KEY_LEFTALT          DOWN                
+event6 [  476323.983786] EV_KEY       KEY_TAB              DOWN                
+event6 [  476324.115291] EV_KEY       KEY_TAB              UP                  
+event6 [  476324.431828] EV_KEY       KEY_TAB              DOWN                
+event6 [  476324.566874] EV_KEY       KEY_TAB              UP                  
+event6 [  476325.542249] EV_KEY       KEY_LEFTALT          UP                  
+event6 [  476328.467362] EV_KEY       KEY_LEFTALT          DOWN                
+event6 [  476328.547228] EV_KEY       KEY_LEFTALT          UP                  
+event6 [  476329.857562] EV_KEY       KEY_LEFTALT          DOWN                
+event6 [  476330.081221] EV_KEY       KEY_LEFTSHIFT        DOWN                
+event6 [  476331.363938] EV_KEY       KEY_TAB              DOWN                
+event6 [  476331.588171] EV_KEY       KEY_TAB              UP                  
+event6 [  476333.001098] EV_KEY       KEY_TAB              DOWN                
+event6 [  476333.161687] EV_KEY       KEY_TAB              UP                  
+event6 [  476333.430687] EV_KEY       KEY_TAB              DOWN                
+event6 [  476333.540253] EV_KEY       KEY_TAB              UP                  
+event6 [  476333.688803] EV_KEY       KEY_TAB              DOWN                
+event6 [  476333.792335] EV_KEY       KEY_TAB              UP                  
+event6 [  476333.922234] EV_KEY       KEY_TAB              DOWN                
+event6 [  476334.030854] EV_KEY       KEY_TAB              UP                  
+event6 [  476334.155844] EV_KEY       KEY_TAB              DOWN                
+event6 [  476334.255498] EV_KEY       KEY_TAB              UP                  
+event6 [  476334.681879] EV_KEY       KEY_TAB              DOWN                
+event6 [  476334.786247] EV_KEY       KEY_TAB              UP                  
+event6 [  476334.904830] EV_KEY       KEY_TAB              DOWN                
+event6 [  476335.034545] EV_KEY       KEY_TAB              UP                  
+event6 [  476335.177292] EV_KEY       KEY_TAB              DOWN                
+event6 [  476335.301716] EV_KEY       KEY_TAB              UP                  
+event6 [  476335.421397] EV_KEY       KEY_TAB              DOWN                
+event6 [  476335.541427] EV_KEY       KEY_TAB              UP                  
+event6 [  476335.713820] EV_KEY       KEY_LEFTALT          UP                  
+event6 [  476335.780670] EV_KEY       KEY_LEFTSHIFT        UP                  
+event6 [  476339.798973] EV_KEY       KEY_LEFTSHIFT        DOWN                
+event6 [  476339.906190] EV_KEY       KEY_LEFTALT          DOWN                
+event6 [  476340.051392] EV_KEY       KEY_TAB              DOWN                
+event6 [  476340.227840] EV_KEY       KEY_TAB              UP                  
+event6 [  476340.330245] EV_KEY       KEY_TAB              DOWN                
+event6 [  476340.453634] EV_KEY       KEY_TAB              UP                  
+event6 [  476340.548852] EV_KEY       KEY_TAB              DOWN                
+event6 [  476340.624867] EV_KEY       KEY_TAB              UP                  
+event6 [  476340.752472] EV_KEY       KEY_TAB              DOWN                
+event6 [  476340.819419] EV_KEY       KEY_TAB              UP                  
+event6 [  476340.940165] EV_KEY       KEY_TAB              DOWN                
+event6 [  476341.018820] EV_KEY       KEY_TAB              UP                  
+event6 [  476341.146077] EV_KEY       KEY_TAB              DOWN                
+event6 [  476341.218791] EV_KEY       KEY_TAB              UP                  
+event6 [  476341.331040] EV_KEY       KEY_TAB              DOWN                
+event6 [  476341.419052] EV_KEY       KEY_TAB              UP                  
+event6 [  476341.521586] EV_KEY       KEY_TAB              DOWN                
+event6 [  476341.601195] EV_KEY       KEY_TAB              UP                  
+event6 [  476341.721904] EV_KEY       KEY_TAB              DOWN                
+event6 [  476341.801071] EV_KEY       KEY_TAB              UP                  
+event6 [  476341.906011] EV_KEY       KEY_TAB              DOWN                
+event6 [  476342.000973] EV_KEY       KEY_TAB              UP                  
+event6 [  476342.092317] EV_KEY       KEY_TAB              DOWN                
+event6 [  476342.201040] EV_KEY       KEY_TAB              UP                  
+event6 [  476342.413552] EV_KEY       KEY_LEFTALT          UP                  
+event6 [  476342.470684] EV_KEY       KEY_LEFTSHIFT        UP                  
+event6 [  476344.694337] EV_KEY       KEY_LEFTSHIFT        DOWN                
+event6 [  476344.755597] EV_KEY       KEY_LEFTALT          DOWN                
+event6 [  476344.905709] EV_KEY       KEY_TAB              DOWN                
+event6 [  476345.089893] EV_KEY       KEY_TAB              UP                  
+event6 [  476345.399409] EV_KEY       KEY_LEFTALT          UP                  
+event6 [  476345.436083] EV_KEY       KEY_LEFTSHIFT        UP                  
+event6 [  476348.713342] EV_KEY       KEY_LEFTMETA         DOWN                
+event6 [  476349.035188] EV_KEY       KEY_TAB              DOWN                
+event6 [  476349.125155] EV_KEY       KEY_TAB              UP                  
+476349.132 RESUMED Android Launcher
+event6 [  476349.635709] EV_KEY       KEY_TAB              DOWN                
+476349.669 FOCUS window= MiuiKeyboardShortcuts app= Android Launcher  capture=none viewer=25973
+event6 [  476349.723014] EV_KEY       KEY_TAB              UP                  
+476349.766 RESUMED Termux:X11
+event6 [  476350.093501] EV_KEY       KEY_TAB              DOWN                
+476350.199 FOCUS window= MiuiKeyboardShortcuts app= Termux:X11  capture=none viewer=25973
+event6 [  476350.215575] EV_KEY       KEY_TAB              UP                  
+event6 [  476350.347214] EV_KEY       KEY_TAB              DOWN                
+event6 [  476350.450111] EV_KEY       KEY_TAB              UP                  
+event6 [  476350.571906] EV_KEY       KEY_TAB              DOWN                
+event6 [  476350.674747] EV_KEY       KEY_TAB              UP                  
+event6 [  476350.786829] EV_KEY       KEY_TAB              DOWN                
+event6 [  476350.896199] EV_KEY       KEY_TAB              UP                  
+event6 [  476351.014362] EV_KEY       KEY_TAB              DOWN                
+event6 [  476351.096349] EV_KEY       KEY_TAB              UP                  
+event6 [  476352.683273] EV_KEY       KEY_TAB              DOWN                
+476352.771 RESUMED Android Launcher
+event6 [  476352.854624] EV_KEY       KEY_TAB              UP                  
+476352.969 FOCUS window= MiuiKeyboardShortcuts app= Android Launcher  capture=none viewer=25973
+event6 [  476353.804358] EV_KEY       KEY_TAB              DOWN                
+476353.836 RESUMED Termux:X11
+event6 [  476353.951906] EV_KEY       KEY_TAB              UP                  
+476354.019 FOCUS window= MiuiKeyboardShortcuts app= Termux:X11  capture=none viewer=25973
+event6 [  476354.310417] EV_KEY       KEY_LEFTMETA         UP                  
+event8 [  476355.235421] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476355.235421] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476355.933235] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476355.933235] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476356.217882] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476356.217882] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476356.462548] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476356.462548] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476356.661274] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476356.661274] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476356.739540] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476356.739540] EV_KEY       BTN_TOOL_FINGER      UP                  
+476357.089 FOCUS window= Termux:X11 app= Termux:X11  capture=none viewer=25973
+event6 [  476359.153770] EV_KEY       KEY_ESC              DOWN                
+476359.159 RESUMED Termux:X11
+event6 [  476359.285050] EV_KEY       KEY_ESC              UP                  
+event6 [  476359.706850] EV_KEY       KEY_ESC              DOWN                
+476359.710 RESUMED Termux:X11
+event6 [  476359.826999] EV_KEY       KEY_ESC              UP                  
+event6 [  476359.964205] EV_KEY       KEY_ESC              DOWN                
+476359.970 RESUMED Termux:X11
+event6 [  476360.087894] EV_KEY       KEY_ESC              UP                  
+event6 [  476360.179254] EV_KEY       KEY_ESC              DOWN                
+476360.184 RESUMED Termux:X11
+event6 [  476360.300146] EV_KEY       KEY_ESC              UP                  
+event8 [  476360.817915] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476360.817915] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476361.842107] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476361.842107] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476362.126523] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476362.126523] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476362.383876] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476362.383876] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476362.602098] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476362.602098] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476364.081961] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476364.081961] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476364.251588] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476364.251588] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476364.288331] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476364.288331] EV_KEY       BTN_TOOL_FINGER      UP                  
+476364.659 FOCUS window= Termux:X11 app= Termux:X11  capture=X11 viewer=25973
+event8 [  476364.890627] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476364.890627] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476365.983666] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476365.983666] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476366.136364] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476366.136364] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476366.181933] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476366.181933] EV_KEY       BTN_TOOL_FINGER      UP                  
+event6 [  476367.647873] EV_KEY       KEY_ESC              DOWN                
+476367.654 RESUMED Termux:X11
+event6 [  476367.782142] EV_KEY       KEY_ESC              UP                  
+event6 [  476368.175610] EV_KEY       KEY_ESC              DOWN                
+476368.182 RESUMED Termux:X11
+event6 [  476368.276576] EV_KEY       KEY_ESC              UP                  
+event6 [  476368.379333] EV_KEY       KEY_ESC              DOWN                
+476368.382 RESUMED Termux:X11
+event6 [  476368.476709] EV_KEY       KEY_ESC              UP                  
+event6 [  476368.580158] EV_KEY       KEY_ESC              DOWN                
+476368.585 RESUMED Termux:X11
+event6 [  476368.676503] EV_KEY       KEY_ESC              UP                  
+event6 [  476368.786299] EV_KEY       KEY_ESC              DOWN                
+476368.791 RESUMED Termux:X11
+event6 [  476368.885659] EV_KEY       KEY_ESC              UP                  
+event6 [  476368.980089] EV_KEY       KEY_ESC              DOWN                
+476368.983 RESUMED Termux:X11
+event6 [  476369.101313] EV_KEY       KEY_ESC              UP                  
+event6 [  476369.235253] EV_KEY       KEY_ESC              DOWN                
+476369.240 RESUMED Termux:X11
+event6 [  476369.340718] EV_KEY       KEY_ESC              UP                  
+event8 [  476376.514157] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476376.514157] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476377.617655] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476377.617655] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476377.770857] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476377.770857] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476377.816737] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476377.816737] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476378.150467] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476378.150467] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476378.920900] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476378.920900] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476379.047723] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476379.047723] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476379.124493] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476379.124493] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476380.275525] EV_KEY       BTN_MOUSE            DOWN                
+event8 [  476380.275525] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476380.275525] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476380.403365] EV_KEY       BTN_MOUSE            UP                  
+event8 [  476380.421633] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476380.421633] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476381.575729] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476381.575729] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476382.158032] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476382.158032] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476382.325716] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476382.325716] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476382.952465] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476382.952465] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476383.091881] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476383.091881] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476383.137578] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476383.137578] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476383.332263] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476383.332263] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476383.500071] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476383.500071] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476383.522366] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476383.522366] EV_KEY       BTN_TOOL_FINGER      DOWN                
+event8 [  476384.369219] EV_KEY       BTN_TOUCH            UP                  
+event8 [  476384.369219] EV_KEY       BTN_TOOL_FINGER      UP                  
+event8 [  476384.640874] EV_KEY       BTN_TOUCH            DOWN                
+event8 [  476384.640874] EV_KEY       BTN_TOOL_FINGER      DOWN                
+Android STOPPED

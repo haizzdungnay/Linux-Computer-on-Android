@@ -1,0 +1,63 @@
+1303302.39 WINDOW   mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+1303327.70 WINDOW   mCurrentFocus=Window{84c3b70 u0 MiuiKeyboardShortcuts}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+1303329.43 WINDOW   mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+--------- beginning of events
+475470.618  2816  4953 I wm_focused_root_task: [0,0,1,274,bringingFoundTaskToFront]
+475470.620 25973 25973 I wm_on_top_resumed_lost_called: [142053324,com.termux.x11.MainActivity,topStateChangedWhenResumed]
+475470.662  2816  4953 I wm_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivity - onActivityStateChanged]
+475470.706  5291  5291 I wm_on_top_resumed_gained_called: [147297004,com.miui.home.launcher.Launcher,topWhenResuming]
+1303336.51 WINDOW   mCurrentFocus=null   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973
+1303337.30 WINDOW   mCurrentFocus=Window{af2b4c5 u0 com.miui.home/com.miui.home.launcher.Launcher}   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973
+475471.931  2816  5404 I wm_focused_root_task: [0,0,269,1,moveTaskToFront findTaskToMoveToFront]
+475471.945  5291  5291 I wm_on_top_resumed_lost_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475471.970  2816  5421 I wm_set_resumed_activity: [0,other-android-app,resumeTopActivity - onActivityStateChanged]
+475472.129  9979  9979 I wm_on_top_resumed_gained_called: [132618281,other-android-app.editor.ui.activity.CreationEditActivity,topWhenResuming]
+1303337.93 WINDOW   mCurrentFocus=null   mFocusedApp=ActivityRecord{132618281 u0 other-android-app t269}  VIEWER_PID=25973
+1303338.54 WINDOW   mCurrentFocus=Window{4adc19c u0 other-android-app}   mFocusedApp=ActivityRecord{132618281 u0 other-android-app t269}  VIEWER_PID=25973
+475473.569  2816  4734 I wm_focused_root_task: [0,0,1,269,bringingFoundTaskToFront]
+475473.576  2816  4734 I wm_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivity - onActivityStateChanged]
+475473.576  9979  9979 I wm_on_top_resumed_lost_called: [132618281,other-android-app.editor.ui.activity.CreationEditActivity,topStateChangedWhenResumed]
+475473.628  5291  5291 I wm_on_top_resumed_gained_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475473.708  2816  5389 I wm_focused_root_task: [0,0,274,1,moveTaskToFront findTaskToMoveToFront]
+475473.726  5291  5291 I wm_on_top_resumed_lost_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475473.736  2816  3923 I wm_set_resumed_activity: [0,com.termux.x11/.MainActivity,resumeTopActivity - onActivityStateChanged]
+475473.882 25973 25973 I wm_on_top_resumed_gained_called: [142053324,com.termux.x11.MainActivity,topWhenResuming]
+1303339.82 WINDOW   mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+475482.735  2816  4638 I wm_focused_root_task: [0,0,1,274,bringingFoundTaskToFront]
+475482.735 25973 25973 I wm_on_top_resumed_lost_called: [142053324,com.termux.x11.MainActivity,topStateChangedWhenResumed]
+475482.753  2816  5058 I wm_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivity - onActivityStateChanged]
+475482.774  5291  5291 I wm_on_top_resumed_gained_called: [147297004,com.miui.home.launcher.Launcher,topWhenResuming]
+475483.023  2816  3923 I wm_focused_root_task: [0,0,269,1,moveTaskToFront findTaskToMoveToFront]
+475483.037  5291  5291 I wm_on_top_resumed_lost_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475483.055  2816  5421 I wm_set_resumed_activity: [0,other-android-app,resumeTopActivity - onActivityStateChanged]
+1303348.85 WINDOW   mCurrentFocus=Window{af2b4c5 u0 com.miui.home/com.miui.home.launcher.Launcher}   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973
+475483.105  9979  9979 I wm_on_top_resumed_gained_called: [132618281,other-android-app.editor.ui.activity.CreationEditActivity,topWhenResuming]
+1303349.39 WINDOW   mCurrentFocus=Window{4adc19c u0 other-android-app}   mFocusedApp=ActivityRecord{132618281 u0 other-android-app t269}  VIEWER_PID=25973
+475483.924  2816  5396 I wm_focused_root_task: [0,0,1,269,bringingFoundTaskToFront]
+475483.929  9979  9979 I wm_on_top_resumed_lost_called: [132618281,other-android-app.editor.ui.activity.CreationEditActivity,topStateChangedWhenResumed]
+475483.930  2816  5396 I wm_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivity - onActivityStateChanged]
+475483.981  5291  5291 I wm_on_top_resumed_gained_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475484.107  2816  5387 I wm_focused_root_task: [0,0,274,1,moveTaskToFront findTaskToMoveToFront]
+475484.130  5291  5291 I wm_on_top_resumed_lost_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475484.154  2816  5006 I wm_set_resumed_activity: [0,com.termux.x11/.MainActivity,resumeTopActivity - onActivityStateChanged]
+475484.235 25973 25973 I wm_on_top_resumed_gained_called: [142053324,com.termux.x11.MainActivity,topWhenResuming]
+1303350.18 WINDOW   mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+1303353.43 WINDOW   mCurrentFocus=Window{19d3df4 u0 MiuiKeyboardShortcuts}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+475487.729  2816  5404 I wm_focused_root_task: [0,0,1,274,bringingFoundTaskToFront]
+475487.729 25973 25973 I wm_on_top_resumed_lost_called: [142053324,com.termux.x11.MainActivity,topStateChangedWhenResumed]
+475487.759  2816  5404 I wm_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivity - onActivityStateChanged]
+475487.784  5291  5291 I wm_on_top_resumed_gained_called: [147297004,com.miui.home.launcher.Launcher,topWhenResuming]
+1303353.92 WINDOW   mCurrentFocus=Window{af2b4c5 u0 com.miui.home/com.miui.home.launcher.Launcher}   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973
+475488.729  2816  4768 I wm_focused_root_task: [0,0,274,1,moveTaskToFront findTaskToMoveToFront]
+475488.736  5291  5291 I wm_on_top_resumed_lost_called: [147297004,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+475488.748  2816  5414 I wm_set_resumed_activity: [0,com.termux.x11/.MainActivity,resumeTopActivity - onActivityStateChanged]
+475488.850 25973 25973 I wm_on_top_resumed_gained_called: [142053324,com.termux.x11.MainActivity,topWhenResuming]
+1303354.80 WINDOW   mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+1303359.52 WINDOW   mCurrentFocus=Window{54f6b94 u0 MiuiKeyboardShortcuts}   mFocusedApp=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}  VIEWER_PID=25973
+475493.916  2816  4768 I wm_focused_root_task: [0,0,1,274,bringingFoundTaskToFront]
+475493.916 25973 25973 I wm_on_top_resumed_lost_called: [142053324,com.termux.x11.MainActivity,topStateChangedWhenResumed]
+475493.941  2816  5422 I wm_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivity - onActivityStateChanged]
+475493.982  5291  5291 I wm_on_top_resumed_gained_called: [147297004,com.miui.home.launcher.Launcher,topWhenResuming]
+1303360.03 WINDOW   mCurrentFocus=Window{af2b4c5 u0 com.miui.home/com.miui.home.launcher.Launcher}   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973
+1303365.70 WINDOW   mCurrentFocus=Window{692a627 u0 MiuiKeyboardShortcuts}   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973
+1303366.16 WINDOW   mCurrentFocus=Window{af2b4c5 u0 com.miui.home/com.miui.home.launcher.Launcher}   mFocusedApp=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}  VIEWER_PID=25973

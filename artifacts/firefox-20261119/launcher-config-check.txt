@@ -1,0 +1,7 @@
+OLD FIREFOX CLOSED NORMALLY
+DEFAULT HTTPS firefox-esr.desktop
+PASS: Mojave settings, assets, UID/session, software rendering, compositor off, 1280x960
+LAUNCH {"ok": true, "proot_pid": 22019}
+BACKUP /root/.local/share/linux-desktop/backups/20261119-firefox
+
+(xfce4-screenshooter:21147): dbind-WARNING **: 09:57:41.269: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

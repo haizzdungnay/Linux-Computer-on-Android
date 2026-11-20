@@ -1,0 +1,14 @@
+TERMINAL 0x1e001ad WM_CLASS(STRING) = "xfce4-terminal", "Xfce4-terminal"
+_NET_WM_NAME(UTF8_STRING) = "Terminal"
+_NET_WM_PID(CARDINAL) = 931
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+WORK 0x2000d6d WM_CLASS(STRING) = "thunar", "Thunar"
+_NET_WM_NAME(UTF8_STRING) = "Work - Thunar"
+_NET_WM_PID(CARDINAL) = 1515
+WM_STATE(WM_STATE):
+		window state: Normal
+		icon window: 0x0
+
+(xfce4-screenshooter:31439): dbind-WARNING **: 09:19:13.730: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

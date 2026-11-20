@@ -1,0 +1,5 @@
+Synthetic only, targeted xdotool to temporary xev window
+ButtonPress event, serial 25, synthetic YES, window 0x2a00001,
+    state 0x0, button 3, same_screen YES
+ButtonRelease event, serial 25, synthetic YES, window 0x2a00001,
+    state 0x400, button 3, same_screen YES

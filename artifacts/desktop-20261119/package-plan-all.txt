@@ -1,0 +1,56 @@
+MIME AND THUMBNAILS
+shared-mime-info	2.4-5+b2
+tumbler	
+-rw-r--r--. 1 root root 154K Nov 18 08:07 /usr/share/mime/mime.cache
+FINAL PACKAGE SIMULATION
+Reading package lists...
+Building dependency tree...
+Reading state information...
+shared-mime-info is already the newest version (2.4-5+b2).
+shared-mime-info set to manually installed.
+The following additional packages will be installed:
+  libevent-2.1-7t64 libtumbler-1-0t64 libxdo3 tumbler-common
+Suggested packages:
+  fonts-stix | otf-stix fonts-lmodern libcanberra0 pulseaudio
+  tumbler-plugins-extra
+Recommended packages:
+  libavcodec63 | libavcodec-extra63 | libavcodec62 | libavcodec-extra62
+  | libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60
+  | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58
+  | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56
+  | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54
+  | libavcodec53 | libavcodec-extra53
+The following NEW packages will be installed:
+  firefox-esr libevent-2.1-7t64 librsvg2-common libtumbler-1-0t64 libxdo3
+  tumbler tumbler-common unzip xdotool zip
+0 upgraded, 10 newly installed, 0 to remove and 1 not upgraded.
+Inst libevent-2.1-7t64 (2.1.13-stable-1~deb13u1 Debian-Security:13/stable-security [arm64])
+Inst firefox-esr (153.7.0esr-1~deb13u1 Debian-Security:13/stable-security [arm64])
+Inst librsvg2-common (2.60.0+dfsg-1+deb13u1 Debian-Security:13/stable-security [arm64])
+Inst libtumbler-1-0t64 (4.20.0-1 Debian:13.7/stable [arm64])
+Inst libxdo3 (1:3.20160805.1-5.1 Debian:13.7/stable [arm64])
+Inst tumbler-common (4.20.0-1 Debian:13.7/stable [all])
+Inst tumbler (4.20.0-1 Debian:13.7/stable [arm64])
+Inst unzip (6.0-29+deb13u1 Debian:13.7/stable, Debian-Security:13/stable-security [arm64])
+Inst xdotool (1:3.20160805.1-5.1 Debian:13.7/stable [arm64])
+Inst zip (3.0-15+deb13u1 Debian:13.7/stable, Debian-Security:13/stable-security [arm64])
+Conf libevent-2.1-7t64 (2.1.13-stable-1~deb13u1 Debian-Security:13/stable-security [arm64])
+Conf firefox-esr (153.7.0esr-1~deb13u1 Debian-Security:13/stable-security [arm64])
+Conf librsvg2-common (2.60.0+dfsg-1+deb13u1 Debian-Security:13/stable-security [arm64])
+Conf libtumbler-1-0t64 (4.20.0-1 Debian:13.7/stable [arm64])
+Conf libxdo3 (1:3.20160805.1-5.1 Debian:13.7/stable [arm64])
+Conf tumbler-common (4.20.0-1 Debian:13.7/stable [all])
+Conf tumbler (4.20.0-1 Debian:13.7/stable [arm64])
+Conf unzip (6.0-29+deb13u1 Debian:13.7/stable, Debian-Security:13/stable-security [arm64])
+Conf xdotool (1:3.20160805.1-5.1 Debian:13.7/stable [arm64])
+Conf zip (3.0-15+deb13u1 Debian:13.7/stable, Debian-Security:13/stable-security [arm64])
+APT
+2026-11-19 08:08:46 status half-configured arc-theme:all 20221218-1
+2026-11-19 08:08:46 status installed arc-theme:all 20221218-1
+2026-11-19 08:08:46 trigproc fontconfig:arm64 2.15.0-2.3 <none>
+2026-11-19 08:08:46 status half-configured fontconfig:arm64 2.15.0-2.3
+2026-11-19 08:08:46 status installed fontconfig:arm64 2.15.0-2.3
+2026-11-19 08:08:46 trigproc libc-bin:arm64 2.41-12+deb13u4 <none>
+2026-11-19 08:08:46 status half-configured libc-bin:arm64 2.41-12+deb13u4
+2026-11-19 08:08:48 status installed libc-bin:arm64 2.41-12+deb13u4
+dpkg-query: no packages found matching tumbler-common

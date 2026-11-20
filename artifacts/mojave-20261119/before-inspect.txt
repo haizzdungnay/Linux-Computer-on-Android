@@ -1,0 +1,78 @@
+
+(xfce4-screenshooter:20977): dbind-WARNING **: 08:54:45.726: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+BACKUP /root/.local/share/linux-desktop/backups/20261119-mojave
+TOOLS [('sassc', None), ('glib-compile-resources', None), ('gtk-update-icon-cache', '/usr/bin/gtk-update-icon-cache'), ('xfce4-screenshooter', '/usr/bin/xfce4-screenshooter'), ('termux-x11', None)]
+DESKTOP /bin/sh: 1: xdg-user-dir: not found
+LAUNCHERS
+/root/.ld-test/xfce-config/xfce4/panel/launcher-13/17949967191.desktop [Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open --launch TerminalEmulator
+Icon=org.xfce.terminalemulator
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Keywords=terminal;command line;shell;console;xfce;
+OnlyShowIn=XFCE;
+X-AppStream-Ignore=True
+Name=Terminal Emulator
+Comment=Use the command line
+X-XFCE-Source=file:///usr/share/applications/xfce4-terminal-emulator.desktop
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-14/17949967192.desktop [Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open --launch FileManager %u
+Icon=org.xfce.filemanager
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Keywords=file;manager;explorer;browse;filesystem;directory;folder;xfce;
+OnlyShowIn=XFCE;
+X-XFCE-MimeType=inode/directory;x-scheme-handler/trash;
+X-AppStream-Ignore=True
+Name=File Manager
+Comment=Browse the file system
+X-XFCE-Source=file:///usr/share/applications/xfce4-file-manager.desktop
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-15/17949967203.desktop [Desktop Entry]
+Type=Application
+Name=Web Browser (NetSurf)
+Comment=Browse basic web pages over HTTPS
+Exec=netsurf %u
+Icon=netsurf
+Terminal=false
+StartupNotify=true
+Categories=Network;WebBrowser;
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-16/17949967204.desktop [Desktop Entry]
+Version=1.0
+Exec=xfce4-appfinder
+Icon=org.xfce.appfinder
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Utility;X-XFCE;
+Name=Application Finder
+Comment=Find and launch applications installed on your system
+Keywords=program;applications;bookmarks;
+X-XFCE-Source=file:///usr/share/applications/xfce4-appfinder.desktop
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-23/settings.desktop [Desktop Entry]
+Type=Application
+Name=Settings
+Exec=xfce4-settings-manager
+Icon=preferences-system
+Terminal=false
+StartupNotify=true
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-24/editor.desktop [Desktop Entry]
+Type=Application
+Name=Editor
+Exec=mousepad
+Icon=accessories-text-editor
+Terminal=false
+StartupNotify=true
+
+gtk2-engines-murrine:arm64	0.98.2-4+b1
+gtk2-engines-pixbuf:arm64	2.24.33-7

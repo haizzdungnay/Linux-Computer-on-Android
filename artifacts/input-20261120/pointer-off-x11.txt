@@ -1,0 +1,226 @@
+476495.960 X11 READY
+476495.966 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2200003, 0x0
+476495.967 X11_HELD ()
+476497.971 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2e00003, 0x0
+476497.979 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2e00003, 0x0
+476498.690 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476498.694 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476508.846 XI RawButtonPress device=2(6) detail=1
+476508.846 XI ButtonPress device=6(6) detail=1
+476509.606 XI RawButtonRelease device=2(6) detail=1
+476509.606 XI ButtonRelease device=6(6) detail=1
+476510.544 XI RawButtonPress device=2(6) detail=1
+476510.544 XI ButtonPress device=6(6) detail=1
+476510.549 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476510.573 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2e00003, 0x0
+476510.575 XI RawButtonRelease device=2(6) detail=1
+476510.579 XI ButtonRelease device=6(6) detail=1
+476512.540 XI RawButtonPress device=2(6) detail=1
+476512.541 XI ButtonPress device=6(6) detail=1
+476513.529 XI RawButtonRelease device=2(6) detail=1
+476513.530 XI ButtonRelease device=6(6) detail=1
+476520.855 XI RawButtonPress device=2(6) detail=1
+476520.856 XI ButtonPress device=6(6) detail=1
+476520.863 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476520.865 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476521.005 XI RawButtonRelease device=2(6) detail=1
+476521.005 XI ButtonRelease device=6(6) detail=1
+476524.155 XI RawButtonPress device=2(6) detail=1
+476524.155 XI ButtonPress device=6(6) detail=1
+476524.230 XI RawButtonRelease device=2(6) detail=1
+476524.230 XI ButtonRelease device=6(6) detail=1
+476524.423 XI RawButtonPress device=2(6) detail=1
+476524.423 XI ButtonPress device=6(6) detail=1
+476524.455 XI RawButtonRelease device=2(6) detail=1
+476524.455 XI ButtonRelease device=6(6) detail=1
+476530.153 XI RawButtonPress device=2(6) detail=1
+476530.154 XI ButtonPress device=6(6) detail=1
+476530.319 XI RawButtonRelease device=2(6) detail=1
+476530.322 XI ButtonRelease device=6(6) detail=1
+476531.066 XI RawButtonPress device=2(6) detail=1
+476531.066 XI ButtonPress device=6(6) detail=1
+476531.174 XI RawButtonRelease device=2(6) detail=1
+476531.175 XI ButtonRelease device=6(6) detail=1
+476531.767 XI RawButtonPress device=2(6) detail=1
+476531.768 XI ButtonPress device=6(6) detail=1
+476531.774 XI ButtonRelease device=6(6) detail=1
+476531.774 XI RawButtonRelease device=2(6) detail=1
+476531.915 XI RawButtonPress device=2(6) detail=1
+476531.915 XI ButtonPress device=6(6) detail=1
+476531.952 XI RawButtonRelease device=2(6) detail=1
+476531.952 XI ButtonRelease device=6(6) detail=1
+476532.633 XI RawButtonPress device=2(6) detail=1
+476532.637 XI ButtonPress device=6(6) detail=1
+476532.777 XI RawButtonRelease device=2(6) detail=1
+476532.777 XI ButtonRelease device=6(6) detail=1
+476533.691 XI RawButtonPress device=2(6) detail=1
+476533.692 XI ButtonPress device=6(6) detail=1
+476533.864 XI RawButtonRelease device=2(6) detail=1
+476533.867 XI ButtonRelease device=6(6) detail=1
+476534.815 XI RawButtonPress device=2(6) detail=1
+476534.815 XI ButtonPress device=6(6) detail=1
+476534.962 XI RawButtonRelease device=2(6) detail=1
+476534.963 XI ButtonRelease device=6(6) detail=1
+476536.364 XI RawButtonPress device=2(6) detail=1
+476536.365 XI ButtonPress device=6(6) detail=1
+476536.911 XI RawButtonRelease device=2(6) detail=1
+476536.911 XI ButtonRelease device=6(6) detail=1
+476538.733 XI RawButtonPress device=2(6) detail=1
+476538.733 XI ButtonPress device=6(6) detail=1
+476538.817 XI RawButtonRelease device=2(6) detail=1
+476538.817 XI ButtonRelease device=6(6) detail=1
+476544.301 XI RawKeyPress device=3(8) detail=64
+476544.307 X11_HELD (64,)
+476544.443 XI RawKeyPress device=3(8) detail=23
+476544.580 XI RawKeyRelease device=3(8) detail=23
+476544.580 XI RawKeyRelease device=3(8) detail=64
+476544.586 X11_HELD ()
+476544.586 XI RawKeyRelease device=3(8) detail=64
+476544.631 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476544.640 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2e00003, 0x0
+476547.447 XI RawButtonPress device=2(6) detail=1
+476547.448 XI ButtonPress device=6(6) detail=1
+476547.566 XI RawButtonRelease device=2(6) detail=1
+476547.566 XI ButtonRelease device=6(6) detail=1
+476548.281 XI RawButtonPress device=2(6) detail=1
+476548.281 XI ButtonPress device=6(6) detail=1
+476548.481 XI RawButtonRelease device=2(6) detail=1
+476548.481 XI ButtonRelease device=6(6) detail=1
+476549.755 XI RawButtonPress device=2(6) detail=1
+476549.755 XI ButtonPress device=6(6) detail=1
+476549.859 XI RawButtonRelease device=2(6) detail=1
+476549.862 XI ButtonRelease device=6(6) detail=1
+476550.324 XI RawButtonPress device=2(6) detail=1
+476550.325 XI ButtonPress device=6(6) detail=1
+476550.343 XI RawButtonRelease device=2(6) detail=1
+476550.343 XI ButtonRelease device=6(6) detail=1
+476550.539 XI RawButtonPress device=2(6) detail=1
+476550.539 XI ButtonPress device=6(6) detail=1
+476550.619 XI RawButtonRelease device=2(6) detail=1
+476550.619 XI ButtonRelease device=6(6) detail=1
+476552.674 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3200003, 0x0
+476552.674 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3200003, 0x0
+476557.599 XI RawButtonPress device=2(6) detail=1
+476557.599 XI ButtonPress device=6(6) detail=1
+476557.608 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476557.611 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2e00003, 0x0
+476557.751 XI RawButtonRelease device=2(6) detail=1
+476557.751 XI ButtonRelease device=6(6) detail=1
+476559.870 XI RawButtonPress device=2(6) detail=1
+476559.871 XI ButtonPress device=6(6) detail=1
+476560.052 XI RawButtonRelease device=2(6) detail=1
+476560.053 XI ButtonRelease device=6(6) detail=1
+476560.468 XI RawButtonPress device=2(6) detail=1
+476560.469 XI ButtonPress device=6(6) detail=1
+476560.627 XI RawButtonRelease device=2(6) detail=1
+476560.627 XI ButtonRelease device=6(6) detail=1
+476567.814 XI RawButtonPress device=2(6) detail=1
+476567.814 XI ButtonPress device=6(6) detail=1
+476567.827 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476567.831 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476567.959 XI RawButtonRelease device=2(6) detail=1
+476567.959 XI ButtonRelease device=6(6) detail=1
+476569.309 XI RawKeyPress device=3(8) detail=9
+476569.454 XI RawKeyRelease device=3(8) detail=9
+476570.339 XI RawKeyPress device=3(8) detail=9
+476570.482 XI RawKeyRelease device=3(8) detail=9
+476571.502 XI RawButtonPress device=2(6) detail=1
+476571.502 XI ButtonPress device=6(6) detail=1
+476571.656 XI RawButtonRelease device=2(6) detail=1
+476571.659 XI ButtonRelease device=6(6) detail=1
+476572.026 XI RawKeyPress device=3(8) detail=9
+476572.101 XI RawKeyRelease device=3(8) detail=9
+476572.208 XI RawKeyPress device=3(8) detail=9
+476572.318 XI RawKeyRelease device=3(8) detail=9
+476572.401 XI RawKeyPress device=3(8) detail=9
+476572.495 XI RawKeyRelease device=3(8) detail=9
+476572.595 XI RawKeyPress device=3(8) detail=9
+476572.689 XI RawKeyRelease device=3(8) detail=9
+476572.788 XI RawKeyPress device=3(8) detail=9
+476572.883 XI RawKeyRelease device=3(8) detail=9
+476573.729 XI RawKeyPress device=3(8) detail=9
+476573.887 XI RawKeyRelease device=3(8) detail=9
+476578.096 XI RawButtonPress device=2(6) detail=1
+476578.096 XI ButtonPress device=6(6) detail=1
+476578.111 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476578.111 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2e00003, 0x0
+476578.231 XI RawButtonRelease device=2(6) detail=1
+476578.232 XI ButtonRelease device=6(6) detail=1
+476579.054 XI RawButtonPress device=2(6) detail=1
+476579.054 XI ButtonPress device=6(6) detail=1
+476579.164 XI RawButtonRelease device=2(6) detail=1
+476579.165 XI ButtonRelease device=6(6) detail=1
+476588.602 XI RawButtonPress device=2(6) detail=1
+476588.602 XI ButtonPress device=6(6) detail=1
+476588.627 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476588.627 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476588.742 XI RawButtonRelease device=2(6) detail=1
+476588.751 XI ButtonRelease device=6(6) detail=1
+476589.349 XI RawButtonPress device=2(6) detail=1
+476589.349 XI ButtonPress device=6(6) detail=1
+476589.882 XI RawButtonRelease device=2(6) detail=1
+476589.883 XI ButtonRelease device=6(6) detail=1
+476591.709 XI RawButtonPress device=2(6) detail=1
+476591.709 XI ButtonPress device=6(6) detail=1
+476591.718 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476591.742 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x2200003, 0x0
+476592.013 XI RawButtonRelease device=2(6) detail=1
+476592.013 XI ButtonRelease device=6(6) detail=1
+476598.364 XI RawKeyPress device=3(8) detail=64
+476598.367 X11_HELD (64,)
+476598.527 XI RawKeyPress device=3(8) detail=23
+476598.602 XI RawKeyRelease device=3(8) detail=64
+476598.607 X11_HELD ()
+476598.608 XI RawKeyRelease device=3(8) detail=64
+476598.629 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x0, 0x0
+476598.640 XFCE_FOCUS _NET_ACTIVE_WINDOW(WINDOW): window id # 0x3000003, 0x0
+476598.672 XI RawKeyRelease device=3(8) detail=23
+476599.982 XI RawButtonPress device=2(6) detail=5
+476599.982 XI ButtonPress device=6(6) detail=5
+476599.982 XI ButtonRelease device=6(6) detail=5
+476599.982 XI RawButtonRelease device=2(6) detail=5
+476600.027 XI RawButtonPress device=2(6) detail=5
+476600.027 XI ButtonPress device=6(6) detail=5
+476600.027 XI ButtonRelease device=6(6) detail=5
+476600.027 XI RawButtonRelease device=2(6) detail=5
+476600.087 XI RawButtonPress device=2(6) detail=5
+476600.087 XI ButtonPress device=6(6) detail=5
+476600.091 XI ButtonRelease device=6(6) detail=5
+476600.093 XI RawButtonRelease device=2(6) detail=5
+476600.155 XI RawButtonPress device=2(6) detail=5
+476600.158 XI ButtonPress device=6(6) detail=5
+476600.159 XI ButtonRelease device=6(6) detail=5
+476600.160 XI RawButtonRelease device=2(6) detail=5
+476600.772 XI RawButtonPress device=2(6) detail=5
+476600.773 XI ButtonPress device=6(6) detail=5
+476600.788 XI ButtonRelease device=6(6) detail=5
+476600.789 XI ButtonPress device=6(6) detail=5
+476600.790 XI ButtonRelease device=6(6) detail=5
+476600.790 XI ButtonPress device=6(6) detail=5
+476600.791 XI ButtonRelease device=6(6) detail=5
+476600.791 XI ButtonPress device=6(6) detail=5
+476600.791 XI ButtonRelease device=6(6) detail=5
+476600.791 XI ButtonPress device=6(6) detail=5
+476600.792 XI ButtonRelease device=6(6) detail=5
+476600.792 XI ButtonPress device=6(6) detail=5
+476600.793 XI ButtonRelease device=6(6) detail=5
+476600.793 XI RawButtonRelease device=2(6) detail=5
+476600.793 XI RawButtonPress device=2(6) detail=5
+476600.797 XI ButtonPress device=6(6) detail=5
+476600.797 XI ButtonRelease device=6(6) detail=5
+476600.797 XI RawButtonRelease device=2(6) detail=5
+476600.797 XI RawButtonPress device=2(6) detail=5
+476600.797 XI RawButtonRelease device=2(6) detail=5
+476600.798 XI RawButtonPress device=2(6) detail=5
+476600.798 XI RawButtonRelease device=2(6) detail=5
+476600.798 XI RawButtonPress device=2(6) detail=5
+476600.798 XI RawButtonRelease device=2(6) detail=5
+476600.798 XI RawButtonPress device=2(6) detail=5
+476600.800 XI RawButtonRelease device=2(6) detail=5
+476600.800 XI RawButtonPress device=2(6) detail=5
+476600.800 XI RawButtonRelease device=2(6) detail=5
+476600.875 XI RawButtonPress device=2(6) detail=5
+476600.875 XI ButtonPress device=6(6) detail=5
+476600.880 XI ButtonRelease device=6(6) detail=5
+476600.881 XI RawButtonRelease device=2(6) detail=5
+476600.947 X11 STOPPED

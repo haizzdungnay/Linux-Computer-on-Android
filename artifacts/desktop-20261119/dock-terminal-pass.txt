@@ -1,0 +1,7 @@
+TERMINAL_SHELL_CONFIGURED
+DOCK_TERMINAL 0x1e00003 WM_CLASS(STRING) = "xfce4-terminal", "Xfce4-terminal"
+_NET_WM_NAME(UTF8_STRING) = "Terminal"
+_NET_WM_PID(CARDINAL) = 931
+
+RESULT dock-terminal-ok uid=10528
+

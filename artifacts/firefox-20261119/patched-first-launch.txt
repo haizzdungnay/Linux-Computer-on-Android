@@ -1,0 +1,45 @@
+PATCHED PROOT PID 13971
+POLL None
+s:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.547: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.553: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:27310: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.942: Theme parsing error: gtk.css:1:27310: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:149222: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.950: Theme parsing error: gtk.css:1:149222: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:149358: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.951: Theme parsing error: gtk.css:1:149358: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.957: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.958: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:37.962: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:27310: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:38.001: Theme parsing error: gtk.css:1:27310: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:149222: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:38.007: Theme parsing error: gtk.css:1:149222: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:149358: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:38.007: Theme parsing error: gtk.css:1:149358: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:38.013: Theme parsing error: gtk.css:1:271978: '-gtk-icon-size' is not a valid property name
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:1:277524: unknown syntax for transform: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:38.014: Theme parsing error: gtk.css:1:277524: unknown syntax for transform
+[Parent 13973, Main Thread] WARNING: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox-esr:13973): Gtk-WARNING **: 09:46:38.017: Theme parsing error: gtk.css:2:0: Missing semicolon at end of color definition
+

@@ -1,0 +1,30 @@
+WINDOWS
+0x1000007 _NET_WM_NAME(UTF8_STRING) = "Desktop"
+WM_CLASS(STRING) = "xfdesktop", "Xfdesktop"
+_NET_WM_PID(CARDINAL) = 5324
+0xc00003 _NET_WM_NAME(UTF8_STRING) = "xfce4-panel"
+WM_CLASS(STRING) = "xfce4-panel", "Xfce4-panel"
+_NET_WM_PID(CARDINAL) = 21223
+0xc0002a _NET_WM_NAME(UTF8_STRING) = "xfce4-panel"
+WM_CLASS(STRING) = "xfce4-panel", "Xfce4-panel"
+_NET_WM_PID(CARDINAL) = 21223
+0x1c00003 _NET_WM_NAME(UTF8_STRING) = "WORKSTATION-TEST"
+WM_CLASS(STRING) = "xfce4-terminal", "Xfce4-terminal"
+_NET_WM_PID(CARDINAL) = 22899
+0x1400003 _NET_WM_NAME(UTF8_STRING) = "~/Work/desktop-check/note.txt - Mousepad"
+WM_CLASS(STRING) = "mousepad", "Mousepad"
+_NET_WM_PID(CARDINAL) = 23230
+0x1e00003 _NET_WM_NAME(UTF8_STRING) = "desktop-check - Thunar"
+WM_CLASS(STRING) = "thunar", "Thunar"
+_NET_WM_PID(CARDINAL) = 23257
+0x2000003 _NET_WM_NAME(UTF8_STRING) = "Settings"
+WM_CLASS(STRING) = "xfce4-settings-manager", "Xfce4-settings-manager"
+_NET_WM_PID(CARDINAL) = 23283
+0x2200003 _NET_WM_NAME(UTF8_STRING) = "Task Manager"
+WM_CLASS(STRING) = "xfce4-taskmanager", "Xfce4-taskmanager"
+_NET_WM_PID(CARDINAL) = 23305
+EDITOR_SAVE_PASS /root/Work/desktop-check/note.txt
+
+(xfce4-screenshooter:23607): dbind-WARNING **: 08:05:58.933: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:23627): dbind-WARNING **: 08:06:00.917: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

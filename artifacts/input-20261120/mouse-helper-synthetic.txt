@@ -1,0 +1,8 @@
+Pointer parked over dedicated xev window. Test uses synthetic Android touchscreen tap on R.
+Outer window is 0x2a00001, inner window is 0x2a00002
+ButtonPress event, serial 25, synthetic NO, window 0x2a00001,
+    state 0x0, button 3, same_screen YES
+ButtonRelease event, serial 25, synthetic NO, window 0x2a00001,
+    state 0x400, button 3, same_screen YES
+Mousepad 0x2a000e0 _NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_POPUP_MENU; Map State: IsViewable
+Thunar 0x2e002c6 _NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_POPUP_MENU; Map State: IsViewable

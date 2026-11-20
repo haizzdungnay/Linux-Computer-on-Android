@@ -1,0 +1,3 @@
+SESSION CONFIG
+CHANNEL xsettings
+Failed to init libxfconf: The connection is closed.

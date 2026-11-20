@@ -1,0 +1,32 @@
+REQUESTED firefox-sandbox
+REQUESTED netsurf
+FIREFOX DENIALS
+[29842] Sandbox: new policy for /usr/lib: 3 -> 3
+[29842] Sandbox: new policy for /usr: 3 -> 3
+[29842] Sandbox: new policy for /etc: 3 -> 3
+[29842] Sandbox: new policy for /usr/local/lib/: 35 -> 35
+[29842] Sandbox: new policy for /lib/: 35 -> 35
+[29842] Sandbox: new policy for /dev/shm/org.mozilla.ipc.30052.: 47 -> 47
+[29842] Sandbox: new policy for /proc/30052/status: 3 -> 3
+[29842] Sandbox: new policy for /proc/30052/smaps: 3 -> 3
+[29842] Sandbox: removing redundant /usr/lib/firefox-esr: 3 -> 3
+[29842] Sandbox: new policy for /root/.ld-test/xfce-run/dconf/: 47 -> 47
+[29842] Sandbox: new policy for /root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr/extensions/: 35 -> 35
+[29842] Sandbox: new policy for /root/.ld-test/xfce-config/mozilla/: 161 -> 163
+[29842] Sandbox: new policy for /lib: 3 -> 3
+[29842] Sandbox: new policy for /root/.local/share/: 35 -> 35
+[29842] Sandbox: new policy for /root/.ld-test/xfce-config/: 35 -> 35
+[29842] Sandbox: new policy for /root/.ld-test/xfce-run: 1 -> 1
+[29842] Sandbox: new policy for /usr/share/: 35 -> 35
+[29842] Sandbox: new policy for /root/.ld-test: 1 -> 1
+[29842] Sandbox: new policy for /proc/meminfo: 3 -> 3
+[29842] Sandbox: new policy for /usr/lib/: 35 -> 35
+[29842] Sandbox: new policy for /dev/null: 7 -> 7
+[29842] Sandbox: new policy for /root/.ld-test/xfce-config: 3 -> 3
+[30052] Sandbox: using seccomp tsync
+[GFX1]: no fonts - init: 1 fonts: 239 loader: 0
+NETSURF LOG
+
+(netsurf:30009): dbind-WARNING **: 08:18:51.586: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:30097): dbind-WARNING **: 08:18:55.518: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

@@ -1,0 +1,31 @@
+REQUESTED pdf
+REQUESTED image
+REQUESTED archive
+0x1000007 _NET_WM_NAME(UTF8_STRING) = "Desktop"
+WM_CLASS(STRING) = "xfdesktop", "Xfdesktop"
+0xc00003 _NET_WM_NAME(UTF8_STRING) = "xfce4-panel"
+WM_CLASS(STRING) = "xfce4-panel", "Xfce4-panel"
+0xc0002a _NET_WM_NAME(UTF8_STRING) = "xfce4-panel"
+WM_CLASS(STRING) = "xfce4-panel", "Xfce4-panel"
+0x1c00003 _NET_WM_NAME(UTF8_STRING) = "WORKSTATION-TEST"
+WM_CLASS(STRING) = "xfce4-terminal", "Xfce4-terminal"
+0x1400003 _NET_WM_NAME(UTF8_STRING) = "~/Work/desktop-check/note.txt - Mousepad"
+WM_CLASS(STRING) = "mousepad", "Mousepad"
+0x1e00003 _NET_WM_NAME(UTF8_STRING) = "desktop-check - Thunar"
+WM_CLASS(STRING) = "thunar", "Thunar"
+0x2000003 _NET_WM_NAME(UTF8_STRING) = "Settings"
+WM_CLASS(STRING) = "xfce4-settings-manager", "Xfce4-settings-manager"
+0x2200003 _NET_WM_NAME(UTF8_STRING) = "Task Manager"
+WM_CLASS(STRING) = "xfce4-taskmanager", "Xfce4-taskmanager"
+0x2400003 _NET_WM_NAME(UTF8_STRING) = "sample.pdf"
+WM_CLASS(STRING) = "atril", "Atril"
+0x2600003 _NET_WM_NAME(UTF8_STRING) = "sample.jpg - Image Viewer"
+WM_CLASS(STRING) = "ristretto", "Ristretto"
+0x260003f _NET_WM_NAME(UTF8_STRING) = 
+WM_CLASS(STRING) = "ristretto", "Ristretto"
+0x2800003 _NET_WM_NAME(UTF8_STRING) = "sample.zip "
+WM_CLASS(STRING) = "engrampa", "Engrampa"
+XGetWindowProperty[_NET_ACTIVE_WINDOW] failed (code=1)
+XGetWindowProperty[_NET_ACTIVE_WINDOW] failed (code=1)
+
+(xfce4-screenshooter:23886): dbind-WARNING **: 08:06:47.122: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

@@ -1,0 +1,1 @@
+adb.exe: device 'f422eebd' not found

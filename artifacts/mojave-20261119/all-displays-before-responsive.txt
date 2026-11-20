@@ -1,0 +1,10 @@
+:1 EXIT 1  Can't open display :1
+
+:2 EXIT 0 Screen 0: minimum 1 x 1, current 1280 x 960, maximum 32767 x 32767
+builtin connected 1280x960+0+0 0mm x 0mm
+   1280x960     119.89* 
+ 
+:3 EXIT 0 Screen 0: minimum 1 x 1, current 1280 x 1024, maximum 32767 x 32767
+screen connected 1280x1024+0+0 0mm x 0mm
+   1280x1024     29.90* 
+ 

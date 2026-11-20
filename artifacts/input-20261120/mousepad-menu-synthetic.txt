@@ -1,0 +1,15 @@
+Supplemental synthetic test on temporary editor only
+_NET_WM_NAME(UTF8_STRING) = "/tmp/ld-input-check.pWH1VX/input-test/Input-test.txt - Mousepad"
+WM_CLASS(STRING) = "mousepad", "Mousepad"
+
+Attempt: shift+F10
+     0x2a00001 "Mousepad": ("mousepad" "Mousepad")  10x10+10+10  +10+10
+        0x2a00003 "/tmp/ld-input-check.pWH1VX/input-test/Input-test.txt - Mousepad": ("mousepad" "Mousepad")  640x480+2+28  +480+326
+
+Attempt: Menu
+     0x2a0002f "Mousepad": ("mousepad" "Mousepad")  430x509+494+419  +494+419
+     0x2a0002c "Mousepad": ()  10x10+-100+-100  +-100+-100
+     0x2a00029 "Mousepad": ()  10x10+-100+-100  +-100+-100
+     0x2a00001 "Mousepad": ("mousepad" "Mousepad")  10x10+10+10  +10+10
+        0x2a00003 "/tmp/ld-input-check.pWH1VX/input-test/Input-test.txt - Mousepad": ("mousepad" "Mousepad")  640x480+2+28  +480+326
+_NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_POPUP_MENU

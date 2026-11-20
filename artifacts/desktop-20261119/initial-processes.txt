@@ -1,0 +1,86 @@
+uid=10528(u0_a528) gid=10528(u0_a528) groups=10528(u0_a528),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),1078(ext_data_rw),1079(ext_obb_rw),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid),3012(readtracefs),50528(all_a528) context=u:r:runas_app:s0:c16,c258,c512,c768
+PROCESS xfsettingsd 5115
+Name:	xfsettingsd
+State:	S (sleeping)
+PPid:	5104
+TracerPid:	5096
+Uid:	10528	10528	10528	10528
+xfsettingsd --no-daemon 
+LIBGL_ALWAYS_SOFTWARE=1
+XDG_CACHE_HOME=/root/.ld-test/xfce-cache
+HOME=/root
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-wDHR1WjWUc,guid=f72ea08b82f73a6b0dd0c46a6afd79d8
+XDG_RUNTIME_DIR=/root/.ld-test/xfce-run
+DISPLAY=:2
+XDG_CONFIG_HOME=/root/.ld-test/xfce-config
+PROCESS xfwm4 5146
+Name:	xfwm4
+State:	S (sleeping)
+PPid:	5104
+TracerPid:	5096
+Uid:	10528	10528	10528	10528
+xfwm4 --compositor=off 
+LIBGL_ALWAYS_SOFTWARE=1
+XDG_CACHE_HOME=/root/.ld-test/xfce-cache
+HOME=/root
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-wDHR1WjWUc,guid=f72ea08b82f73a6b0dd0c46a6afd79d8
+XDG_RUNTIME_DIR=/root/.ld-test/xfce-run
+DISPLAY=:2
+XDG_CONFIG_HOME=/root/.ld-test/xfce-config
+PROCESS xfwm4 21688
+Name:	xfwm4
+State:	S (sleeping)
+PPid:	21682
+TracerPid:	21676
+Uid:	10528	10528	10528	10528
+xfwm4 
+USER=root
+HOME=/root
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-mIaWTWSnGE,guid=2258eedcc35136154c7c82ac6afd72a2
+DISPLAY=:2
+PROCESS xfdesktop 5324
+Name:	xfdesktop
+State:	S (sleeping)
+PPid:	5104
+TracerPid:	5096
+Uid:	10528	10528	10528	10528
+xfdesktop 
+LIBGL_ALWAYS_SOFTWARE=1
+XDG_CACHE_HOME=/root/.ld-test/xfce-cache
+HOME=/root
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-wDHR1WjWUc,guid=f72ea08b82f73a6b0dd0c46a6afd79d8
+XDG_RUNTIME_DIR=/root/.ld-test/xfce-run
+DISPLAY=:2
+XDG_CONFIG_HOME=/root/.ld-test/xfce-config
+PROCESS xfce4-panel 5326
+Name:	xfce4-panel
+State:	S (sleeping)
+PPid:	5104
+TracerPid:	5096
+Uid:	10528	10528	10528	10528
+xfce4-panel 
+LIBGL_ALWAYS_SOFTWARE=1
+XDG_CACHE_HOME=/root/.ld-test/xfce-cache
+HOME=/root
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-wDHR1WjWUc,guid=f72ea08b82f73a6b0dd0c46a6afd79d8
+XDG_RUNTIME_DIR=/root/.ld-test/xfce-run
+DISPLAY=:2
+XDG_CONFIG_HOME=/root/.ld-test/xfce-config
+PROCESS apt-get 2088
+Name:	apt-get
+State:	S (sleeping)
+PPid:	2087
+TracerPid:	2081
+Uid:	10528	10528	10528	10528
+apt-get -y --no-install-recommends install arc-theme papirus-icon-theme fonts-noto fonts-noto-cjk 
+USER=root
+HOME=/root
+PROCESS dpkg 15376
+Name:	dpkg
+State:	t (tracing stop)
+PPid:	15347
+TracerPid:	15283
+Uid:	10528	10528	10528	10528
+dpkg --audit 
+USER=root
+HOME=/root

@@ -1,0 +1,32 @@
+FIREFOX PROFILE CONFIG
+CRASH DIAGNOSTICS (SELECTED FIELDS)
+FONT CONFIG
+NotoSans-Regular.ttf: "Noto Sans" "Regular"
+/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf: DejaVu Serif:style=Bold
+/usr/share/fonts/truetype/noto/NotoSansThai-Regular.ttf: Noto Sans Thai:style=Regular
+/usr/share/fonts/truetype/noto/NotoSansModi-Regular.ttf: Noto Sans Modi:style=Regular
+/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf: URW Bookman:style=Light Italic
+/usr/share/fonts/truetype/noto/NotoSansPahawhHmong-Regular.ttf: Noto Sans Pahawh Hmong:style=Regular
+/usr/share/fonts/truetype/noto/NotoSerifYezidi-Bold.ttf: Noto Serif Yezidi:style=Bold
+/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf: URW Bookman:style=Light
+/usr/share/fonts/truetype/noto/NotoSansOldNorthArabian-Regular.ttf: Noto Sans Old North Arabian,Noto Sans OldNorArab:style=Regular
+FIREFOX WINDOW
+44040195
+PACKAGE SIZE FOR FALLBACK (SIMULATION ONLY)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fonts-dejavu fonts-dejavu-extra netsurf-common
+The following NEW packages will be installed:
+  fonts-dejavu fonts-dejavu-extra netsurf-common netsurf-gtk
+0 upgraded, 4 newly installed, 0 to remove and 1 not upgraded.
+Inst fonts-dejavu-extra (2.37-8 Debian:13.7/stable [all])
+Inst fonts-dejavu (2.37-8 Debian:13.7/stable [all])
+Inst netsurf-common (3.11-2 Debian:13.7/stable [all])
+Inst netsurf-gtk (3.11-2+b1 Debian:13.7/stable [arm64])
+Conf fonts-dejavu-extra (2.37-8 Debian:13.7/stable [all])
+Conf fonts-dejavu (2.37-8 Debian:13.7/stable [all])
+Conf netsurf-common (3.11-2 Debian:13.7/stable [all])
+Conf netsurf-gtk (3.11-2+b1 Debian:13.7/stable [arm64])
+cat: /root/.mozilla/firefox/profiles.ini: No such file or directory

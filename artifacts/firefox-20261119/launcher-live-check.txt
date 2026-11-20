@@ -1,0 +1,24 @@
+CORE BEFORE {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+_NET_CLIENT_LIST(WINDOW): window id # 0x1000007, 0x1c00003, 0x1e00003, 0x2000003, 0x1400003, 0xc00003, 0xc0000a, 0x1e001ad, 0x2000d6d, 0x2400003, 0x2600003
+HELPER PASS: URL validation; Firefox helper {"ok": true, "pid": 20220, "display": ":2"}
+FAVORITES Value is an array with 7 items:
+
+firefox-esr.desktop
+xfce4-terminal.desktop
+thunar.desktop
+org.xfce.mousepad.desktop
+xfce-settings-manager.desktop
+xfce4-taskmanager.desktop
+org.xfce.ristretto.desktop
+HTTPS DEFAULT firefox-esr.desktop
+ACTIVE AFTER DOCK Settings
+EXO {"ok": true, "proot_pid": 23091}
+ACTIVE AFTER HTTPS Mozilla Firefox
+PARENT 22933 ARGS ['/usr/bin/firefox-esr', '--profile', '/root/.ld-test/xfce-config/mozilla/firefox/gtehrka8.default-esr', '--new-tab', 'https://www.google.com/', ''] UID 10528	10528	10528	10528 TRACER 22930
+CORE AFTER {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+
+(exo-open:23030): dbind-WARNING **: 09:58:51.320: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:23057): dbind-WARNING **: 09:58:51.521: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:23238): dbind-WARNING **: 09:58:55.125: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

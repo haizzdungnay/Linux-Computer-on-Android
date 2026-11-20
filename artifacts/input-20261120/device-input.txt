@@ -1,0 +1,78 @@
+Build
+ro.product.model=24091RPADG
+ro.product.device=muyu
+ro.build.version.release=16
+ro.build.version.sdk=36
+ro.build.version.incremental=OS3.0.303.0.WOYMIXM
+ro.build.display.id=BP2A.250605.031.A3
+
+Input handles
+    mTapTouchPad: 1
+    mDoubleClickDrag: 1
+    mTouchpadNaturalScroll: 1
+    8: Xiaomi Consumer
+      Classes: KEYBOARD | DPAD | JOYSTICK
+      Path: /dev/input/event9
+      Enabled: true
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a4, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+    9: Xiaomi Touch
+      Classes: TOUCH | TOUCH_MT | TOUCHPAD
+      Path: /dev/input/event8
+      Enabled: true
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a1, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+    10: Xiaomi Mouse
+      Classes: CURSOR
+      Path: /dev/input/event7
+      Enabled: false
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a2, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+    11: Xiaomi Keyboard
+      Classes: KEYBOARD | ALPHAKEY
+      Path: /dev/input/event6
+      Enabled: true
+      Identifier: bus=0x0006, vendor=0x15d9, product=0x00a3, version=0x0000, bluetoothAddress=<not set>
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+  Device 11: Xiaomi Consumer
+    IsExternal: false
+    Sources: KEYBOARD | DPAD | JOYSTICK
+    KeyboardType: 1
+  Device 8: Xiaomi Keyboard
+    IsExternal: false
+    Sources: KEYBOARD
+    KeyboardType: 2
+  Device 10: Xiaomi Touch
+    IsExternal: false
+    Sources: MOUSE | TOUCHPAD
+    KeyboardType: 0
+      Pointer captured: false
+        Button Right Click Zone Enable (boolean): [true]
+        Button Right Click Zone Size (real): [20.000000]
+        Tap Drag Enable (boolean): [false]
+        Tap Enable (boolean): [true]
+  Device 9: Xiaomi Mouse
+    IsExternal: false
+    Sources: MOUSE
+    KeyboardType: 0
+  Current Window with Pointer Capture: None
+
+Selected Gboard layout
+com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+layoutDescriptor:vendor:5593,product:163,userId:0,subtypeHandle:com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME:subtype:-1680759253=com.android.inputdevices/com.android.inputdevices.InputDeviceReceiver/keyboard_layout_english_us
+
+Packages
+com.termux
+    versionCode=1002 minSdk=24 targetSdk=28
+    versionName=0.118.3
+com.termux.x11
+    versionCode=15 minSdk=26 targetSdk=34
+    versionName=1.03.01-caa7553-13.07.26
+
+Key intercept
+     Bound services:{Service[label=Termux:X11 KeyInterceptor, feedbackType[], capabilities=8, eventTypes=, notificationTimeout=0, requestA11yBtn=false]}
+     Enabled services:{{com.termux.x11/com.termux.x11.utils.KeyInterceptor}}

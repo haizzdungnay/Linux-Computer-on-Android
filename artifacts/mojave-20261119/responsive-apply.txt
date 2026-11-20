@@ -1,0 +1,13 @@
+SESSION BEFORE {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+DOCK Value is an array with 9 items:
+
+14
+15
+24
+13
+23
+16
+25
+26
+27
+BACKUP /root/.local/share/linux-desktop/backups/20261119-responsive

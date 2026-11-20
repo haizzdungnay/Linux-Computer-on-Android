@@ -1,0 +1,3 @@
+mKeyboardShortcutRules =KeyboardCombinationRule{mPrimaryKey=61, mKeyboardShortcutInfo=MiuiKeyboardShortcutInfo{mShortcutKeyCode=alt 61, mEnable=true, mType=13, mPackageName='null', mClassName='null', mHistoryKeyCode=8589934653, mCustomized=true}, mMetaState=2, mFunction=''}
+KeyboardCombinationRule{mPrimaryKey=61, mKeyboardShortcutInfo=MiuiKeyboardShortcutInfo{mShortcutKeyCode=meta 61, mEnable=true, mType=3, mPackageName='null', mClassName='null', mHistoryKeyCode=281474976710717, mCustomized=true}, mMetaState=65536, mFunction='launch_recents'}
+  mCurrentFocus=Window{551584b u0 com.termux.x11/com.termux.x11.MainActivity}

@@ -1,0 +1,10 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+PASS: top task-list click selected Work - Thunar
+
+(xfce4-screenshooter:32374): dbind-WARNING **: 09:22:50.333: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:32395): dbind-WARNING **: 09:22:52.382: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Traceback (most recent call last):
+  File "<stdin>", line 23, in <module>
+AssertionError: WM_CLASS(STRING) = "xfdesktop", "Xfdesktop"
+_NET_WM_NAME(UTF8_STRING) = "Desktop"

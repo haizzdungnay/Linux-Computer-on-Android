@@ -1,0 +1,4 @@
+CACHE WhiteSur 0  gtk-update-icon-cache: Cache file created successfully.
+
+CACHE WhiteSur-dark 0  gtk-update-icon-cache: Cache file created successfully.
+

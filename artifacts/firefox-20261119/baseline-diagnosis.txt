@@ -1,0 +1,493 @@
+FILE prefs.js.before 12299
+FILE stderr.log 359244
+A >= 0x3b; then JMP 112 else JMP 116
+112) if A >= 0x3d; then JMP 113 else JMP 114
+113) if A >= 0x45; then JMP 269 else JMP 294
+114) if A >= 0x3c; then JMP 269 else JMP 115
+115) JMP 406
+116) if A >= 0x39; then JMP 117 else JMP 118
+117) if A >= 0x3a; then JMP 269 else JMP 294
+118) if A >= 0x38; then JMP 119 else JMP 269
+119) JMP 413
+120) if A >= 0x30; then JMP 121 else JMP 126
+121) if A >= 0x35; then JMP 122 else JMP 124
+122) if A >= 0x36; then JMP 136 else JMP 123
+123) JMP 414
+124) if A >= 0x31; then JMP 269 else JMP 125
+125) JMP 415
+126) if A >= 0x2d; then JMP 127 else JMP 128
+127) if A >= 0x2e; then JMP 294 else JMP 269
+128) if A >= 0x2c; then JMP 294 else JMP 129
+129) JMP 416
+130) if A >= 0x20; then JMP 131 else JMP 144
+131) if A >= 0x24; then JMP 132 else JMP 138
+132) if A >= 0x26; then JMP 133 else JMP 135
+133) if A >= 0x27; then JMP 269 else JMP 134
+134) JMP 417
+135) if A >= 0x25; then JMP 137 else JMP 136
+136) JMP 429
+137) JMP 418
+138) if A >= 0x22; then JMP 139 else JMP 142
+139) if A >= 0x23; then JMP 141 else JMP 140
+140) JMP 420
+141) JMP 419
+142) if A >= 0x21; then JMP 143 else JMP 294
+143) JMP 421
+144) if A >= 0x19; then JMP 145 else JMP 150
+145) if A >= 0x1d; then JMP 146 else JMP 148
+146) if A >= 0x1e; then JMP 269 else JMP 147
+147) JMP 430
+148) if A >= 0x1a; then JMP 269 else JMP 149
+149) JMP 451
+150) if A >= 0x12; then JMP 151 else JMP 152
+151) if A >= 0x13; then JMP 294 else JMP 269
+152) if A >= 0x11; then JMP 153 else JMP 269
+153) JMP 552
+154) RET 0x30015  // Trap #21
+155) LOAD 28  // Argument 1 (MSB)
+156) if A == 0x0; then JMP 160 else JMP 157
+157) if A == 0xffffffff; then JMP 158 else JMP 265
+158) LOAD 24  // Argument 1 (LSB)
+159) if A & 0x80000000; then JMP 160 else JMP 265
+160) LOAD 24  // Argument 1 (LSB)
+161) if A & 0xfc000004; then JMP 204 else JMP 294
+162) LOAD 20  // Argument 0 (MSB)
+163) if A == 0x0; then JMP 167 else JMP 164
+164) if A == 0xffffffff; then JMP 165 else JMP 401
+165) LOAD 16  // Argument 0 (LSB)
+166) if A & 0x80000000; then JMP 167 else JMP 401
+167) LOAD 16  // Argument 0 (LSB)
+168) if A == 0x1af7; then JMP 169 else JMP 269
+169) LOAD 28  // Argument 1 (MSB)
+170) if A == 0x0; then JMP 174 else JMP 171
+171) if A == 0xffffffff; then JMP 172 else JMP 265
+172) LOAD 24  // Argument 1 (LSB)
+173) if A & 0x80000000; then JMP 174 else JMP 265
+174) LOAD 24  // Argument 1 (LSB)
+175) if A == 0x1af7; then JMP 176 else JMP 269
+176) LOAD 36  // Argument 2 (MSB)
+177) if A == 0x0; then JMP 190 else JMP 178
+178) if A == 0xffffffff; then JMP 179 else JMP 225
+179) LOAD 32  // Argument 2 (LSB)
+180) if A & 0x80000000; then JMP 190 else JMP 225
+181) LOAD 20  // Argument 0 (MSB)
+182) if A == 0x0; then JMP 186 else JMP 183
+183) if A == 0xffffffff; then JMP 184 else JMP 401
+184) LOAD 16  // Argument 0 (LSB)
+185) if A & 0x80000000; then JMP 186 else JMP 401
+186) LOAD 16  // Argument 0 (LSB)
+187) if A == 0x0; then JMP 188 else JMP 269
+188) LOAD 36  // Argument 2 (MSB)
+189) if A == 0x0; then JMP 190 else JMP 269
+190) LOAD 32  // Argument 2 (LSB)
+191) JMP 323
+192) RET 0x5000a  // errno = 10
+193) LOAD 28  // Argument 1 (MSB)
+194) if A == 0x0; then JMP 195 else JMP 269
+195) LOAD 24  // Argument 1 (LSB)
+196) if A == 0x1000; then JMP 294 else JMP 269
+197) LOAD 44  // Argument 3 (MSB)
+198) if A == 0x0; then JMP 202 else JMP 199
+199) if A == 0xffffffff; then JMP 200 else JMP 233
+200) LOAD 40  // Argument 3 (LSB)
+201) if A & 0x80000000; then JMP 202 else JMP 233
+202) LOAD 40  // Argument 3 (LSB)
+203) if A & 0xfc040000; then JMP 204 else JMP 294
+204) RET 0x50026  // errno = 38
+205) LOAD 20  // Argument 0 (MSB)
+206) if A == 0x0; then JMP 210 else JMP 207
+207) if A == 0xffffffff; then JMP 208 else JMP 401
+208) LOAD 16  // Argument 0 (LSB)
+209) if A & 0x80000000; then JMP 210 else JMP 401
+210) LOAD 16  // Argument 0 (LSB)
+211) A := A & 0xffbfffff
+212) if A == 0x3d0f00; then JMP 294 else JMP 429
+213) LOAD 44  // Argument 3 (MSB)
+214) if A == 0x0; then JMP 218 else JMP 215
+215) if A == 0xffffffff; then JMP 216 else JMP 233
+216) LOAD 40  // Argument 3 (LSB)
+217) if A & 0x80000000; then JMP 218 else JMP 233
+218) LOAD 40  // Argument 3 (LSB)
+219) JMP 323
+220) LOAD 36  // Argument 2 (MSB)
+221) if A == 0x0; then JMP 226 else JMP 222
+222) if A == 0xffffffff; then JMP 223 else JMP 225
+223) LOAD 32  // Argument 2 (LSB)
+224) if A & 0x80000000; then JMP 226 else JMP 225
+225) JMP 548
+226) LOAD 32  // Argument 2 (LSB)
+227) JMP 235
+228) LOAD 44  // Argument 3 (MSB)
+229) if A == 0x0; then JMP 234 else JMP 230
+230) if A == 0xffffffff; then JMP 231 else JMP 233
+231) LOAD 40  // Argument 3 (LSB)
+232) if A & 0x80000000; then JMP 234 else JMP 233
+233) RET 0x30014  // Trap #20
+234) LOAD 40  // Argument 3 (LSB)
+235) if A & 0xbfffbe9d; then JMP 269 else JMP 294
+236) RET 0x30013  // Trap #19
+237) LOAD 20  // Argument 0 (MSB)
+238) if A == 0x0; then JMP 242 else JMP 239
+239) if A == 0xffffffff; then JMP 240 else JMP 401
+240) LOAD 16  // Argument 0 (LSB)
+241) if A & 0x80000000; then JMP 242 else JMP 401
+242) LOAD 16  // Argument 0 (LSB)
+243) if A == 0x1; then JMP 244 else JMP 269
+244) LOAD 28  // Argument 1 (MSB)
+245) if A == 0x0; then JMP 249 else JMP 246
+246) if A == 0xffffffff; then JMP 247 else JMP 265
+247) LOAD 24  // Argument 1 (LSB)
+248) if A & 0x80000000; then JMP 249 else JMP 265
+249) LOAD 24  // Argument 1 (LSB)
+250) A := A & 0xfff7f7ff
+251) if A == 0x1; then JMP 294 else JMP 252
+252) LOAD 28  // Argument 1 (MSB)
+253) if A == 0x0; then JMP 257 else JMP 254
+254) if A == 0xffffffff; then JMP 255 else JMP 265
+255) LOAD 24  // Argument 1 (LSB)
+256) if A & 0x80000000; then JMP 257 else JMP 265
+257) LOAD 24  // Argument 1 (LSB)
+258) A := A & 0xfff7f7ff
+259) if A == 0x5; then JMP 294 else JMP 260
+260) LOAD 28  // Argument 1 (MSB)
+261) if A == 0x0; then JMP 266 else JMP 262
+262) if A == 0xffffffff; then JMP 263 else JMP 265
+263) LOAD 24  // Argument 1 (LSB)
+264) if A & 0x80000000; then JMP 266 else JMP 265
+265) JMP 533
+266) LOAD 24  // Argument 1 (LSB)
+267) A := A & 0xfff7f7ff
+268) if A == 0x2; then JMP 270 else JMP 269
+269) JMP 553
+270) RET 0x30012  // Trap #18
+271) RET 0x30011  // Trap #17
+272) RET 0x30010  // Trap #16
+273) LOAD 20  // Argument 0 (MSB)
+274) if A == 0x0; then JMP 278 else JMP 275
+275) if A == 0xffffffff; then JMP 276 else JMP 401
+276) LOAD 16  // Argument 0 (LSB)
+277) if A & 0x80000000; then JMP 278 else JMP 401
+278) LOAD 16  // Argument 0 (LSB)
+279) if A == 0x53564d41; then JMP 317 else JMP 280
+280) LOAD 20  // Argument 0 (MSB)
+281) if A == 0x0; then JMP 285 else JMP 282
+282) if A == 0xffffffff; then JMP 283 else JMP 401
+283) LOAD 16  // Argument 0 (LSB)
+284) if A & 0x80000000; then JMP 285 else JMP 401
+285) LOAD 16  // Argument 0 (LSB)
+286) if A == 0x15; then JMP 294 else JMP 287
+287) LOAD 20  // Argument 0 (MSB)
+288) if A == 0x0; then JMP 292 else JMP 289
+289) if A == 0xffffffff; then JMP 290 else JMP 401
+290) LOAD 16  // Argument 0 (LSB)
+291) if A & 0x80000000; then JMP 292 else JMP 401
+292) LOAD 16  // Argument 0 (LSB)
+293) if A == 0xf; then JMP 294 else JMP 295
+294) JMP 551
+295) LOAD 20  // Argument 0 (MSB)
+296) if A == 0x0; then JMP 300 else JMP 297
+297) if A == 0xffffffff; then JMP 298 else JMP 401
+298) LOAD 16  // Argument 0 (LSB)
+299) if A & 0x80000000; then JMP 300 else JMP 401
+300) LOAD 16  // Argument 0 (LSB)
+301) if A == 0x4; then JMP 551 else JMP 302
+302) LOAD 20  // Argument 0 (MSB)
+303) if A == 0x0; then JMP 307 else JMP 304
+304) if A == 0xffffffff; then JMP 305 else JMP 401
+305) LOAD 16  // Argument 0 (LSB)
+306) if A & 0x80000000; then JMP 307 else JMP 401
+307) LOAD 16  // Argument 0 (LSB)
+308) if A == 0x59616d61; then JMP 551 else JMP 309
+309) LOAD 20  // Argument 0 (MSB)
+310) if A == 0x0; then JMP 314 else JMP 311
+311) if A == 0xffffffff; then JMP 312 else JMP 401
+312) LOAD 16  // Argument 0 (LSB)
+313) if A & 0x80000000; then JMP 314 else JMP 401
+314) LOAD 16  // Argument 0 (LSB)
+315) if A == 0x17; then JMP 316 else JMP 553
+316) RET 0x50016  // errno = 22
+317) LOAD 28  // Argument 1 (MSB)
+318) if A == 0x0; then JMP 322 else JMP 319
+319) if A == 0xffffffff; then JMP 320 else JMP 533
+320) LOAD 24  // Argument 1 (LSB)
+321) if A & 0x80000000; then JMP 322 else JMP 533
+322) LOAD 24  // Argument 1 (LSB)
+323) if A == 0x0; then JMP 551 else JMP 553
+324) LOAD 20  // Argument 0 (MSB)
+325) if A == 0x0; then JMP 329 else JMP 326
+326) if A == 0xffffffff; then JMP 327 else JMP 401
+327) LOAD 16  // Argument 0 (LSB)
+328) if A & 0x80000000; then JMP 329 else JMP 401
+329) LOAD 16  // Argument 0 (LSB)
+330) if A == 0x1af7; then JMP 551 else JMP 553
+331) RET 0x3000f  // Trap #15
+332) LOAD 20  // Argument 0 (MSB)
+333) if A == 0x0; then JMP 337 else JMP 334
+334) if A == 0xffffffff; then JMP 335 else JMP 401
+335) LOAD 16  // Argument 0 (LSB)
+336) if A & 0x80000000; then JMP 337 else JMP 401
+337) LOAD 16  // Argument 0 (LSB)
+338) if A == 0x1; then JMP 551 else JMP 339
+339) LOAD 20  // Argument 0 (MSB)
+340) if A == 0x0; then JMP 344 else JMP 341
+341) if A == 0xffffffff; then JMP 342 else JMP 401
+342) LOAD 16  // Argument 0 (LSB)
+343) if A & 0x80000000; then JMP 344 else JMP 401
+344) LOAD 16  // Argument 0 (LSB)
+345) if A == 0x6; then JMP 551 else JMP 346
+346) LOAD 20  // Argument 0 (MSB)
+347) if A == 0x0; then JMP 351 else JMP 348
+348) if A == 0xffffffff; then JMP 349 else JMP 401
+349) LOAD 16  // Argument 0 (LSB)
+350) if A & 0x80000000; then JMP 351 else JMP 401
+351) LOAD 16  // Argument 0 (LSB)
+352) if A == 0x4; then JMP 551 else JMP 353
+353) LOAD 20  // Argument 0 (MSB)
+354) if A == 0x0; then JMP 358 else JMP 355
+355) if A == 0xffffffff; then JMP 356 else JMP 401
+356) LOAD 16  // Argument 0 (LSB)
+357) if A & 0x80000000; then JMP 358 else JMP 401
+358) LOAD 16  // Argument 0 (LSB)
+359) if A == 0x2; then JMP 551 else JMP 360
+360) LOAD 20  // Argument 0 (MSB)
+361) if A == 0x0; then JMP 365 else JMP 362
+362) if A == 0xffffffff; then JMP 363 else JMP 401
+363) LOAD 16  // Argument 0 (LSB)
+364) if A & 0x80000000; then JMP 365 else JMP 401
+365) LOAD 16  // Argument 0 (LSB)
+366) if A == 0x0; then JMP 551 else JMP 367
+367) LOAD 20  // Argument 0 (MSB)
+368) if A == 0x0; then JMP 372 else JMP 369
+369) if A == 0xffffffff; then JMP 370 else JMP 401
+370) LOAD 16  // Argument 0 (LSB)
+371) if A & 0x80000000; then JMP 372 else JMP 401
+372) LOAD 16  // Argument 0 (LSB)
+373) if A == 0x5; then JMP 551 else JMP 374
+374) LOAD 20  // Argument 0 (MSB)
+375) if A == 0x0; then JMP 379 else JMP 376
+376) if A == 0xffffffff; then JMP 377 else JMP 401
+377) LOAD 16  // Argument 0 (LSB)
+378) if A & 0x80000000; then JMP 379 else JMP 401
+379) LOAD 16  // Argument 0 (LSB)
+380) if A == 0x3; then JMP 551 else JMP 381
+381) LOAD 20  // Argument 0 (MSB)
+382) if A == 0x0; then JMP 386 else JMP 383
+383) if A == 0xffffffff; then JMP 384 else JMP 401
+384) LOAD 16  // Argument 0 (LSB)
+385) if A & 0x80000000; then JMP 386 else JMP 401
+386) LOAD 16  // Argument 0 (LSB)
+387) if A == 0xffff2842; then JMP 551 else JMP 388
+388) LOAD 20  // Argument 0 (MSB)
+389) if A == 0x0; then JMP 393 else JMP 390
+390) if A == 0xffffffff; then JMP 391 else JMP 401
+391) LOAD 16  // Argument 0 (LSB)
+392) if A & 0x80000000; then JMP 393 else JMP 401
+393) LOAD 16  // Argument 0 (LSB)
+394) A := A & 0x7
+395) if A == 0x6; then JMP 551 else JMP 396
+396) LOAD 20  // Argument 0 (MSB)
+397) if A == 0x0; then JMP 402 else JMP 398
+398) if A == 0xffffffff; then JMP 399 else JMP 401
+399) LOAD 16  // Argument 0 (LSB)
+400) if A & 0x80000000; then JMP 402 else JMP 401
+401) RET 0x3000e  // Trap #14
+402) LOAD 16  // Argument 0 (LSB)
+403) if A == 0x7; then JMP 551 else JMP 553
+404) RET 0x3000d  // Trap #13
+405) RET 0x3000c  // Trap #12
+406) LOAD 28  // Argument 1 (MSB)
+407) if A == 0x0; then JMP 411 else JMP 408
+408) if A == 0xffffffff; then JMP 409 else JMP 533
+409) LOAD 24  // Argument 1 (LSB)
+410) if A & 0x80000000; then JMP 411 else JMP 533
+411) LOAD 24  // Argument 1 (LSB)
+412) if A & 0xfff6f7ff; then JMP 553 else JMP 551
+413) RET 0x3000b  // Trap #11
+414) RET 0x3000a  // Trap #10
+415) RET 0x30009  // Trap #9
+416) RET 0x30008  // Trap #8
+417) RET 0x30007  // Trap #7
+418) RET 0x30006  // Trap #6
+419) RET 0x30005  // Trap #5
+420) RET 0x30004  // Trap #4
+421) LOAD 36  // Argument 2 (MSB)
+422) if A == 0x0; then JMP 426 else JMP 423
+423) if A == 0xffffffff; then JMP 424 else JMP 548
+424) LOAD 32  // Argument 2 (LSB)
+425) if A & 0x80000000; then JMP 426 else JMP 548
+426) LOAD 32  // Argument 2 (LSB)
+427) A := A & 0xf000
+428) if A == 0x2000; then JMP 429 else JMP 553
+429) RET 0x50001  // errno = 1
+430) LOAD 28  // Argument 1 (MSB)
+431) if A == 0x0; then JMP 432 else JMP 434
+432) LOAD 24  // Argument 1 (LSB)
+433) if A == 0x5451; then JMP 551 else JMP 434
+434) LOAD 28  // Argument 1 (MSB)
+435) if A == 0x0; then JMP 436 else JMP 438
+436) LOAD 24  // Argument 1 (LSB)
+437) if A == 0x5421; then JMP 551 else JMP 438
+438) LOAD 28  // Argument 1 (MSB)
+439) if A == 0x0; then JMP 440 else JMP 442
+440) LOAD 24  // Argument 1 (LSB)
+441) if A == 0x5401; then JMP 450 else JMP 442
+442) LOAD 28  // Argument 1 (MSB)
+443) if A == 0x0; then JMP 444 else JMP 446
+444) LOAD 24  // Argument 1 (LSB)
+445) if A == 0x5413; then JMP 450 else JMP 446
+446) LOAD 28  // Argument 1 (MSB)
+447) if A == 0x0; then JMP 448 else JMP 553
+448) LOAD 24  // Argument 1 (LSB)
+449) if A == 0x802c542a; then JMP 450 else JMP 553
+450) RET 0x50019  // errno = 25
+451) LOAD 28  // Argument 1 (MSB)
+452) if A == 0x0; then JMP 456 else JMP 453
+453) if A == 0xffffffff; then JMP 454 else JMP 533
+454) LOAD 24  // Argument 1 (LSB)
+455) if A & 0x80000000; then JMP 456 else JMP 533
+456) LOAD 24  // Argument 1 (LSB)
+457) if A == 0x6; then JMP 551 else JMP 458
+458) LOAD 28  // Argument 1 (MSB)
+459) if A == 0x0; then JMP 463 else JMP 460
+460) if A == 0xffffffff; then JMP 461 else JMP 533
+461) LOAD 24  // Argument 1 (LSB)
+462) if A & 0x80000000; then JMP 463 else JMP 533
+463) LOAD 24  // Argument 1 (LSB)
+464) if A == 0x6; then JMP 551 else JMP 465
+465) LOAD 28  // Argument 1 (MSB)
+466) if A == 0x0; then JMP 470 else JMP 467
+467) if A == 0xffffffff; then JMP 468 else JMP 533
+468) LOAD 24  // Argument 1 (LSB)
+469) if A & 0x80000000; then JMP 470 else JMP 533
+470) LOAD 24  // Argument 1 (LSB)
+471) if A == 0x7; then JMP 551 else JMP 472
+472) LOAD 28  // Argument 1 (MSB)
+473) if A == 0x0; then JMP 477 else JMP 474
+474) if A == 0xffffffff; then JMP 475 else JMP 533
+475) LOAD 24  // Argument 1 (LSB)
+476) if A & 0x80000000; then JMP 477 else JMP 533
+477) LOAD 24  // Argument 1 (LSB)
+478) if A == 0x7; then JMP 551 else JMP 479
+479) LOAD 28  // Argument 1 (MSB)
+480) if A == 0x0; then JMP 484 else JMP 481
+481) if A == 0xffffffff; then JMP 482 else JMP 533
+482) LOAD 24  // Argument 1 (LSB)
+483) if A & 0x80000000; then JMP 484 else JMP 533
+484) LOAD 24  // Argument 1 (LSB)
+485) if A == 0x409; then JMP 551 else JMP 486
+486) LOAD 28  // Argument 1 (MSB)
+487) if A == 0x0; then JMP 491 else JMP 488
+488) if A == 0xffffffff; then JMP 489 else JMP 533
+489) LOAD 24  // Argument 1 (LSB)
+490) if A & 0x80000000; then JMP 491 else JMP 533
+491) LOAD 24  // Argument 1 (LSB)
+492) if A == 0x40a; then JMP 551 else JMP 493
+493) LOAD 28  // Argument 1 (MSB)
+494) if A == 0x0; then JMP 498 else JMP 495
+495) if A == 0xffffffff; then JMP 496 else JMP 533
+496) LOAD 24  // Argument 1 (LSB)
+497) if A & 0x80000000; then JMP 498 else JMP 533
+498) LOAD 24  // Argument 1 (LSB)
+499) if A == 0x1; then JMP 551 else JMP 500
+500) LOAD 28  // Argument 1 (MSB)
+501) if A == 0x0; then JMP 505 else JMP 502
+502) if A == 0xffffffff; then JMP 503 else JMP 533
+503) LOAD 24  // Argument 1 (LSB)
+504) if A & 0x80000000; then JMP 505 else JMP 533
+505) LOAD 24  // Argument 1 (LSB)
+506) if A == 0x2; then JMP 543 else JMP 507
+507) LOAD 28  // Argument 1 (MSB)
+508) if A == 0x0; then JMP 512 else JMP 509
+509) if A == 0xffffffff; then JMP 510 else JMP 533
+510) LOAD 24  // Argument 1 (LSB)
+511) if A & 0x80000000; then JMP 512 else JMP 533
+512) LOAD 24  // Argument 1 (LSB)
+513) if A == 0x3; then JMP 551 else JMP 514
+514) LOAD 28  // Argument 1 (MSB)
+515) if A == 0x0; then JMP 519 else JMP 516
+516) if A == 0xffffffff; then JMP 517 else JMP 533
+517) LOAD 24  // Argument 1 (LSB)
+518) if A & 0x80000000; then JMP 519 else JMP 533
+519) LOAD 24  // Argument 1 (LSB)
+520) if A == 0x4; then JMP 536 else JMP 521
+521) LOAD 28  // Argument 1 (MSB)
+522) if A == 0x0; then JMP 526 else JMP 523
+523) if A == 0xffffffff; then JMP 524 else JMP 533
+524) LOAD 24  // Argument 1 (LSB)
+525) if A & 0x80000000; then JMP 526 else JMP 533
+526) LOAD 24  // Argument 1 (LSB)
+527) if A == 0x406; then JMP 551 else JMP 528
+528) LOAD 28  // Argument 1 (MSB)
+529) if A == 0x0; then JMP 534 else JMP 530
+530) if A == 0xffffffff; then JMP 531 else JMP 533
+531) LOAD 24  // Argument 1 (LSB)
+532) if A & 0x80000000; then JMP 534 else JMP 533
+533) RET 0x30003  // Trap #3
+534) LOAD 24  // Argument 1 (LSB)
+535) if A == 0x403; then JMP 551 else JMP 553
+536) LOAD 36  // Argument 2 (MSB)
+537) if A == 0x0; then JMP 541 else JMP 538
+538) if A == 0xffffffff; then JMP 539 else JMP 548
+539) LOAD 32  // Argument 2 (LSB)
+540) if A & 0x80000000; then JMP 541 else JMP 548
+541) LOAD 32  // Argument 2 (LSB)
+542) if A & 0xfbf773fc; then JMP 553 else JMP 551
+543) LOAD 36  // Argument 2 (MSB)
+544) if A == 0x0; then JMP 549 else JMP 545
+545) if A == 0xffffffff; then JMP 546 else JMP 548
+546) LOAD 32  // Argument 2 (LSB)
+547) if A & 0x80000000; then JMP 549 else JMP 548
+548) RET 0x30002  // Trap #2
+549) LOAD 32  // Argument 2 (LSB)
+550) if A & 0xfffffffe; then JMP 553 else JMP 551
+551) RET 0x7fff0000  // Allowed
+552) RET 0x50002  // errno = 2
+553) RET 0x30001  // Trap #1
+[6903] Sandbox: using seccomp tsync
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[GFX1]: no fonts - init: 1 fonts: 259 loader: 0
+[6351] Sandbox: EOF from pid 6887
+[Parent 6351, IPC I/O Parent] WARNING: process 6887 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+[6351] Sandbox: EOF from pid 6903
+[Parent 6351, IPC I/O Parent] WARNING: process 6903 exited on signal 11: file ipc/chromium/src/chrome/common/process_watcher_posix_sigchld.cc:161
+
+FILE font.log.moz_log 521707
+FONTLOG TAIL font.log.moz_log 2026-11-19 09:30:36.869414 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Bookman) added face (URW Bookman:familylang=en:style=Demi Italic:stylelang=en:fullname=URW Bookman Demi Italic:fullnamelang=en:slant=100:weight=180:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWBookman-DemiItalic.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWBookman-DemiItalic:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 600, style italic, stretch 100
+2026-11-19 09:30:36.869442 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Bookman) added face (URW Bookman:familylang=en:style=Light:stylelang=en:fullname=URW Bookman Light:fullnamelang=en:slant=0:weight=50:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWBookman-Light.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWBookman-Light:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 300, style normal, stretch 100
+2026-11-19 09:30:36.869477 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Bookman) added face (URW Bookman:familylang=en:style=Light Italic:stylelang=en:fullname=URW Bookman Light Italic:fullnamelang=en:slant=100:weight=50:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWBookman-LightItalic.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWBookman-LightItalic:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 300, style italic, stretch 100
+2026-11-19 09:30:36.869555 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Book:stylelang=en:fullname=URW Gothic Book:fullnamelang=en:slant=0:weight=75:width=100:foundry=urw:file=/usr/share/fonts/X11/Type1/URWGothic-Book.pfb:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-Book:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 400, style normal, stretch 100
+2026-11-19 09:30:36.869594 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Book Oblique:stylelang=en:fullname=URW Gothic Book Oblique:fullnamelang=en:slant=110:weight=75:width=100:foundry=urw:file=/usr/share/fonts/X11/Type1/URWGothic-BookOblique.pfb:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-BookOblique:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 400, style oblique, stretch 100
+2026-11-19 09:30:36.869622 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Demi:stylelang=en:fullname=URW Gothic Demi:fullnamelang=en:slant=0:weight=180:width=100:foundry=urw:file=/usr/share/fonts/X11/Type1/URWGothic-Demi.pfb:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-Demi:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 600, style normal, stretch 100
+2026-11-19 09:30:36.869661 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Demi Oblique:stylelang=en:fullname=URW Gothic Demi Oblique:fullnamelang=en:slant=110:weight=180:width=100:foundry=urw:file=/usr/share/fonts/X11/Type1/URWGothic-DemiOblique.pfb:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-DemiOblique:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 600, style oblique, stretch 100
+2026-11-19 09:30:36.869687 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Book:stylelang=en:fullname=URWGothic-Book,URW Gothic Book:fullnamelang=en,en:slant=0:weight=80:width=100:foundry=UKWN:file=/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf:index=0:outline=True:scalable=True:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=65536:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=CFF:decorative=False:postscriptname=URWGothic-Book:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False:fontwrapper=SFNT) index 0, weight 400, style normal, stretch 100
+2026-11-19 09:30:36.869712 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Book Oblique:stylelang=en:fullname=URWGothic-BookOblique,URW Gothic Book Oblique:fullnamelang=en,en:slant=110:weight=80:width=100:foundry=UKWN:file=/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf:index=0:outline=True:scalable=True:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=65536:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=CFF:decorative=False:postscriptname=URWGothic-BookOblique:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False:fontwrapper=SFNT) index 0, weight 400, style oblique, stretch 100
+2026-11-19 09:30:36.869745 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Demi:stylelang=en:fullname=URWGothic-Demi,URW Gothic Demi:fullnamelang=en,en:slant=0:weight=180:width=100:foundry=UKWN:file=/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf:index=0:outline=True:scalable=True:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=65536:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=CFF:decorative=False:postscriptname=URWGothic-Demi:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False:fontwrapper=SFNT) index 0, weight 600, style normal, stretch 100
+2026-11-19 09:30:36.869769 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Demi Oblique:stylelang=en:fullname=URWGothic-DemiOblique,URW Gothic Demi Oblique:fullnamelang=en,en:slant=110:weight=180:width=100:foundry=UKWN:file=/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf:index=0:outline=True:scalable=True:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=65536:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=CFF:decorative=False:postscriptname=URWGothic-DemiOblique:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False:fontwrapper=SFNT) index 0, weight 600, style oblique, stretch 100
+2026-11-19 09:30:36.869796 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Book:stylelang=en:fullname=URW Gothic Book:fullnamelang=en:slant=0:weight=75:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWGothic-Book.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-Book:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 400, style normal, stretch 100
+2026-11-19 09:30:36.869837 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Book Oblique:stylelang=en:fullname=URW Gothic Book Oblique:fullnamelang=en:slant=110:weight=75:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWGothic-BookOblique.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-BookOblique:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 400, style oblique, stretch 100
+2026-11-19 09:30:36.869865 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Demi:stylelang=en:fullname=URW Gothic Demi:fullnamelang=en:slant=0:weight=180:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWGothic-Demi.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-Demi:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 600, style normal, stretch 100
+2026-11-19 09:30:36.869901 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (URW Gothic) added face (URW Gothic:familylang=en:style=Demi Oblique:stylelang=en:fullname=URW Gothic Demi Oblique:fullnamelang=en:slant=110:weight=180:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/URWGothic-DemiOblique.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=URWGothic-DemiOblique:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 600, style oblique, stretch 100
+2026-11-19 09:30:36.869952 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (Z003) added face (Z003:familylang=en:style=Medium Italic:stylelang=en:fullname=Z003 Medium Italic:fullnamelang=en:slant=100:weight=100:width=100:foundry=urw:file=/usr/share/fonts/X11/Type1/Z003-MediumItalic.pfb:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=Z003-MediumItalic:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 500, style italic, stretch 100
+2026-11-19 09:30:36.869989 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (Z003) added face (Z003:familylang=en:style=Medium Italic:stylelang=en:fullname=Z003-MediumItalic,Z003 Medium Italic:fullnamelang=en,en:slant=100:weight=100:width=100:foundry=UKWN:file=/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf:index=0:outline=True:scalable=True:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=65536:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=CFF:decorative=False:postscriptname=Z003-MediumItalic:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False:fontwrapper=SFNT) index 0, weight 500, style italic, stretch 100
+2026-11-19 09:30:36.870015 UTC - [Parent 6351: Main Thread]: D/fontlist (shared-fontlist) family (Z003) added face (Z003:familylang=en:style=Medium Italic:stylelang=en:fullname=Z003 Medium Italic:fullnamelang=en:slant=100:weight=100:width=100:foundry=urw:file=/usr/share/fonts/type1/urw-base35/Z003-MediumItalic.t1:index=0:outline=True:scalable=True:charset=20-7e a0-17f 192 1fa-1ff 218-21b 2c6-2c7 2c9 2d8-2dd 384-38a 38c 38e-3a1 3a3-3ce 3d1 3d5-3d6 400-45f 462-463 472-475 490-493 496-49d 4a0-4a3 4aa-4ab 4ae-4b3 4b6-4bb 4c0 4cb-4cc 4cf 4d8-4d9 4e2-4e3 4e8-4e9 4ee-4ef 1e80-1e85 1ef2-1ef3 2002 2013-2015 2017-201e 2020-2022 2026 2030 2032-2033 2039-203a 203c 203e 2044 2070 2074-2079 207f 20a3-20a4 20a7 20ac 20af 20dd 2105 210f 2111-2113 2116 2118 211c 211e 2120 2122 2126 2128 212d-212f 2135-2137 215b-215e 2190-2199 21a8 21b5 21c4 21c6 21d0-21d5 2200 2202-2203 2205-2209 220b 220d 220f 2211-2213 2215 2217 2219-221a 221d-2220 2223 2225 2227-222b 222e 2234-2235 2237 2245 2248 2260-2262 2264-2265 226a-226b 2282-2287 2295-2299 22a2-22a5 22bb 2302 2310 2320-2321 2329-232a 2500 2502 250c 2510 2514 2518 251c 2524 252c 2534 253c 2550-2570 2580 2584 2588 258c 2590-2593 25a0-25a1 25aa-25ac 25b2 25b5 25b9-25ba 25bc 25bf 25c3-25c4 25c6-25c7 25ca-25cb 25cf 25d8-25d9 25e6 263a-263c 2640 2642 2660 2663 2665-2666 266a-266b 301a-301b efbf-efec effa-efff fb00-fb04:lang=aa|af|av|ay|ba|be|bg|bi|br|bs|bua|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|kaa|ki|kk|kl|kum|ky|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sh|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|tr|ts|tt|tyv|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za|agr|ayc|bem|dsb|lij|mfe|mhr|mjw|nhn|niu|szl|tpi|unm|wae|yuw:fontversion=0:fontformat=Type 1:decorative=False:postscriptname=Z003-MediumItalic:color=False:symbol=False:variable=False:fonthashint=False:order=0:namedinstance=False) index 0, weight 500, style italic, stretch 100
+2026-11-19 09:30:38.811793 UTC - [Parent 6351: Main Thread]: D/fontlist (fontlist-cmap) name: Noto Sans:familylang=en:style=Regular:stylelang=en:fullname=Noto Sans Regular:fullnamelang=en:slant=0:weight=80:width=100:foundry=GOOG:file=/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf:index=0:outline=True:scalable=True:lang=aa|ab|af|ast|av|ay|az-az|ba|bm|be|bg|bi|bin|br|bs|bua|ca|ce|ch|chm|co|cs|cu|cv|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|ff|fur|fy|ga|gd|gl|gn|gv|ha|haw|ho|hr|hu|ia|ig|id|ie|ik|io|is|it|kaa|ki|kk|kl|ku-am|kum|kv|kw|ky|la|lb|lez|ln|lt|lv|mg|mh|mi|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|sah|sco|se|sel|sh|shs|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|to|tr|ts|tt|tw|tyv|uk|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yo|zu|ak|an|ber-dz|crh|csb|ee|fat|fil|hsb|ht|hz|jv|kab|kj|kr|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|nv|pap-an|pap-aw|qu|quz|rn|rw|sc|sg|sn|su|ty|za|agr|ayc|bem|dsb|lij|mfe|mhr|miq|mjw|nhn|niu|rif|sgs|szl|tpi|unm|wae|yuw:fontversion=131334:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=TrueType:decorative=False:postscriptname=NotoSans-Regular:color=False:symbol=False:variable=False:fonthashint=True:order=0:namedinstance=False:fontwrapper=SFNT, size: 1824 hash: 00000000
+2026-11-19 09:30:38.812886 UTC - [Parent 6351: Main Thread]: D/fontinit (fontinit-spacelookups) font: Noto Sans:familylang=en:style=Regular:stylelang=en:fullname=Noto Sans Regular:fullnamelang=en:slant=0:weight=80:width=100:foundry=GOOG:file=/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf:index=0:outline=True:scalable=True:lang=aa|ab|af|ast|av|ay|az-az|ba|bm|be|bg|bi|bin|br|bs|bua|ca|ce|ch|chm|co|cs|cu|cv|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|ff|fur|fy|ga|gd|gl|gn|gv|ha|haw|ho|hr|hu|ia|ig|id|ie|ik|io|is|it|kaa|ki|kk|kl|ku-am|kum|kv|kw|ky|la|lb|lez|ln|lt|lv|mg|mh|mi|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|sah|sco|se|sel|sh|shs|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|to|tr|ts|tt|tw|tyv|uk|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yo|zu|ak|an|ber-dz|crh|csb|ee|fat|fil|hsb|ht|hz|jv|kab|kj|kr|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|nv|pap-an|pap-aw|qu|quz|rn|rw|sc|sg|sn|su|ty|za|agr|ayc|bem|dsb|lij|mfe|mhr|miq|mjw|nhn|niu|rif|sgs|szl|tpi|unm|wae|yuw:fontversion=131334:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=TrueType:decorative=False:postscriptname=NotoSans-Regular:color=False:symbol=False:variable=False:fonthashint=True:order=0:namedinstance=False:fontwrapper=SFNT - subst default: 00000000 00000000 00000000 00000000 subst non-default: 00000000 00000000 00000000 00000000 kerning: true non-kerning: true time:  0.943
+2026-11-19 09:30:45.254893 UTC - [Parent 6351: Main Thread]: D/fontlist (fontlist-cmap) name: Noto Sans:familylang=en:style=Bold:stylelang=en:fullname=Noto Sans Bold:fullnamelang=en:slant=0:weight=200:width=100:foundry=GOOG:file=/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf:index=0:outline=True:scalable=True:lang=aa|ab|af|ast|av|ay|az-az|ba|bm|be|bg|bi|bin|br|bs|bua|ca|ce|ch|chm|co|cs|cu|cv|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|ff|fur|fy|ga|gd|gl|gn|gv|ha|haw|ho|hr|hu|ia|ig|id|ie|ik|io|is|it|kaa|ki|kk|kl|ku-am|kum|kv|kw|ky|la|lb|lez|ln|lt|lv|mg|mh|mi|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|sah|sco|se|sel|sh|shs|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|to|tr|ts|tt|tw|tyv|uk|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yo|zu|ak|an|ber-dz|crh|csb|ee|fat|fil|hsb|ht|hz|jv|kab|kj|kr|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|nv|pap-an|pap-aw|qu|quz|rn|rw|sc|sg|sn|su|ty|za|agr|ayc|bem|dsb|lij|mfe|mhr|miq|mjw|nhn|niu|rif|sgs|szl|tpi|unm|wae|yuw:fontversion=131334:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=TrueType:decorative=False:postscriptname=NotoSans-Bold:color=False:symbol=False:variable=False:fonthashint=True:order=0:namedinstance=False:fontwrapper=SFNT, size: 1824 hash: 00000000
+2026-11-19 09:30:45.255183 UTC - [Parent 6351: Main Thread]: D/fontinit (fontinit-spacelookups) font: Noto Sans:familylang=en:style=Bold:stylelang=en:fullname=Noto Sans Bold:fullnamelang=en:slant=0:weight=200:width=100:foundry=GOOG:file=/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf:index=0:outline=True:scalable=True:lang=aa|ab|af|ast|av|ay|az-az|ba|bm|be|bg|bi|bin|br|bs|bua|ca|ce|ch|chm|co|cs|cu|cv|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|ff|fur|fy|ga|gd|gl|gn|gv|ha|haw|ho|hr|hu|ia|ig|id|ie|ik|io|is|it|kaa|ki|kk|kl|ku-am|kum|kv|kw|ky|la|lb|lez|ln|lt|lv|mg|mh|mi|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|sah|sco|se|sel|sh|shs|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|to|tr|ts|tt|tw|tyv|uk|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yo|zu|ak|an|ber-dz|crh|csb|ee|fat|fil|hsb|ht|hz|jv|kab|kj|kr|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|nv|pap-an|pap-aw|qu|quz|rn|rw|sc|sg|sn|su|ty|za|agr|ayc|bem|dsb|lij|mfe|mhr|miq|mjw|nhn|niu|rif|sgs|szl|tpi|unm|wae|yuw:fontversion=131334:capability=otlayout\:DFLT otlayout\:cyrl otlayout\:grek otlayout\:latn:fontformat=TrueType:decorative=False:postscriptname=NotoSans-Bold:color=False:symbol=False:variable=False:fonthashint=True:order=0:namedinstance=False:fontwrapper=SFNT - subst default: 00000000 00000000 00000000 00000000 subst non-default: 00000000 00000000 00000000 00000000 kerning: true non-kerning: true time:  0.218
+ERRORS 
+FILE font.log.child-1.moz_log 1243
+FONTLOG TAIL font.log.child-1.moz_log 2026-11-19 09:30:38.970374 UTC - [Child 6544: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:43.361456 UTC - [Child 6607: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:45.289711 UTC - [Child 6646: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:46.372061 UTC - [Child 6682: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:47.559691 UTC - [Child 6727: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:48.566200 UTC - [Child 6769: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:48.700855 UTC - [Child 6794: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:49.515193 UTC - [Child 6824: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:49.567796 UTC - [Child 6846: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:50.017832 UTC - [Child 6887: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+2026-11-19 09:30:50.125156 UTC - [Child 6903: Main Thread]: D/fontinit (fontinit) system fontlist initialization
+ERRORS 
+_NET_CLIENT_LIST(WINDOW): window id # 0x1000007, 0x1c00003, 0x2c00003, 0x1e00003, 0x2000003, 0x1400003, 0xc00003, 0xc0000a, 0x1e001ad, 0x2000d6d, 0x2200003
+
+(xfce4-screenshooter:7118): dbind-WARNING **: 09:31:07.497: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

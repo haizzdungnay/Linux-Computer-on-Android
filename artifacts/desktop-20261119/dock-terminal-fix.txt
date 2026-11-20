@@ -1,0 +1,30 @@
+TERMINAL LOG
+
+(xfce4-terminal:22899): xfce4-terminal-WARNING **: 08:03:16.444: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+xfce4-panel: Restarting...
+
+
+(xfce4-panel:26337): dbind-WARNING **: 08:12:52.474: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-panel:26337): xfce4-panel-WARNING **: 08:12:52.704: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(wrapper-2.0:26368): dbind-WARNING **: 08:12:53.548: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:26372): dbind-WARNING **: 08:12:53.671: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(wrapper-2.0:26378): dbind-WARNING **: 08:12:53.882: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(exo-open:32001): dbind-WARNING **: 08:22:18.229: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-mime-helper:32005): dbind-WARNING **: 08:22:18.472: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-terminal:32006): dbind-WARNING **: 08:22:18.771: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-terminal:32006): xfce4-terminal-WARNING **: 08:22:19.100: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+TERMINAL CONFIG
+PROVISION SHELL FOR DOCK TERMINAL
+WROTE /root/.ld-test/xfce-config/xfce4/terminal/terminalrc
+0x1c00003 WM_CLASS(STRING) = "xfce4-terminal", "Xfce4-terminal"
+_NET_WM_NAME(UTF8_STRING) = "WORKSTATION-TEST"
+_NET_WM_PID(CARDINAL) = 22899
+

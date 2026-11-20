@@ -1,0 +1,3 @@
+RETAINED_ONE_TIME_FILES_IN_BACKUP
+c99923724b34d3d1016135d1bb08b8b39a0b244abe5227b129209e72c0c52e28  /root/.local/share/linux-desktop/backups/20261119-tablet-ui/tablet-ui-working.tar
+0de49b161b457d49f584beab805da5ada2315b835a4ea6afaa89b0b75bb9ffb1  /root/.local/share/linux-desktop/backups/20261119-tablet-ui/xfce-config.tar

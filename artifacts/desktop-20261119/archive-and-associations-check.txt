@@ -1,0 +1,16 @@
+EXTRACT_EXIT 0  
+(engrampa:31241): dbind-WARNING **: 08:21:00.167: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+ARCHIVE_EXTRACTION_PASS /root/Work/desktop-check/extracted/note.txt
+MIME x-scheme-handler/https netsurf-gtk.desktop
+MIME application/pdf atril.desktop
+MIME image/jpeg firefox-esr.desktop
+MIME text/plain org.xfce.mousepad.desktop
+MIME application/zip engrampa.desktop
+LAUNCHERS
+/usr/share/applications/atril.desktop
+/usr/share/applications/engrampa.desktop
+/usr/share/applications/org.xfce.mousepad-settings.desktop
+/usr/share/applications/org.xfce.mousepad.desktop
+/usr/share/applications/org.xfce.ristretto.desktop
+AUDIT

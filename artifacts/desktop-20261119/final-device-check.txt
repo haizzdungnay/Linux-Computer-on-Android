@@ -1,0 +1,66 @@
+DEVICE ACCEPTANCE 2026-11-19 Asia/Ho_Chi_Minh
+Thu Nov 19 08:31:23 UTC 2026
+CONFIG CHECK
+PASS: live XFCE settings verified on :2; compositor off; backup: /root/.local/share/linux-desktop/backups/20261119-tablet-ui
+PACKAGE HEALTH
+ii  arc-theme                20221218-1            all          Flat theme with transparent elements
+ii  atril                    1.26.2-4+deb13u1      arm64        MATE document viewer
+ii  engrampa                 1.26.2-5              arm64        archive manager for MATE
+ii  firefox-esr              153.7.0esr-1~deb13u1  arm64        Mozilla Firefox web browser - Extended Support Release (ESR)
+ii  fonts-noto-cjk           1:20240730+repack1-1  all          "No Tofu" font families with large Unicode coverage (CJK regular and bold)
+ii  fonts-noto-core          20201225-2            all          "No Tofu" font families with large Unicode coverage (core)
+ii  librsvg2-common:arm64    2.60.0+dfsg-1+deb13u1 arm64        SAX-based renderer library for SVG files (extra runtime)
+ii  mousepad                 0.6.3-1               arm64        simple Xfce oriented text editor
+ii  netsurf-gtk              3.11-2+b1             arm64        small web browser with CSS support for GTK
+ii  papirus-icon-theme       20250501-1            all          Papirus open source icon theme for Linux
+ii  ristretto                0.13.3-1              arm64        lightweight picture-viewer for the Xfce desktop environment
+ii  thunar                   4.20.2-1+deb13u1      arm64        File Manager for Xfce
+ii  tumbler                  4.20.0-1              arm64        D-Bus thumbnailing service
+ii  unzip                    6.0-29+deb13u1        arm64        De-archiver for .zip files
+ii  xdotool                  1:3.20160805.1-5.1    arm64        simulate (generate) X11 keyboard/mouse input events
+ii  xfce4-clipman-plugin     2:1.6.6-1+b1          arm64        clipboard history plugin for Xfce panel
+ii  xfce4-settings           4.20.1-1              arm64        graphical application for managing Xfce settings
+ii  xfce4-taskmanager        1.5.8-1               arm64        process manager for the Xfce4 Desktop Environment
+ii  xfce4-terminal           1.1.4-1               arm64        Xfce terminal emulator
+ii  xfce4-whiskermenu-plugin 2.9.2-1               arm64        Alternate menu plugin for the Xfce desktop environment
+ii  zip                      3.0-15+deb13u1        arm64        Archiver for .zip files
+SAMPLES
+terminal-ok
+dock-terminal-ok uid=10528
+Archive extraction verified
+CHECK LIVE PROCESSES
+VERIFIED xfsettingsd 5115 DISPLAY=:2 software=1
+VERIFIED xfwm4 5146 DISPLAY=:2 software=1
+VERIFIED xfdesktop 5324 DISPLAY=:2 software=1
+VERIFIED xfce4-panel 26337 DISPLAY=:2 software=1
+VERIFIED netsurf 2085 DISPLAY=:2 software=1
+VERIFIED netsurf 30009 DISPLAY=:2 software=1
+MIME x-scheme-handler/https netsurf-gtk.desktop
+MIME application/pdf atril.desktop
+MIME image/jpeg org.xfce.ristretto.desktop
+MIME text/plain org.xfce.mousepad.desktop
+MIME application/zip engrampa.desktop
+method return time=1795077096.881216 sender=:1.456 -> destination=:1.514 serial=24 reply_serial=2
+   array [
+      string "xx-large"
+      string "x-large"
+      string "large"
+      string "normal"
+   ]
+
+SESSION
+_NET_SUPPORTING_WM_CHECK(WINDOW): window id # 0xe00032
+Screen 0: minimum 1 x 1, current 1280 x 960, maximum 32767 x 32767
+builtin connected 1280x960+0+0 0mm x 0mm
+   1280x960     119.89* 
+SCRIPT HASH
+7b66d12c7d9fb7a8b5b53087e4a7b3d9141cc7da06b4296a9eacf3da3d977d35  /root/.local/share/linux-desktop/configure-tablet-xfce.py
+73e34daac42fffe400db4f278f5218bbabcb8465db6a9445330456f48d7f951b  /root/.local/share/linux-desktop/backups/20261119-before-ui/xfce-config.tar
+0de49b161b457d49f584beab805da5ada2315b835a4ea6afaa89b0b75bb9ffb1  /root/.local/share/linux-desktop/backups/20261119-tablet-ui/xfce-config.tar
+PACKAGE LOCKS
+FREE /var/lib/dpkg/lock
+FREE /var/lib/dpkg/lock-frontend
+FREE /var/cache/apt/archives/lock
+DISK
+Filesystem        Size  Used Avail Use% Mounted on
+/dev/block/dm-61  226G  128G   98G  57% /

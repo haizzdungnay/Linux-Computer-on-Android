@@ -1,0 +1,54 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 3390}
+GEOMETRY Screen 0: minimum 1 x 1, current 1600 x 1068, maximum 32767 x 32767
+builtin connected 1600x1068+0+0 0mm x 0mm
+   1600x1068    119.94*
+/panels/panel-2/autohide-behavior 2
+/panels/panel-2/position p=10;x=0;y=0
+/panels/panel-2/plugin-ids Value is an array with 9 items:
+
+14
+15
+24
+13
+23
+16
+25
+26
+27
+CSS 
+/* Tablet panels: opaque, no compositor required. */
+.panel-1 { background-color: #1c1d22; border: none; color: #efeff5; }
+.panel-2 { background-color: #222329; border: 1px solid #44444e; border-radius: 0; padding: 0 6px; }
+.panel-2 button { padding: 4px; margin: 0 2px; border-radius: 6px; }
+#whiskermenu-window { background-color: #24252a; color: #efeff5; }
+#whiskermenu-window treeview { background-color: #24252a; color: #efeff5; }
+#whiskermenu-window treeview.view { padding: 3px; }
+#whiskermenu-window entry { min-height: 34px; }
+#whiskermenu-window button { min-height: 32px; }
+
+PANEL 12582913 WINDOW=12582913
+X=10
+Y=10
+WIDTH=10
+HEIGHT=10
+SCREEN=0
+PANEL 12582915 WINDOW=12582915
+X=0
+Y=0
+WIDTH=1600
+HEIGHT=39
+SCREEN=0
+PANEL 12582922 WINDOW=12582922
+X=511
+Y=1166
+WIDTH=578
+HEIGHT=65
+SCREEN=0
+PANEL 12583347 WINDOW=12583347
+X=511
+Y=1065
+WIDTH=578
+HEIGHT=3
+SCREEN=0
+
+(xfce4-screenshooter:799): dbind-WARNING **: 01:18:12.263: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

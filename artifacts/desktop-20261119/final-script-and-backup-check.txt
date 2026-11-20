@@ -1,0 +1,10 @@
+DEPLOYED_SOURCE_MATCH (ignoring final blank line) scripts/configure-tablet-xfce.py DEVICE_SHA256=bf10f4b94a0c0a853c3ef1bfc5b694a6fbd4fa425a8233c708da08e8d14a1114
+DEPLOYED_SOURCE_MATCH (ignoring final blank line) scripts/minimal-launcher/linux-resume.sh DEVICE_SHA256=73da3a74c791c2d511813d08835cabe95e7d830eb1c0f5e0752af9f3c9d740e6
+BACKUP_VALID xfce-config-20261119-before-ui.tar SHA256=73e34daac42fffe400db4f278f5218bbabcb8465db6a9445330456f48d7f951b
+BACKUP_VALID xfce-config-20261119-tablet-ui-before.tar SHA256=0de49b161b457d49f584beab805da5ada2315b835a4ea6afaa89b0b75bb9ffb1
+BACKUP_VALID xfce-config-20261119-working.tar SHA256=c99923724b34d3d1016135d1bb08b8b39a0b244abe5227b129209e72c0c52e28
+PASS: live XFCE settings verified on :2; compositor off; backup: /root/.local/share/linux-desktop/backups/20261119-tablet-ui
+
+Starting: Intent { cmp=com.termux.x11/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+RESUME_REQUESTED: existing XFCE on :2; no desktop process started.

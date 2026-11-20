@@ -1,0 +1,109 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 30636}
+PASS: Mojave settings, assets, UID/session, software rendering, compositor off, 1280x960
+PACKAGES libsass1:arm64	3.6.5+20231221-3+b1
+sassc	3.6.1+20201027-2+b2
+xfce4-panel	4.20.4-1
+xfce4-whiskermenu-plugin	2.9.2-1
+PASS: dpkg --audit empty
+PNG FALLBACKS [('user-home.png', 1843), ('folder.png', 1521), ('folder-documents.png', 1766)]
+CSS BACKUP {"existed": false, "text": ""}
+SHA256 dfe111065e386ce3792e797b64427a4abf50d74dfd830ecac10298da043c44ed /root/.local/share/linux-desktop/backups/20261119-mojave/before.tar
+SHA256 2b6b735d1ed72c885062bf2bcc29348abf4c21900c429254ef2407841ff2c3fd /root/.local/share/linux-desktop/backups/20261119-mojave/working.tar.gz
+SHA256 17c33bf31f93f07bd626cf1c3a3ae22261236a16ab6e6e13d9f04f9eab7aabda /root/.local/share/linux-desktop/style-tablet-xfce.py
+SHA256 d709c8759facf6194547015aa29ce6392e9d2c77f338fc003044d80c2b7fb7e6 /root/.local/share/backgrounds/planet-space-129992.jpg
+LAUNCHERS
+/root/.ld-test/xfce-config/xfce4/panel/launcher-14/17949967192.desktop [Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open --launch FileManager %u
+Icon=org.xfce.filemanager
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Keywords=file;manager;explorer;browse;filesystem;directory;folder;xfce;
+OnlyShowIn=XFCE;
+X-XFCE-MimeType=inode/directory;x-scheme-handler/trash;
+X-AppStream-Ignore=True
+Name=File Manager
+Comment=Browse the file system
+X-XFCE-Source=file:///usr/share/applications/xfce4-file-manager.desktop
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-15/17949967203.desktop [Desktop Entry]
+Type=Application
+Name=Web Browser (NetSurf)
+Comment=Browse basic web pages over HTTPS
+Exec=netsurf %u
+Icon=netsurf
+Terminal=false
+StartupNotify=true
+Categories=Network;WebBrowser;
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-13/17949967191.desktop [Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open --launch TerminalEmulator
+Icon=org.xfce.terminalemulator
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Keywords=terminal;command line;shell;console;xfce;
+OnlyShowIn=XFCE;
+X-AppStream-Ignore=True
+Name=Terminal Emulator
+Comment=Use the command line
+X-XFCE-Source=file:///usr/share/applications/xfce4-terminal-emulator.desktop
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-24/editor.desktop [Desktop Entry]
+Type=Application
+Name=Editor
+Exec=mousepad
+Icon=accessories-text-editor
+Terminal=false
+StartupNotify=true
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-23/settings.desktop [Desktop Entry]
+Type=Application
+Name=Settings
+Exec=xfce4-settings-manager
+Icon=preferences-system
+Terminal=false
+StartupNotify=true
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-16/17949967204.desktop [Desktop Entry]
+Version=1.0
+Exec=xfce4-appfinder
+Icon=org.xfce.appfinder
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Utility;X-XFCE;
+Name=Application Finder
+Comment=Find and launch applications installed on your system
+Keywords=program;applications;bookmarks;
+X-XFCE-Source=file:///usr/share/applications/xfce4-appfinder.desktop
+
+/root/.ld-test/xfce-config/xfce4/panel/launcher-16/taskmanager.desktop [Desktop Entry]
+Type=Application
+Name=Task Manager
+Exec=xfce4-taskmanager
+Icon=utilities-system-monitor
+Terminal=false
+StartupNotify=true
+
+CORE UNCHANGED True
+PANEL_GEOMETRY
+WINDOW=12582915
+X=0
+Y=0
+WIDTH=1280
+HEIGHT=39
+SCREEN=0
+WINDOW=12582922
+X=447
+Y=887
+WIDTH=386
+HEIGHT=66
+SCREEN=0
+BASH PASS 1018 :2.0 /root/.ld-test/xfce-config
+BASH PASS 22913 :2.0 /root/.ld-test/xfce-config
+BASH PASS 31025 :2.0 /root/.ld-test/xfce-config

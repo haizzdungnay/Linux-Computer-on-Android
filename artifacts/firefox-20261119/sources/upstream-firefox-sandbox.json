@@ -1,0 +1,125 @@
+{
+  "sha": "7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+  "node_id": "MDY6Q29tbWl0NjYxOTU3Mzk6N2JmNWNmZTZjODNkYTFiNGE4ODFiMTE5MzUyMzgzZGY5NzYxYzRhNg==",
+  "commit": {
+    "author": {
+      "name": "Michal Bednarski",
+      "email": "bednarski.michal2@gmail.com",
+      "date": "2021-01-06T18:26:27Z"
+    },
+    "committer": {
+      "name": "Michal Bednarski",
+      "email": "bednarski.michal2@gmail.com",
+      "date": "2021-01-10T14:56:38Z"
+    },
+    "message": "Support for Firefox sandbox\n\n- Pass through seccomp SIGSYS if si_code!=0\n  (Android seccomp policy always uses SECCOMP_RET_TRAP\n  without specyfing si_code value,\n  while Firefox fills SECCOMP_RET_DATA with hook number)\n- Prevent tracee from blocking SIGSYS\n  (When trap is triggered but SIGSYS is blocked Linux kernel unregisters\n  signal handler and unblocks it in order to kill process.\n  That signal is suppressed by proot (as ptracer), however signal\n  handler is unregistered in that case nevertheless)\n\ntermux/proot#139",
+    "tree": {
+      "sha": "6aa66832a8a7aa8cada648c4b4378bc72adc22c0",
+      "url": "https://api.github.com/repos/termux/proot/git/trees/6aa66832a8a7aa8cada648c4b4378bc72adc22c0"
+    },
+    "url": "https://api.github.com/repos/termux/proot/git/commits/7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/termux/proot/commits/7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+  "html_url": "https://github.com/termux/proot/commit/7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+  "comments_url": "https://api.github.com/repos/termux/proot/commits/7bf5cfe6c83da1b4a881b119352383df9761c4a6/comments",
+  "author": {
+    "login": "michalbednarski",
+    "id": 1826899,
+    "node_id": "MDQ6VXNlcjE4MjY4OTk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1826899?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/michalbednarski",
+    "html_url": "https://github.com/michalbednarski",
+    "followers_url": "https://api.github.com/users/michalbednarski/followers",
+    "following_url": "https://api.github.com/users/michalbednarski/following{/other_user}",
+    "gists_url": "https://api.github.com/users/michalbednarski/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/michalbednarski/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/michalbednarski/subscriptions",
+    "organizations_url": "https://api.github.com/users/michalbednarski/orgs",
+    "repos_url": "https://api.github.com/users/michalbednarski/repos",
+    "events_url": "https://api.github.com/users/michalbednarski/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/michalbednarski/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "michalbednarski",
+    "id": 1826899,
+    "node_id": "MDQ6VXNlcjE4MjY4OTk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1826899?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/michalbednarski",
+    "html_url": "https://github.com/michalbednarski",
+    "followers_url": "https://api.github.com/users/michalbednarski/followers",
+    "following_url": "https://api.github.com/users/michalbednarski/following{/other_user}",
+    "gists_url": "https://api.github.com/users/michalbednarski/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/michalbednarski/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/michalbednarski/subscriptions",
+    "organizations_url": "https://api.github.com/users/michalbednarski/orgs",
+    "repos_url": "https://api.github.com/users/michalbednarski/repos",
+    "events_url": "https://api.github.com/users/michalbednarski/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/michalbednarski/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "336f4787d64e377039143ad2a50139aee4e10ad4",
+      "url": "https://api.github.com/repos/termux/proot/commits/336f4787d64e377039143ad2a50139aee4e10ad4",
+      "html_url": "https://github.com/termux/proot/commit/336f4787d64e377039143ad2a50139aee4e10ad4"
+    }
+  ],
+  "stats": {
+    "total": 31,
+    "additions": 28,
+    "deletions": 3
+  },
+  "files": [
+    {
+      "sha": "eff521dd25fb53b12a18eaf191cd077bd934c7ff",
+      "filename": "src/syscall/enter.c",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "changes": 22,
+      "blob_url": "https://github.com/termux/proot/blob/7bf5cfe6c83da1b4a881b119352383df9761c4a6/src%2Fsyscall%2Fenter.c",
+      "raw_url": "https://github.com/termux/proot/raw/7bf5cfe6c83da1b4a881b119352383df9761c4a6/src%2Fsyscall%2Fenter.c",
+      "contents_url": "https://api.github.com/repos/termux/proot/contents/src%2Fsyscall%2Fenter.c?ref=7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+      "patch": "@@ -602,6 +602,28 @@ int translate_syscall_enter(Tracee *tracee)\n \t\t}\n \t\tbreak;\n #endif\n+\tcase PR_rt_sigprocmask:\n+\t{\n+\t\tword_t how = peek_reg(tracee, CURRENT, SYSARG_1);\n+\t\tword_t sigset_addr = peek_reg(tracee, CURRENT, SYSARG_2);\n+\t\tword_t sigsetsize = peek_reg(tracee, CURRENT, SYSARG_4);\n+\t\tif ((how == SIG_BLOCK || how == SIG_SETMASK) && sigset_addr != 0 && sigsetsize == sizeof(sigset_t)) {\n+\t\t\tsigset_t mask;\n+\t\t\tif (read_data(tracee, &mask, sigset_addr, sizeof(sigset_t)) == 0) {\n+\t\t\t\tif (sigismember(&mask, SIGSYS)) {\n+\t\t\t\t\tsigdelset(&mask, SIGSYS);\n+\t\t\t\t\tword_t new_sigset_addr = alloc_mem(tracee, sizeof(sigset_t));\n+\t\t\t\t\tif (new_sigset_addr) {\n+\t\t\t\t\t\tif (write_data(tracee, new_sigset_addr, &mask, sizeof(sigset_t)) == 0) {\n+\t\t\t\t\t\t\tpoke_reg(tracee, SYSARG_2, new_sigset_addr);\n+\t\t\t\t\t\t}\n+\t\t\t\t\t}\n+\t\t\t\t}\n+\t\t\t}\n+\n+\t\t}\n+\t\tbreak;\n+\t}\n \t}\n \n end:"
+    },
+    {
+      "sha": "86d43ac45df25c721152de0aabdc2db7fe66a97f",
+      "filename": "src/syscall/seccomp.c",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/termux/proot/blob/7bf5cfe6c83da1b4a881b119352383df9761c4a6/src%2Fsyscall%2Fseccomp.c",
+      "raw_url": "https://github.com/termux/proot/raw/7bf5cfe6c83da1b4a881b119352383df9761c4a6/src%2Fsyscall%2Fseccomp.c",
+      "contents_url": "https://api.github.com/repos/termux/proot/contents/src%2Fsyscall%2Fseccomp.c?ref=7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+      "patch": "@@ -390,6 +390,7 @@ static FilteredSysnum proot_sysnums[] = {\n \t{ PR_renameat,\t\tFILTER_SYSEXIT },\n \t{ PR_renameat2,\t\tFILTER_SYSEXIT },\n \t{ PR_rmdir,\t\t0 },\n+\t{ PR_rt_sigprocmask,\t0 },\n \t{ PR_setrlimit,\t\tFILTER_SYSEXIT },\n \t{ PR_setxattr,\t\t0 },\n \t{ PR_socketcall,\tFILTER_SYSEXIT },"
+    },
+    {
+      "sha": "4e81ed7d4540fa4ff1181040dd7410dae07a5610",
+      "filename": "src/tracee/event.c",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "changes": 8,
+      "blob_url": "https://github.com/termux/proot/blob/7bf5cfe6c83da1b4a881b119352383df9761c4a6/src%2Ftracee%2Fevent.c",
+      "raw_url": "https://github.com/termux/proot/raw/7bf5cfe6c83da1b4a881b119352383df9761c4a6/src%2Ftracee%2Fevent.c",
+      "contents_url": "https://api.github.com/repos/termux/proot/contents/src%2Ftracee%2Fevent.c?ref=7bf5cfe6c83da1b4a881b119352383df9761c4a6",
+      "patch": "@@ -655,12 +655,14 @@ int handle_tracee_event(Tracee *tracee, int tracee_status)\n \t\t\t\t\ttranslate_syscall(tracee);\n \t\t\t\t}\n \n-\t\t\t\tif (tracee->skip_next_seccomp_signal || (seccomp_after_ptrace_enter && siginfo.si_syscall == SYSCALL_AVOIDER)) {\n-\t\t\t\t\tVERBOSE(tracee, 4, \"suppressed SIGSYS after void syscall\");\n+\t\t\t\tif (tracee->skip_next_seccomp_signal || (seccomp_after_ptrace_enter && (word_t) siginfo.si_syscall == SYSCALL_AVOIDER)) {\n+\t\t\t\t\tVERBOSE(tracee, 4, \"vpid %\" PRIu64 \": suppressed SIGSYS after void syscall\", tracee->vpid);\n \t\t\t\t\ttracee->skip_next_seccomp_signal = false;\n \t\t\t\t\tsignal = 0;\n-\t\t\t\t} else {\n+\t\t\t\t} else if (siginfo.si_errno == 0) {\n \t\t\t\t\tsignal = handle_seccomp_event(tracee);\n+\t\t\t\t} else {\n+\t\t\t\t\tVERBOSE(tracee, 1, \"vpid %\" PRIu64 \": non-system seccomp SIGSYS (si_errno=%d)\", tracee->vpid, siginfo.si_errno);\n \t\t\t\t}\n \t\t\t} else {\n \t\t\t\tVERBOSE(tracee, 1, \"non-seccomp SIGSYS\");"
+    }
+  ]
+}
