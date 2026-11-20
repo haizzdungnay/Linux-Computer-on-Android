@@ -1,0 +1,7 @@
+Picom PID 14262, xrender on :2.0, limit 25
+during: Owned Picom: False, X11 selection: 0x2600004
+/data/data/com.termux/files/usr/libexec/proot/loader
+/root/.local/share/linux-desktop/picom-xfce/usr/bin/picom --backend xrender --config /root/.local/share/linux-desktop/picom-xfce/picom.conf
+No managed Picom running
+Trial time expired
+

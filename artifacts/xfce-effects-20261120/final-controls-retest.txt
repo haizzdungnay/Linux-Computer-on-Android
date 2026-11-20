@@ -1,0 +1,7 @@
+Picom PID 4072, xrender on :2.0, limit 12
+Owned Picom: True, X11 selection: 0x2600004
+Duplicate start: Effects already running
+Trial time expired
+Picom PID 4868, xrender on :2.0, limit 25
+Managed Picom stopped
+Final: Owned Picom: False, X11 selection: 0x0

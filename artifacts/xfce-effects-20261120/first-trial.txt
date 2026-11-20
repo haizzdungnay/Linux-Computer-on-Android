@@ -1,0 +1,2 @@
+Picom PID 13533, xrender on :2.0, limit 12
+Trial time expired

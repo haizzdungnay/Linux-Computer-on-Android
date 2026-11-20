@@ -1,0 +1,5 @@
+off: Owned Picom: False, X11 selection: 0x0
+trial on: Owned Picom: True, X11 selection: 0x2600004
+Picom PID 8289, xrender on :2.0, limit 28
+Trial time expired
+after timeout: Owned Picom: False, X11 selection: 0x0

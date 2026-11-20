@@ -1,0 +1,7 @@
+topResumedActivity=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}
+viewer PID before 25973
+Clicked installed Termux:Widget linux-resume.sh at (754, 1092)
+topResumedActivity=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}
+topResumedActivity=ActivityRecord{130259926 u0 com.termux/.app.TermuxActivity t280}
+Elapsed 20.49s
+viewer PID after 25973

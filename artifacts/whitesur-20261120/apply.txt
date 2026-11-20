@@ -1,0 +1,18 @@
+before: Owned Picom: True, X11 selection: 0x2600004
+Managed Picom stopped
+close-active (24, 28)
+hide-active (24, 28)
+maximize-active (24, 28)
+06da812dff6f79dbe8f2483729582655ef39dfd3af83d0eed346969654b97116 /root/.local/share/applications/linux-desktop-effects-on.desktop
+972d4e9795335b5c9ed3b1a7fa1f82aba8c170e4a6f52ed7f23aaba083b5ad6a /root/.local/share/applications/linux-desktop-effects-off.desktop
+1fc6bcccaa20ae3571bee72e916afae26b03465c47d305e96868b73790dd3657 /root/.local/share/linux-desktop/picom-xfce/picom.conf
+72b6973ef23abdeb19369f470fc4be24900316b6af26051edffb9faefc274755 /root/.ld-test/xfce-config/gtk-3.0/gtk.css
+5f099fcea3f850304e525371e095094c1c6b77324d47ad5709a3f7f67df43693 /root/.local/share/linux-desktop/whitesur-tablet-xfce.py
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 1293}
+xsettings:/Net/ThemeName = WhiteSur-Dark-solid-purple
+xsettings:/Net/IconThemeName = WhiteSur-dark
+xsettings:/Gtk/DecorationLayout = close,minimize,maximize:
+xfwm4:/general/theme = WhiteSur-Dark-solid-purple
+xfwm4:/general/button_layout = CHM|
+xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace0/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey-dark.jpg
+xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace1/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey-dark.jpg

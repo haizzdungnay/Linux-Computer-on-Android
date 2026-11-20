@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Bật hiệu ứng
+Name[en]=Effects On
+Comment=Start Picom on the Debian tablet desktop
+Keywords=Effects On;Picom;
+Exec=/usr/bin/python3 /root/.local/share/linux-desktop/picom-xfce/xfce-effects.py run
+Icon=preferences-desktop-display
+Terminal=false
+OnlyShowIn=XFCE;
+Categories=Settings;DesktopSettings;

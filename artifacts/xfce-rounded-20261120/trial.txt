@@ -1,0 +1,6 @@
+Picom PID 12148, xrender on :2.0, limit 35
+Owned Picom: True, X11 selection: 0x2600004
+Managed Picom stopped
+
+Owned Picom: False, X11 selection: 0x0
+

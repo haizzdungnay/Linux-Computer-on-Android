@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Open web URLs in sandboxed Firefox on the existing tablet desktop."""
-# ponytail: one live :2 profile; cold-start integration belongs to future lifecycle work.
+# ponytail: one tablet profile; add profile selection if other desktops need this helper.
 import argparse
 import fcntl
 import json
@@ -16,10 +16,11 @@ from urllib.parse import urlsplit
 PREFIX = Path('/data/data/com.termux/files/usr')
 BASE = Path('/data/data/com.termux/files/home/.local/share/linux-desktop/firefox-sandbox')
 ROOTFS = PREFIX / 'var/lib/proot-distro/containers/debian/rootfs'
-PROFILE = '/root/.ld-test/xfce-config'
+PROFILE = os.environ.get('LINUX_DESKTOP_PROFILE', '/root/.ld-test/xfce-config')
 FIREFOX_PROFILE = PROFILE + '/mozilla/firefox/gtehrka8.default-esr'
 NATIVE = PREFIX.is_dir()
-RUNTIME = (PREFIX / 'tmp' if NATIVE else Path('/tmp')) / 'linux-desktop-firefox-10528'
+SHARED_TMP = Path(os.environ.get('LINUX_DESKTOP_RUNTIME', str(PREFIX / 'tmp'))) if NATIVE else Path('/tmp')
+RUNTIME = SHARED_TMP / 'linux-desktop-firefox-10528'
 SOCKET = RUNTIME / 'open.sock'
 GOOGLE = 'https://www.google.com/'
 
@@ -61,12 +62,17 @@ def browser_command(url):
     args = Path(f'/proc/{next(iter(tracers))}/cmdline').read_bytes().decode().rstrip('\0').split('\0')
     require(args[0] == str(PREFIX / 'bin/proot') and '--rootfs=' + str(ROOTFS) in args
             and args.count('--change-id=0:0') == 1 and '/bin/bash' in args, 'Unexpected desktop PRoot command')
+    if SHARED_TMP != PREFIX / 'tmp':
+        require(f'--bind={SHARED_TMP}:/tmp' in args, 'Desktop runtime does not match the Firefox helper')
     args = [str(BASE / 'proot')] + args[1:args.index('/bin/bash')]
     args[args.index('--change-id=0:0')] = '--change-id=10528:10528'
     env = {k: found['xfsettingsd'][0][0][k] for k in (
         'HOME', 'DISPLAY', 'LIBGL_ALWAYS_SOFTWARE', 'XDG_CONFIG_HOME',
         'XDG_CACHE_HOME', 'XDG_RUNTIME_DIR', 'DBUS_SESSION_BUS_ADDRESS')}
     env.update(PATH='/usr/local/bin:/usr/bin:/bin', LANG='C.UTF-8', USER='aid_u0_a528', LOGNAME='aid_u0_a528')
+    for key in ('PULSE_SERVER', 'PULSE_COOKIE'):
+        if value := found['xfsettingsd'][0][0].get(key):
+            env[key] = value
     args += ['/usr/bin/env', '-i'] + [f'{k}={v}' for k, v in env.items()]
     args += ['/usr/bin/firefox-esr', '--profile', FIREFOX_PROFILE, '--new-tab', web_url(url)]
     native_env = dict(PATH=str(PREFIX / 'bin') + ':/system/bin', HOME=str(PREFIX.parent / 'home'),

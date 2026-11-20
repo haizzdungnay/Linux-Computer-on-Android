@@ -1,0 +1,23 @@
+
+(python3:21230): dbind-WARNING **: 05:43:31.118: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+14 org.xfce.filemanager /root/.local/share/icons/WhiteSur-dark/preferences/32/org.xfce.filemanager.svg 48
+15 firefox-esr /root/.local/share/icons/WhiteSur-dark/apps/scalable/firefox-esr.svg 48
+24 accessories-text-editor /root/.local/share/icons/WhiteSur-dark/apps/scalable/accessories-text-editor.svg 48
+13 org.xfce.terminalemulator /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.terminalemulator.svg 48
+23 preferences-system /root/.local/share/icons/WhiteSur-dark/preferences/32/preferences-system.svg 48
+16 utilities-system-monitor /root/.local/share/icons/WhiteSur-dark/apps/scalable/utilities-system-monitor.svg 48
+25 org.xfce.appfinder /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.appfinder.svg 48
+26 org.xfce.ristretto /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.ristretto.svg 48
+27 atril /root/.local/share/icons/WhiteSur-dark/apps/scalable/atril.svg 48
+preferences-system /root/.local/share/icons/WhiteSur-dark/apps/scalable/preferences-system.svg
+org.xfce.mousepad /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.mousepad.svg
+folder /root/.local/share/icons/WhiteSur-dark/places/24/folder.svg
+user-home /root/.local/share/icons/WhiteSur-dark/places/24/user-home.svg
+dialog-information /root/.local/share/icons/WhiteSur-dark/actions/24/dialog-information.svg
+document-open-symbolic /root/.local/share/icons/WhiteSur-dark/actions/symbolic/document-open-symbolic.svg
+edit-copy-symbolic /root/.local/share/icons/WhiteSur-dark/actions/symbolic/edit-copy-symbolic.svg
+window-close-symbolic /root/.local/share/icons/WhiteSur-dark/actions/symbolic/window-close-symbolic.svg
+cache OK /root/.local/share/icons/WhiteSur-dark
+cache OK /root/.local/share/icons/WhiteSur
+cache OK /root/.local/share/icons/breeze
+cache OK /usr/share/icons/hicolor

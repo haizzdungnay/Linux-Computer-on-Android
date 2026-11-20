@@ -1,0 +1,48 @@
+
+(xfce4-screenshooter:1823): dbind-WARNING **: 03:56:56.305: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:1852): dbind-WARNING **: 03:56:57.829: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:1979): dbind-WARNING **: 03:57:05.319: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+CPU idle start 1795147026.604190
+CPU idle end 1795147031.633605
+CPU drag start 1795147031.634288
+CPU drag end 1795147036.770521
+CPU: {"menu_command_and_probe_ms": 346, "idle": {"seconds": 5.01, "one_core_pct": {"xfwm4": 0.2, "xfce4-panel": 0.0, "termux-x11": 4.19, "picom": 0.2}}, "drag_vertical_travel_px": 260, "drag": {"seconds": 5.12, "one_core_pct": {"xfwm4": 7.42, "xfce4-panel": 7.61, "termux-x11": 38.66, "picom": 15.23}}}
+
+(xfce4-screenshooter:2107): dbind-WARNING **: 03:57:17.975: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:2115): dbind-WARNING **: 03:57:18.866: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:2195): dbind-WARNING **: 03:57:21.447: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-screenshooter:2213): dbind-WARNING **: 03:57:22.312: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+{
+  "menu_command_and_probe_ms": 346,
+  "idle": {
+    "seconds": 5.01,
+    "one_core_pct": {
+      "xfwm4": 0.2,
+      "xfce4-panel": 0.0,
+      "termux-x11": 4.19,
+      "picom": 0.2
+    }
+  },
+  "drag_vertical_travel_px": 260,
+  "drag": {
+    "seconds": 5.12,
+    "one_core_pct": {
+      "xfwm4": 7.42,
+      "xfce4-panel": 7.61,
+      "termux-x11": 38.66,
+      "picom": 15.23
+    }
+  },
+  "alt_tab_command_and_probe_ms": 440,
+  "switch": {
+    "editor": "50331651",
+    "terminal": "48234499",
+    "forward": "48234499",
+    "reverse": "35651587"
+  }
+}

@@ -1,0 +1,7 @@
+{"ok": true, "pid": 20220, "display": ":2"}
+Starting: Intent { cmp=com.termux.x11/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+RESUME_REQUESTED: existing XFCE on :2; no desktop process started.
+
+    topResumedActivity=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}
+

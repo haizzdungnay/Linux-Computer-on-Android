@@ -1,0 +1,11 @@
+162066e737b6f7b9568cc63d712d01bf18c659a09f3c7283bc004a5fc2838296 /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+da94d5f3064a5451e04afe8226b8d61c1fc39c677269fee4144d187654b6a353 /root/.local/share/linux-desktop/whitesur-tablet-xfce.py
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 7165}
+xsettings:/Net/ThemeName = WhiteSur-Dark-solid-purple
+xsettings:/Net/IconThemeName = WhiteSur-dark
+xsettings:/Gtk/DecorationLayout = close,minimize,maximize:
+xfwm4:/general/theme = WhiteSur-Dark-solid-purple
+xfwm4:/general/button_layout = CHM|
+xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace0/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace1/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+

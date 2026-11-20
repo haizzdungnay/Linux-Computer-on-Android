@@ -1,0 +1,13 @@
+launcher-13 org.xfce.terminalemulator /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.terminalemulator.svg
+launcher-14 org.xfce.filemanager /root/.local/share/icons/WhiteSur-dark/preferences/32/org.xfce.filemanager.svg
+launcher-15 firefox-esr /root/.local/share/icons/WhiteSur-dark/apps/scalable/firefox-esr.svg
+launcher-16 org.xfce.appfinder /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.appfinder.svg
+launcher-16 utilities-system-monitor /root/.local/share/icons/WhiteSur-dark/apps/scalable/utilities-system-monitor.svg
+launcher-23 preferences-system /root/.local/share/icons/WhiteSur-dark/preferences/32/preferences-system.svg
+launcher-24 accessories-text-editor /root/.local/share/icons/WhiteSur-dark/apps/scalable/accessories-text-editor.svg
+launcher-25 org.xfce.appfinder /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.appfinder.svg
+launcher-26 org.xfce.ristretto /root/.local/share/icons/WhiteSur-dark/apps/scalable/org.xfce.ristretto.svg
+launcher-27 atril /root/.local/share/icons/WhiteSur-dark/apps/scalable/atril.svg
+close (24, 28)
+maximize (24, 28)
+hide (24, 28)

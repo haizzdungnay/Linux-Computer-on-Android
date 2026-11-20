@@ -1,0 +1,2 @@
+Effects On search/Return: Owned Picom: True, X11 selection: 0x2600004
+Effects Off search/Return: Owned Picom: False, X11 selection: 0x0

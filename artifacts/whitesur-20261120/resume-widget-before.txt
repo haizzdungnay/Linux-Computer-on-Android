@@ -1,0 +1,12 @@
+10528
+u:r:untrusted_app_27:s0:c16,c258,c512,c768
+Lock PID 15917
+srwxrwxrwx. 1 u0_a528 u0_a528 0 Nov 18 16:21 /data/data/com.termux/files/usr/tmp/.X11-unix/X2
+cat: /proc/15917/cmdline: No such file or directory
+
+peer (15917, 10528, 10528)
+_NET_SUPPORTING_WM_CHECK(WINDOW): window id # 0xe00032
+linux-resume: expected one untagged Termux:X11 server on :2; found 0
+old shortcut exit=2
+
+topResumedActivity=ActivityRecord{130259926 u0 com.termux/.app.TermuxActivity t280}

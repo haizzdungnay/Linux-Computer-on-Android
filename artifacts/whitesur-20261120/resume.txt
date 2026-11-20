@@ -1,0 +1,35 @@
+before:
+ 5115 xfsettingsd --no-daemon
+ 5146 xfwm4 --compositor=off
+ 5324 xfdesktop
+ 7165 xfce4-panel
+15917 termux-x11 com.termux.x11 :2
+25973
+script SHA256 f25a732cda6242512f0dfd163f722fcd89f254ee51d0684887af4136eb05a78f
+{"ok": true, "pid": 20220, "display": ":2"}
+Starting: Intent { cmp=com.termux.x11/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+RESUME_REQUESTED: existing XFCE on :2; no desktop process started.
+pin verified: 600
+topResumedActivity=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}
+topResumedActivity=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}
+after:
+ 5115 xfsettingsd --no-daemon
+ 5146 xfwm4 --compositor=off
+ 5324 xfdesktop
+ 7165 xfce4-panel
+15917 termux-x11 com.termux.x11 :2
+25973
+
+With Picom on:
+topResumedActivity=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}
+topResumedActivity=ActivityRecord{142053324 u0 com.termux.x11/.MainActivity t274}
+Owned Picom: True, X11 selection: 0x2e00004
+Same PIDs:
+5115 xfsettingsd --no-daemon
+5146 xfwm4 --compositor=off
+5324 xfdesktop
+7165 xfce4-panel
+15917 termux-x11 com.termux.x11 :2
+22248 picom --backend xrender --config /root/.local/share/linux-desktop/picom-xfce/picom.conf
+25973

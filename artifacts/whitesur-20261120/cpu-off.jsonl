@@ -1,0 +1,5 @@
+{"pids": {"xfsettingsd": 5115, "xfwm4": 5146, "xfdesktop": 5324, "xfce4-panel": 7165, "X11": 15917}, "picom": false}
+{"phase": "idle", "seconds": 5.02, "start_ns": 1795153357145448272, "end_ns": 1795153362165751239, "one_core_pct": {"xfwm4": 2.59, "xfsettingsd": 0.0, "xfce4-panel": 0.0, "xfdesktop": 0.0, "X11": 10.16}, "tablet_cpu_pct": 17.71}
+{"phase": "drag", "seconds": 4.414, "start_ns": 1795153362853928270, "end_ns": 1795153367268010508, "one_core_pct": {"xfwm4": 6.8, "xfsettingsd": 0.0, "xfce4-panel": 2.04, "xfdesktop": 3.62, "X11": 23.56}, "tablet_cpu_pct": 30.82}
+{"phase": "scroll", "seconds": 4.217, "start_ns": 1795153367890721758, "end_ns": 1795153372107895194, "one_core_pct": {"xfwm4": 4.74, "xfsettingsd": 1.9, "xfce4-panel": 0.0, "xfdesktop": 0.0, "X11": 13.52}, "tablet_cpu_pct": 21.22}
+{"phase": "menu", "seconds": 6.29, "start_ns": 1795153372781921860, "end_ns": 1795153379072227691, "one_core_pct": {"xfwm4": 8.43, "xfsettingsd": 0.64, "xfce4-panel": 4.13, "xfdesktop": 3.5, "X11": 30.68}, "whisker_focus_ms": [266, 240, 210, 270, 254, 238, 211, 284], "tablet_cpu_pct": 37.7, "whisker_median_ms": 247.0}

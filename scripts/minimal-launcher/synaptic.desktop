@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Chợ ứng dụng (Synaptic)
+Comment=Find, install and remove Debian packages
+Exec=/usr/sbin/synaptic
+TryExec=/usr/sbin/synaptic
+Icon=synaptic
+Terminal=false
+Categories=GTK;Settings;PackageManager;
+Keywords=APT;Debian;Software;Packages;
+StartupNotify=true

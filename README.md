@@ -2,7 +2,31 @@
 
 Công cụ cài đặt và khởi chạy nhanh gọn **Linux Desktop** (Debian 13 ARM64 + XFCE) trên điện thoại / máy tính bảng Android thông qua **Termux**, **PRoot** và **Termux:X11** — **không cần root Android**.
 
-> **Lưu ý trạng thái hiện tại:** Phiên XFCE `:2` đang hoạt động và đã kiểm chứng giao diện, dock, Firefox và input bàn phím. Tuy nhiên, quy trình **cold start**, **reboot** và **APK Android Launcher** riêng vẫn chưa kiểm chứng end-to-end; vui lòng đọc kỹ phần [Lưu ý vận hành & bảo mật](#lưu-ý-vận-hành--bảo-mật) trước khi sử dụng.
+> **Trạng thái hiện tại** — Widget **Linux Resume** mở phiên đang chạy hoặc khởi động XFCE từ đầu. Đường khởi động và đăng xuất đã thử trên phiên riêng trên tablet. Lần chuyển từ phiên thủ công và mở lại bằng chính widget Android cần thử sau khi đóng các ứng dụng đang mở.
+
+---
+
+## Cài đặt nhanh trên máy Android mới (Termux)
+
+Mở **Termux** trên Android (đã cài sẵn ứng dụng **Termux:X11** và **Termux:Widget** nếu dùng shortcut ngoài màn hình chính), sau đó chạy:
+
+```sh
+pkg update -y && pkg install -y git
+git clone https://github.com/haizzdungnay/Linux-Computer-on-Android.git ~/linux-desktop
+cd ~/linux-desktop
+sh scripts/install.sh
+```
+
+Các tùy chọn hỗ trợ của [scripts/install.sh](scripts/install.sh):
+- `sh scripts/install.sh --dry-run`: Xem trước toàn bộ lệnh sẽ chạy mà không thay đổi hệ thống.
+- `sh scripts/install.sh --skip-pkgs`: Bỏ qua bước cài gói `pkg` / `apt-get`, chỉ triển khai lại các script & cấu hình.
+- `sh scripts/install.sh --skip-themes`: Bỏ qua bước clone/cài theme WhiteSur & hình nền Monterey.
+
+Sau khi cài xong, khởi chạy hoặc khôi phục phiên desktop bằng:
+
+```sh
+~/.shortcuts/linux-resume.sh
+```
 
 ---
 
@@ -10,17 +34,20 @@ Công cụ cài đặt và khởi chạy nhanh gọn **Linux Desktop** (Debian 1
 
 - **Môi trường Linux:** Debian 13 ARM64 chạy qua PRoot trên Termux (không cần root, giữ nguyên container Ubuntu nếu có).
 - **Giao diện Desktop (XFCE trên `DISPLAY=:2`):**
-  - Sử dụng theme **Mojave-Dark-solid** và **WhiteSur**.
+  - GTK3 và Xfwm4 dùng **WhiteSur-Dark** với điểm nhấn xanh, bộ icon **WhiteSur-dark**, hình nền **Monterey** tím/xanh và ba nút cửa sổ bên trái.
   - Tự động co giãn theo kích thước Termux:X11 (toàn màn hình `1600×1068`).
-  - Dock 9 ứng dụng với chế độ ẩn thông minh (vùng gọi lại 12 px).
+  - Dock 9 ứng dụng tự ẩn, rê chuột đến giữa mép dưới để gọi lại. Thanh trên có đồng hồ, nút âm lượng Linux, phần trăm pin Android và nút nguồn Linux.
+  - Whisker có **Bật hiệu ứng** và **Tắt hiệu ứng** cho Picom XRender. Khi bật, hai thanh có blur nền, cửa sổ có bóng và fade. Thunar ở chế độ cửa sổ thường có độ đục 91% và blur nền.
+  - **Đăng xuất và tắt Linux** yêu cầu đóng các cửa sổ ứng dụng trước. Ở phiên do widget khởi chạy, đăng xuất dừng Debian XFCE, Termux:X11, PulseAudio và các helper của phiên. Bấm lại **Linux Resume** trên Android để khởi động lại. Dùng nút nguồn tablet cho chế độ ngủ và tắt Android.
 - **Trình duyệt:** Firefox hoạt động với sandbox mặc định (kèm cấu hình/patch hỗ trợ PRoot trong `scripts/`).
 - **Nhập liệu (bàn phím & touchpad Xiaomi):**
   - KeyInterceptor của Termux:X11 nhận `Alt+Tab` hai chiều trong XFCE.
   - Tắt pointer capture để cuộn hai ngón; đặt con trỏ bằng touchpad và chạm phím **R** để nhấp phải.
 - Chi tiết kiểm chứng và rollback xem tại:
-  - [MOJAVE_FIREFOX_2026-11-20.md](handoff/claude-to-codex/MOJAVE_FIREFOX_2026-11-20.md)
+  - [WhiteSur, ảnh/video và rollback](handoff/claude-to-codex/WHITESUR_2026-11-20.md)
+  - [Mốc Mojave trước khi chuyển và cấu hình Firefox](handoff/claude-to-codex/MOJAVE_FIREFOX_2026-11-20.md)
   - [XIAOMI_INPUT_2026-11-20.md](handoff/claude-to-codex/XIAOMI_INPUT_2026-11-20.md)
-  - Ảnh dock hiện tại: [desktop-visible.png](artifacts/dock-reveal-20261120/desktop-visible.png)
+  - [Ảnh desktop hiện tại](artifacts/whitesur-full-20261120/desktop-thunar.png)
 
 ---
 
@@ -45,7 +72,9 @@ linux-desktop/
 │   ├── minimal-launcher/
 │   │   └── linux-resume.sh   # Script resume nhanh cho launcher tối giản
 │   ├── configure-tablet-xfce.py  # Cấu hình bố cục XFCE cho tablet
-│   ├── style-tablet-xfce.py      # Áp dụng theme Mojave/WhiteSur & dock
+│   ├── style-tablet-xfce.py      # Cấu hình Mojave trước đây và kiểm tra danh tính phiên sống
+│   ├── whitesur-tablet-xfce.py   # Áp dụng, kiểm tra và hoàn tác Xfconf cho WhiteSur
+│   ├── whitesur-panel.css       # Nền panel/dock riêng, chữ và icon giữ độ đục
 │   ├── xfce-effects.py           # Cấu hình hiệu ứng XFCE / picom
 │   ├── picom-xrender.conf        # Cấu hình compositor picom (xrender)
 │   ├── firefox-tablet.py         # Cấu hình Firefox cho môi trường tablet
@@ -74,7 +103,7 @@ linux-desktop/
 
 ### 1. Bộ script điều phối & tối ưu Desktop (`scripts/`)
 - **Quản lý vòng đời:** `scripts/desktop.py` (cùng các wrapper `start-linux.sh`, `stop-linux.sh`, `status-linux.sh`) quản lý các lệnh `start`, `stop`, `status`, `resume`.
-- **Tối ưu giao diện Tablet:** `configure-tablet-xfce.py`, `style-tablet-xfce.py` và `xfce-effects.py` tự động hóa việc thiết lập panel/dock, theme Mojave/WhiteSur và hiệu ứng hiển thị.
+- **Giao diện tablet:** `whitesur-tablet-xfce.py` quản lý cấu hình WhiteSur của profile sống. `xfce-effects.py` bật/tắt Picom riêng qua Whisker. Các script `configure-tablet-xfce.py` và `style-tablet-xfce.py` lưu quy trình giao diện cũ.
 - **Tối ưu Firefox trên PRoot:** `firefox-tablet.py`, `check-firefox-seccomp.c` và `proot-firefox-sandbox.patch`.
 
 ### 2. Android Launcher (`android/`)

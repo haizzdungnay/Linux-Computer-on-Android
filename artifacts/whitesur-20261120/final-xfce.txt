@@ -1,0 +1,256 @@
+session {"xfsettingsd": 5115, "xfwm4": 5146, "xfdesktop": 5324, "xfce4-panel": 7165}
+HOME=/root
+DISPLAY=:2
+XDG_CONFIG_HOME=/root/.ld-test/xfce-config
+LIBGL_ALWAYS_SOFTWARE=1
+dbus_address_sha256=83d19e90734be8bac9603da8ac16db896bd20032c6d9c0a865e5eba3f6539c24
+> xrandr --current
+Screen 0: minimum 1 x 1, current 1600 x 1068, maximum 32767 x 32767
+builtin connected 1600x1068+0+0 0mm x 0mm
+   1600x1068    119.94* 
+> xfconf-query -c xsettings -lv
+/Gdk/WindowScalingFactor        1
+/Gtk/ButtonImages               true
+/Gtk/CanChangeAccels            false
+/Gtk/ColorPalette               black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90
+/Gtk/CursorThemeName            
+/Gtk/CursorThemeSize            32
+/Gtk/DecorationLayout           close,minimize,maximize:
+/Gtk/DialogsUseHeader           false
+/Gtk/FontName                   Noto Sans 11
+/Gtk/IconSizes                  
+/Gtk/KeyThemeName               
+/Gtk/MenuBarAccel               F10
+/Gtk/MenuImages                 true
+/Gtk/MonospaceFontName          Noto Sans Mono 11
+/Gtk/TitlebarMiddleClick        lower
+/Net/CursorBlink                true
+/Net/CursorBlinkTime            1200
+/Net/DndDragThreshold           12
+/Net/DoubleClickDistance        8
+/Net/DoubleClickTime            500
+/Net/EnableEventSounds          false
+/Net/EnableInputFeedbackSounds  false
+/Net/IconThemeName              WhiteSur-dark
+/Net/SoundThemeName             default
+/Net/ThemeName                  WhiteSur-Dark-solid-purple
+/Xft/Antialias                  1
+/Xft/DPI                        120
+/Xft/HintStyle                  hintslight
+/Xft/Hinting                    1
+/Xft/RGBA                       none
+> xfconf-query -c xfwm4 -lv
+/general/activate_action                 bring
+/general/borderless_maximize             true
+/general/box_move                        false
+/general/box_resize                      false
+/general/button_layout                   CHM|
+/general/button_offset                   0
+/general/button_spacing                  0
+/general/click_to_focus                  true
+/general/cycle_apps_only                 false
+/general/cycle_draw_frame                true
+/general/cycle_hidden                    true
+/general/cycle_minimized                 false
+/general/cycle_minimum                   true
+/general/cycle_preview                   true
+/general/cycle_raise                     false
+/general/cycle_tabwin_mode               0
+/general/cycle_workspaces                false
+/general/double_click_action             maximize
+/general/double_click_distance           5
+/general/double_click_time               250
+/general/easy_click                      Alt
+/general/focus_delay                     250
+/general/focus_hint                      true
+/general/focus_new                       true
+/general/frame_border_top                0
+/general/frame_opacity                   100
+/general/full_width_title                true
+/general/horiz_scroll_opacity            false
+/general/inactive_opacity                100
+/general/maximized_offset                0
+/general/mousewheel_rollup               true
+/general/move_opacity                    100
+/general/placement_mode                  center
+/general/placement_ratio                 20
+/general/popup_opacity                   100
+/general/prevent_focus_stealing          false
+/general/raise_delay                     250
+/general/raise_on_click                  true
+/general/raise_on_focus                  false
+/general/raise_with_any_button           true
+/general/repeat_urgent_blink             false
+/general/resize_opacity                  100
+/general/scroll_workspaces               true
+/general/shadow_delta_height             0
+/general/shadow_delta_width              0
+/general/shadow_delta_x                  0
+/general/shadow_delta_y                  -3
+/general/shadow_opacity                  50
+/general/show_app_icon                   false
+/general/show_dock_shadow                true
+/general/show_frame_shadow               true
+/general/show_popup_shadow               false
+/general/snap_resist                     false
+/general/snap_to_border                  true
+/general/snap_to_windows                 false
+/general/snap_width                      10
+/general/theme                           WhiteSur-Dark-solid-purple
+/general/tile_on_move                    true
+/general/title_alignment                 center
+/general/title_font                      Noto Sans Bold 11
+/general/title_horizontal_offset         0
+/general/title_shadow_active             false
+/general/title_shadow_inactive           false
+/general/title_vertical_offset_active    0
+/general/title_vertical_offset_inactive  0
+/general/titleless_maximize              false
+/general/toggle_workspaces               false
+/general/unredirect_overlays             true
+/general/urgent_blink                    false
+/general/use_compositing                 false
+/general/vblank_mode                     auto
+/general/workspace_count                 2
+/general/workspace_names                 [Workspace 1,Workspace 2,Workspace 3,Workspace 4]
+/general/wrap_cycle                      true
+/general/wrap_layout                     true
+/general/wrap_resistance                 10
+/general/wrap_windows                    false
+/general/wrap_workspaces                 false
+/general/zoom_desktop                    true
+/general/zoom_pointer                    true
+> xfconf-query -c xfce4-panel -lv
+/configver                                        2
+/panels                                           [1,2]
+/panels/dark-mode                                 true
+/panels/panel-1/autohide-behavior                 0
+/panels/panel-1/background-style                  0
+/panels/panel-1/icon-size                         24
+/panels/panel-1/length                            100
+/panels/panel-1/plugin-ids                        [21,2,3,6,8,1]
+/panels/panel-1/position                          p=6;x=0;y=0
+/panels/panel-1/position-locked                   true
+/panels/panel-1/size                              38
+/panels/panel-2/autohide-behavior                 1
+/panels/panel-2/background-style                  0
+/panels/panel-2/icon-size                         48
+/panels/panel-2/length                            1
+/panels/panel-2/length-adjust                     true
+/panels/panel-2/plugin-ids                        [14,15,24,13,23,16,25,26,27]
+/panels/panel-2/position                          p=10;x=0;y=0
+/panels/panel-2/position-locked                   true
+/panels/panel-2/size                              64
+/plugins/plugin-1                                 xfce4-clipman-plugin
+/plugins/plugin-10                                actions
+/plugins/plugin-11                                showdesktop
+/plugins/plugin-12                                separator
+/plugins/plugin-13                                launcher
+/plugins/plugin-13/items                          [17949967191.desktop]
+/plugins/plugin-14                                launcher
+/plugins/plugin-14/items                          [17949967192.desktop]
+/plugins/plugin-15                                launcher
+/plugins/plugin-15/items                          [firefox.desktop]
+/plugins/plugin-16                                launcher
+/plugins/plugin-16/items                          [taskmanager.desktop]
+/plugins/plugin-17                                separator
+/plugins/plugin-18                                directorymenu
+/plugins/plugin-18/base-directory                 /root
+/plugins/plugin-2                                 tasklist
+/plugins/plugin-2/flat-buttons                    true
+/plugins/plugin-2/grouping                        1
+/plugins/plugin-2/show-handle                     false
+/plugins/plugin-2/show-labels                     false
+/plugins/plugin-2/show-tooltips                   true
+/plugins/plugin-21                                whiskermenu
+/plugins/plugin-21/button-icon                    distributor-logo-debian
+/plugins/plugin-21/button-title                   Menu
+/plugins/plugin-21/category-icon-size             1
+/plugins/plugin-21/category-show-name             false
+/plugins/plugin-21/favorites                      [firefox-esr.desktop,xfce4-terminal.desktop,thunar.desktop,org.xfce.mousepad.desktop,xfce-settings-manager.desktop,xfce4-taskmanager.desktop,org.xfce.ristretto.desktop]
+/plugins/plugin-21/launcher-icon-size             2
+/plugins/plugin-21/launcher-show-description      false
+/plugins/plugin-21/launcher-show-name             true
+/plugins/plugin-21/menu-height                    520
+/plugins/plugin-21/menu-width                     350
+/plugins/plugin-21/position-categories-alternate  true
+/plugins/plugin-21/position-profile-alternate     true
+/plugins/plugin-21/position-search-alternate      true
+/plugins/plugin-21/recent                         [linux-desktop-effects-on.desktop,linux-desktop-effects-off.desktop,org.xfce.mousepad.desktop]
+/plugins/plugin-21/show-button-icon               true
+/plugins/plugin-21/show-button-title              true
+/plugins/plugin-21/show-command-hibernate         false
+/plugins/plugin-21/show-command-lockscreen        false
+/plugins/plugin-21/show-command-logout            false
+/plugins/plugin-21/show-command-logoutuser        false
+/plugins/plugin-21/show-command-restart           false
+/plugins/plugin-21/show-command-settings          true
+/plugins/plugin-21/show-command-shutdown          false
+/plugins/plugin-21/show-command-suspend           false
+/plugins/plugin-21/show-command-switchuser        false
+/plugins/plugin-23                                launcher
+/plugins/plugin-23/items                          [settings.desktop]
+/plugins/plugin-24                                launcher
+/plugins/plugin-24/items                          [editor.desktop]
+/plugins/plugin-25                                launcher
+/plugins/plugin-25/items                          [app.desktop]
+/plugins/plugin-26                                launcher
+/plugins/plugin-26/items                          [app.desktop]
+/plugins/plugin-27                                launcher
+/plugins/plugin-27/items                          [app.desktop]
+/plugins/plugin-3                                 separator
+/plugins/plugin-3/expand                          true
+/plugins/plugin-3/style                           0
+/plugins/plugin-4                                 pager
+/plugins/plugin-5                                 separator
+/plugins/plugin-5/style                           0
+/plugins/plugin-6                                 systray
+/plugins/plugin-6/square-icons                    true
+/plugins/plugin-7                                 separator
+/plugins/plugin-7/style                           0
+/plugins/plugin-8                                 clock
+/plugins/plugin-8/digital-date-format             %a, %d %b
+/plugins/plugin-8/digital-layout                  3
+/plugins/plugin-8/digital-time-font               Noto Sans Bold 10
+/plugins/plugin-8/digital-time-format             %H:%M
+/plugins/plugin-8/timezone                        Asia/Ho_Chi_Minh
+/plugins/plugin-9                                 separator
+/plugins/plugin-9/style                           0
+> xfconf-query -c xfce4-desktop -lv
+/backdrop/screen0/monitorbuiltin/workspace0/image-style  5
+/backdrop/screen0/monitorbuiltin/workspace0/last-image   /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+/backdrop/screen0/monitorbuiltin/workspace1/image-style  5
+/backdrop/screen0/monitorbuiltin/workspace1/last-image   /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+/desktop-icons/confirm-sorting                           false
+/desktop-icons/file-icons/show-filesystem                false
+/desktop-icons/file-icons/show-home                      true
+/desktop-icons/file-icons/show-removable                 false
+/desktop-icons/file-icons/show-trash                     false
+/desktop-icons/font-size                                 11.000000
+/desktop-icons/gravity                                   2
+/desktop-icons/icon-size                                 48
+/desktop-icons/style                                     2
+/desktop-icons/use-custom-font-size                      true
+/last-settings-migration-version                         1
+> xfconf-query -c xfce4-terminal -lv
+/background-mode     TERMINAL_BACKGROUND_SOLID
+/color-background    #202124
+/color-cursor        #67c9ea
+/color-foreground    #e9e9ef
+/color-use-theme     false
+/custom-command      /bin/bash
+/font-name           Noto Sans Mono 11
+/run-custom-command  true
+> /usr/bin/python3 /root/.local/share/linux-desktop/picom-xfce/xfce-effects.py status
+Owned Picom: True, X11 selection: 0x2e00004
+gtk.css 72b6973ef23abdeb19369f470fc4be24900316b6af26051edffb9faefc274755
+xfce4-keyboard-shortcuts.xml cbd6b8984bdd6f3d80d9635a8e4d7eed6ff855612e868f4d0a281e95c34d807d
+xdotool /usr/bin/xdotool
+wmctrl None
+gtk-update-icon-cache /usr/bin/gtk-update-icon-cache
+gtk-update-icon-cache-3.0 None
+glib-compile-resources None
+sassc /usr/bin/sassc
+gtk-launch None
+xwininfo /usr/bin/xwininfo
+xprop /usr/bin/xprop

@@ -1,0 +1,29 @@
+_NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_DOCK
+_NET_WM_STRUT_PARTIAL(CARDINAL) = 0, 0, 39, 0, 0, 0, 0, 0, 0, 1599, 0, 0
+WM_CLASS(STRING) = "xfce4-panel", "Xfce4-panel"
+WM_WINDOW_ROLE(STRING) = "Panel"
+_NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_DOCK
+_NET_WM_STRUT_PARTIAL:  not found.
+WM_CLASS(STRING) = "xfce4-panel", "Xfce4-panel"
+WM_WINDOW_ROLE(STRING) = "Panel"
+_NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_MENU
+WM_CLASS(STRING) = "wrapper-2.0", "Wrapper-2.0"
+WM_WINDOW_ROLE:  not found.
+_NET_WM_NAME(UTF8_STRING) = "Whisker Menu"
+WM_NAME(STRING) = "Whisker Menu"
+_NET_WM_STATE(ATOM) = _NET_WM_STATE_STICKY, _NET_WM_STATE_MODAL, _NET_WM_STATE_SKIP_PAGER, _NET_WM_STATE_SKIP_TASKBAR, _NET_WM_STATE_ABOVE, _NET_WM_STATE_FOCUSED
+
+xwininfo: Window id: 0x120006f "Whisker Menu"
+
+  Absolute upper-left X:  0
+  Absolute upper-left Y:  39
+  Relative upper-left X:  0
+  Relative upper-left Y:  0
+  Width: 350
+  Height: 520
+  Depth: 24
+  Visual: 0x3bb
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x1200042 (installed)

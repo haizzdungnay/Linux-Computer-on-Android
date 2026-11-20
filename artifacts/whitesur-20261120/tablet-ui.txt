@@ -1,0 +1,33 @@
+dock Files: XID 33616596, WM_CLASS(STRING) = "thunar", "Thunar"
+dock Terminal: XID 31459599, WM_CLASS(STRING) = "xfce4-terminal", "Xfce4-terminal"
+Mouse helper MOVE handle dragged to right edge
+Settings dock click active=31459599; newly mapped ids=[39845891]
+Settings existing XID 37748739: WM_CLASS(STRING) = "xfce4-settings-manager", "Xfce4-settings-manager"
+ | _NET_WM_NAME(UTF8_STRING) = "Settings"
+dock Mousepad: XID 46137347, WM_CLASS(STRING) = "mousepad", "Mousepad"
+XTest Alt+Tab/Alt+Shift+Tab focus 46137347 -> 37748739 -> 31457709
+Android injected Alt+Tab: 46137347 -> 46137347, foreground topResumedActivity=ActivityRecord{147297004 u0 com.miui.home/.launcher.Launcher t2}
+Termux:X11 R button tapped at 3134,1894
+Mousepad state after left maximize control: _NET_WM_STATE(ATOM) = _NET_WM_STATE_MAXIMIZED_HORZ, _NET_WM_STATE_MAXIMIZED_VERT, _NET_WM_STATE_FOCUSED
+Loaded 124-line scroll sample through Mousepad Open dialog, used XTest wheel and text drag selection
+Owned Picom: True, X11 selection: 0x2e00004
+Owned Picom: True, X11 selection: 0x2e00004
+Repeated Effects On kept one managed Picom (state 21019 131636501)
+Owned Picom: False, X11 selection: 0x0
+Owned Picom: True, X11 selection: 0x2e00004
+Headless: Managed Picom stopped
+Owned Picom: False, X11 selection: 0x0
+Owned Picom: True, X11 selection: 0x2e00004
+On via Whisker for final capture
+19s Android screenrecord, WhiteSur desktop/Whisker/Thunar/Terminal/Mousepad, window drag, scroll and fades
+Tablet video 17.21s at 1600x1068. Retook clean desktop, Whisker, Thunar + Terminal, Mousepad and R with Picom on
+restore: SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 7165} | xsettings:/Net/ThemeName = Mojave-Dark-solid | xsettings:/Net/IconThemeName = WhiteSur-dark | xsettings:/Gtk/DecorationLayout = icon,menu:minimize,maximize,close | xfwm4:/general/theme = Mojave-Dark-solid | xfwm4:/general/button_layout = O|SHMC | xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace0/last-image = /root/.local/share/backgrounds/planet-space-129992.jpg | xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace1/last-image = /root/.local/share/backgrounds/planet-space-129992.jpg
+apply: SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 7165} | xsettings:/Net/ThemeName = WhiteSur-Dark-solid-purple | xsettings:/Net/IconThemeName = WhiteSur-dark | xsettings:/Gtk/DecorationLayout = close,minimize,maximize: | xfwm4:/general/theme = WhiteSur-Dark-solid-purple | xfwm4:/general/button_layout = CHM| | xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace0/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey.jpg | xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace1/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+check: SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 7165} | xsettings:/Net/ThemeName = WhiteSur-Dark-solid-purple | xsettings:/Net/IconThemeName = WhiteSur-dark | xsettings:/Gtk/DecorationLayout = close,minimize,maximize: | xfwm4:/general/theme = WhiteSur-Dark-solid-purple | xfwm4:/general/button_layout = CHM| | xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace0/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey.jpg | xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace1/last-image = /root/.local/share/backgrounds/WhiteSur-Monterey.jpg
+QA window 46137347 closed
+QA window 31459599 closed
+QA window 33616596 closed
+QA window 39845891 closed
+_NET_SHOWING_DESKTOP(CARDINAL) = 1
+_NET_CURRENT_DESKTOP(CARDINAL) = 1
+Warm Resume can move floating L/M/R inward and reflow icons. Re-aligned via Android MOVE handle 3079,2026,3189,2136 and xfdesktop --arrange.

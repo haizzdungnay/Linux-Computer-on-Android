@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Tắt hiệu ứng
+Name[en]=Effects Off
+Comment=Stop Picom on the Debian tablet desktop
+Keywords=Effects Off;Picom;
+Exec=/usr/bin/python3 /root/.local/share/linux-desktop/picom-xfce/xfce-effects.py off
+Icon=preferences-desktop-display
+Terminal=false
+OnlyShowIn=XFCE;
+Categories=Settings;DesktopSettings;

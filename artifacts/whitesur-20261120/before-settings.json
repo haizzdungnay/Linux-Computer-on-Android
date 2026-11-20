@@ -1,0 +1,13 @@
+{
+  "xsettings:/Net/ThemeName": "Mojave-Dark-solid",
+  "xsettings:/Net/IconThemeName": "WhiteSur-dark",
+  "xsettings:/Gtk/DecorationLayout": "icon,menu:minimize,maximize,close",
+  "xfwm4:/general/theme": "Mojave-Dark-solid",
+  "xfwm4:/general/button_layout": "O|SHMC",
+  "xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace0/last-image": "/root/.local/share/backgrounds/planet-space-129992.jpg",
+  "xfce4-desktop:/backdrop/screen0/monitorbuiltin/workspace1/last-image": "/root/.local/share/backgrounds/planet-space-129992.jpg",
+  "xfce4-panel:/panels/panel-1/background-style": "0",
+  "xfce4-panel:/panels/panel-2/background-style": "0",
+  "xfce4-panel:/panels/panel-1/background-rgba": null,
+  "xfce4-panel:/panels/panel-2/background-rgba": null
+}

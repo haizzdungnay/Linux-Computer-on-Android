@@ -1,0 +1,13 @@
+com.termux.x11/com.termux.x11.utils.KeyInterceptor
+Physical size: 2136x3200
+Physical density: 440
+"preferScancodes"="true"
+"touchMode"="Trackpad"
+"hardwareKbdScancodesWorkaround"="true"
+"fullscreen"="true"
+"filterOutWinkey"="false"
+"displayScale"="200"
+"storeSecondaryDisplayPreferencesSeparately"="true"
+"showMouseHelper"="true"
+"pointerCapture"="false"
+"displayResolutionMode"="scaled"

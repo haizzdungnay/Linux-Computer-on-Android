@@ -1,0 +1,8 @@
+SESSION {'xfsettingsd': 5115, 'xfwm4': 5146, 'xfdesktop': 5324, 'xfce4-panel': 1293}
+PASS: Mojave settings, assets, launchers, UID/session, software rendering, compositor off, 1600x1068
+Owned Picom: False, X11 selection: 0x0
+PASS backup file contents compare
+15129f760d1b1a5a5e0119922e9ba310b5a71e752d1f73d64a578d6412a5f916  /root/.local/share/linux-desktop/picom-xfce/xfce-effects.py
+ae95b39c44af033b736cace16ced500c681d3114a2502d3d97238e8d5588a298  /root/.local/share/linux-desktop/picom-xfce/picom.conf
+d93daf519f708015e92d49489d9e2c5c024fa5ca22db8650316dd2a60ffe03e0  /root/.local/share/linux-desktop/backups/20261120-xfce-effects/before.tar
+PASS no Picom autostart in the active profile or XDG system path
