@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=Visual Studio Code
+Comment=Edit local code and projects
+Exec=/usr/bin/env SHELL=/bin/bash /usr/share/code/code --no-sandbox --user-data-dir=/root/.config/Code %F
+TryExec=/usr/share/code/code
+Icon=vscode
+Terminal=false
+Categories=Development;IDE;
+StartupNotify=true
+StartupWMClass=com.microsoft.VSCode
+MimeType=text/plain;inode/directory;application/x-code-workspace;
+Actions=new-empty-window;
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/usr/bin/env SHELL=/bin/bash /usr/share/code/code --no-sandbox --user-data-dir=/root/.config/Code --new-window
+Icon=vscode

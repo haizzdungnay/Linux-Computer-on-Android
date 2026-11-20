@@ -6,9 +6,24 @@ Công cụ cài đặt và khởi chạy nhanh gọn **Linux Desktop** (Debian 1
 
 ---
 
-## Cài đặt nhanh trên máy Android mới (Termux)
+## Cài đặt nhanh trên máy Android mới
 
-Mở **Termux** trên Android (đã cài sẵn ứng dụng **Termux:X11** và **Termux:Widget** nếu dùng shortcut ngoài màn hình chính), sau đó chạy:
+### Cách 1: APK All-in-One (Không cần cài Termux hay Termux:X11)
+
+APK `dev.local.linuxdesktop.launcher` tích hợp sẵn **PRoot ARM64** (`libproot.so`, `libproot-loader.so`, `libtalloc.so.2`), **X11 Server / Lorie Viewer** (`libXlorie.so`) và toàn bộ script cấu hình trong repo:
+
+1. Tải file APK từ mục **Releases** trên GitHub (hoặc build trực tiếp bằng Gradle trong `android/` với `gradle :app:assembleDebug`).
+2. Cài APK lên thiết bị Android ARM64 (`arm64-v8a`, Android 8.0+ / `minSdk 26`, `targetSdk 28`).
+3. Mở **Linux Desktop** -> nhấn **Install Linux Desktop**:
+   - Tự động tải Debian 13 (`trixie`) ARM64 rootfs từ `images.linuxcontainers.org`.
+   - Giải nén, triển khai script desktop và chạy `apt-get install` (`xfce4`, `picom`, `firefox-esr`, fonts, `sassc`...), cài theme **WhiteSur-Dark**, **WhiteSur-dark icons** và hình nền **Monterey**.
+4. Nhấn **Start & Open Desktop** để khởi chạy X11 server nội bộ + phiên Debian XFCE và mở màn hình desktop ngay trong app.
+
+> **Lưu ý kiểm thử APK độc lập:** APK All-in-One đã được biên dịch (`assembleDebug`) và kiểm thử unit test (`testDebugUnitTest`). Quá trình cài đặt & khởi chạy end-to-end trên một máy Android sạch chưa cài Termux cần được thử nghiệm trực tiếp trên thiết bị.
+
+### Cách 2: Cài qua Termux + `scripts/install.sh`
+
+Nếu thiết bị đã cài **Termux** (và **Termux:X11** / **Termux:Widget**), mở Termux và chạy:
 
 ```sh
 pkg update -y && pkg install -y git

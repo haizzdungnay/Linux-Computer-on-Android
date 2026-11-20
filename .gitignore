@@ -6,6 +6,8 @@ android/.tmp/
 android/.android-home/
 android/build/
 android/app/build/
+android/lorie/build/
+android/shell-loader/stub/build/
 android/test-classes/
 android/local.properties
 *.iml

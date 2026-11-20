@@ -1,205 +1,174 @@
 package dev.local.linuxdesktop.launcher
 
+import android.Manifest
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.net.Uri
+import android.os.Build
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.provider.Settings
 import android.view.Gravity
+import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.ProgressBar
+import android.widget.ScrollView
 import android.widget.TextView
 
-private const val RUN_PERMISSION = "com.termux.permission.RUN_COMMAND"
-private const val PERMISSION_REQUEST = 7
-private const val RETRY_DELAY_MS = 1500L
-
+/** Standalone auto-installer & launcher for Debian 13 + XFCE + WhiteSur on Android. */
 class MainActivity : Activity() {
-    private lateinit var status: TextView
-    private lateinit var check: Button
-    private lateinit var start: Button
-    private lateinit var stop: Button
-    private lateinit var resume: Button
-    private val handler = Handler(Looper.getMainLooper())
-    private val retry = Runnable { execute(Command.STATUS) }
-    private var visible = false
-    private var uiError: String? = null
-    private var permissionAsked = false
-    private var launchPending = true
-    private lateinit var flow: LaunchFlow
+    private lateinit var installer: RootfsInstaller
+    private lateinit var paths: StandalonePaths
+    private lateinit var statusView: TextView
+    private lateinit var progressBar: ProgressBar
+    private lateinit var logView: TextView
+    private lateinit var logScroll: ScrollView
+    private lateinit var installBtn: Button
+    private lateinit var startBtn: Button
+    private lateinit var stopBtn: Button
+    private lateinit var settingsBtn: Button
+
+    @Volatile
+    private var installing = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val prefs = getPreferences(MODE_PRIVATE)
-        flow = LaunchFlow(prefs.getBoolean("startIssued", false))
-        launchPending = savedInstanceState?.getBoolean("launchPending") ?: true
-        permissionAsked = savedInstanceState?.getBoolean("permissionAsked") ?: false
-        val layout = LinearLayout(this).apply {
+        installer = RootfsInstaller(this)
+        paths = StandalonePaths(this)
+
+        val root = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER_HORIZONTAL
-            setPadding(32, 48, 32, 32)
+            setPadding(36, 48, 36, 36)
         }
-        status = TextView(this).apply { textSize = 18f; setTextIsSelectable(true) }
-        layout.addView(status)
-        fun button(label: String, action: () -> Unit): Button = Button(this).also {
+
+        val title = TextView(this).apply {
+            text = "Linux Computer on Android"
+            textSize = 22f
+            setPadding(0, 0, 0, 12)
+        }
+        statusView = TextView(this).apply {
+            textSize = 16f
+            setTextIsSelectable(true)
+            setPadding(0, 0, 0, 16)
+        }
+        progressBar = ProgressBar(this, null, android.R.attr.progressBarStyleHorizontal).apply {
+            max = 100
+            visibility = View.GONE
+        }
+
+        fun addButton(label: String, onClick: () -> Unit): Button = Button(this).also {
             it.text = label
-            it.setOnClickListener { action() }
-            layout.addView(it)
+            it.setOnClickListener { onClick() }
+            root.addView(it, LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ))
         }
-        check = button("Check status") { execute(Command.STATUS) }
-        start = button("Start") {
-            launchPending = true
-            flow = LaunchFlow()
-            issueStart()
-        }
-        stop = button("Stop") {
-            launchPending = false
-            handler.removeCallbacks(retry)
-            execute(Command.STOP)
-        }
-        resume = button("Resume desktop") {
-            launchPending = true
-            flow = LaunchFlow(startIssued = true)
-            execute(Command.STATUS)
-        }
-        button("App permissions") {
-            try {
-                startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:$packageName")))
-            } catch (e: Exception) {
-                uiError = "Cannot open app settings: ${e.message}"
-                render()
-            }
-        }
-        setContentView(layout)
-    }
 
-    override fun onNewIntent(intent: Intent) {
-        super.onNewIntent(intent)
-        setIntent(intent)
-        launchPending = true
-        flow = LaunchFlow(getPreferences(MODE_PRIVATE).getBoolean("startIssued", false))
-    }
+        root.addView(title)
+        root.addView(statusView)
+        root.addView(progressBar, LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        ))
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        outState.putBoolean("launchPending", launchPending)
-        outState.putBoolean("permissionAsked", permissionAsked)
-        super.onSaveInstanceState(outState)
+        installBtn = addButton("Install Linux Desktop") { beginInstall() }
+        startBtn = addButton("Start & Open Desktop") { launchDesktop() }
+        stopBtn = addButton("Stop Desktop") { stopDesktop() }
+        settingsBtn = addButton("X11 Display Settings") {
+            startActivity(Intent(this, com.termux.x11.LoriePreferences::class.java))
+        }
+
+        logView = TextView(this).apply {
+            textSize = 12f
+            typeface = android.graphics.Typeface.MONOSPACE
+            setTextIsSelectable(true)
+            setPadding(16, 16, 16, 16)
+        }
+        logScroll = ScrollView(this).apply { addView(logView) }
+        root.addView(logScroll, LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT, 0, 1f
+        ))
+
+        setContentView(root)
+        if (Build.VERSION.SDK_INT >= 33 &&
+            checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+        ) {
+            requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 101)
+        }
     }
 
     override fun onResume() {
         super.onResume()
-        visible = true
-        TermuxCommands.listener = { completed ->
-            if (completed == Command.STOP && TermuxCommands.state == DesktopState.STOPPED) {
-                flow.startIssued = getPreferences(MODE_PRIVATE).getBoolean("startIssued", false)
-            }
-            render()
-            if (completed != null && launchPending) reconcile(completed)
-        }
-        render()
-        if (checkSelfPermission(RUN_PERMISSION) != PackageManager.PERMISSION_GRANTED) {
-            if (!permissionAsked) {
-                permissionAsked = true
-                requestPermissions(arrayOf(RUN_PERMISSION), PERMISSION_REQUEST)
-            }
-        } else if (!TermuxCommands.busy) {
-            flow.startIssued = getPreferences(MODE_PRIVATE).getBoolean("startIssued", false)
-            execute(Command.STATUS)
-        }
+        refreshUi()
     }
 
-    override fun onPause() {
-        visible = false
-        handler.removeCallbacks(retry)
-        TermuxCommands.listener = null
-        super.onPause()
+    private fun refreshUi() {
+        val installed = installer.isInstalled()
+        val running = DesktopService.running
+        statusView.text = when {
+            installing -> "Installing Debian 13 + XFCE + WhiteSur..."
+            running -> "Status: Running on embedded X11 (:2)"
+            installed -> "Status: Debian 13 XFCE installed (Stopped)"
+            else -> "Status: Not installed yet (No Termux required)"
+        }
+        installBtn.text = if (installed) "Reinstall / Repair Desktop" else "Install Linux Desktop"
+        installBtn.isEnabled = !installing && !running
+        startBtn.isEnabled = installed && !installing
+        startBtn.text = if (running) "Open Desktop" else "Start & Open Desktop"
+        stopBtn.isEnabled = running && !installing
+        progressBar.visibility = if (installing) View.VISIBLE else View.GONE
     }
 
-    private fun reconcile(completed: Command) {
-        when (flow.result(completed, TermuxCommands.state, visible)) {
-            LaunchAction.OPEN -> {
-                launchPending = false
-                if (openDesktop()) {
-                    getPreferences(MODE_PRIVATE).edit().putBoolean("startIssued", false).apply()
-                    flow.startIssued = false
+    private fun beginInstall() {
+        if (installing) return
+        installing = true
+        logView.text = ""
+        progressBar.progress = 0
+        refreshUi()
+
+        Thread({
+            try {
+                installer.install(
+                    onProgress = { p ->
+                        runOnUiThread {
+                            progressBar.progress = p.percent
+                            statusView.text = "${p.step} (${p.percent}%) ${p.detail}"
+                        }
+                    },
+                    onLog = { line ->
+                        runOnUiThread {
+                            logView.append("$line\n")
+                            logScroll.post { logScroll.fullScroll(View.FOCUS_DOWN) }
+                        }
+                    }
+                )
+            } catch (e: Exception) {
+                runOnUiThread {
+                    logView.append("\nERROR: ${e.message}\n")
+                    statusView.text = "Installation failed: ${e.message}"
+                }
+            } finally {
+                runOnUiThread {
+                    installing = false
+                    refreshUi()
                 }
             }
-            LaunchAction.RETRY -> if (visible) handler.postDelayed(retry, RETRY_DELAY_MS)
-            LaunchAction.NONE -> {
-                if (TermuxCommands.state == DesktopState.STOPPED && flow.startIssued) {
-                    launchPending = false
-                    uiError = "Desktop is stopped. Check status or start manually."
-                    render()
-                }
-            }
-        }
+        }, "linux-desktop-installer").start()
     }
 
-    private fun issueStart() {
-        if (TermuxCommands.busy || checkSelfPermission(RUN_PERMISSION) != PackageManager.PERMISSION_GRANTED) {
-            launchPending = false
-            uiError = "Start not sent. Check permission and command status."
-            render()
+    private fun launchDesktop() {
+        if (!installer.isInstalled()) return
+        if (DesktopService.running) {
+            startActivity(Intent(this, com.termux.x11.MainActivity::class.java))
             return
         }
-        if (!getPreferences(MODE_PRIVATE).edit().putBoolean("startIssued", true).commit()) {
-            uiError = "Cannot record start request. Start cancelled."
-            render()
-            return
-        }
-        flow.startIssued = true
-        execute(Command.START)
+        startForegroundService(Intent(this, DesktopService::class.java).setAction(DesktopService.ACTION_START))
+        statusView.postDelayed({ refreshUi() }, 500)
     }
 
-    private fun execute(command: Command) {
-        uiError = null
-        if (checkSelfPermission(RUN_PERMISSION) != PackageManager.PERMISSION_GRANTED) {
-            uiError = "Termux RUN_COMMAND permission required. Grant it in app permissions; enable allow-external-apps in Termux."
-            render()
-            if (!permissionAsked) {
-                permissionAsked = true
-                requestPermissions(arrayOf(RUN_PERMISSION), PERMISSION_REQUEST)
-            }
-            return
-        }
-        TermuxCommands.run(applicationContext, command)
-    }
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode != PERMISSION_REQUEST) return
-        if (grantResults.firstOrNull() == PackageManager.PERMISSION_GRANTED) {
-            if (visible && !TermuxCommands.busy) execute(Command.STATUS)
-        } else {
-            launchPending = false
-            uiError = "Termux permission denied. Grant Run commands in Termux environment under app permissions."
-            render()
-        }
-    }
-
-    private fun openDesktop(): Boolean {
-        if (!visible || TermuxCommands.busy || TermuxCommands.state != DesktopState.RUNNING) return false
-        return try {
-            val intent = packageManager.getLaunchIntentForPackage("com.termux.x11")
-                ?: throw IllegalStateException("Termux:X11 is not installed or has no launch activity")
-            startActivity(intent)
-            true
-        } catch (e: Exception) {
-            uiError = "Cannot open Termux:X11: ${e.message}"
-            render()
-            false
-        }
-    }
-
-    private fun render() {
-        status.text = uiError ?: TermuxCommands.message
-        val idle = !TermuxCommands.busy
-        check.isEnabled = idle
-        start.isEnabled = idle && TermuxCommands.state == DesktopState.STOPPED
-        stop.isEnabled = idle && TermuxCommands.state != DesktopState.STOPPED
-        resume.isEnabled = idle && TermuxCommands.state == DesktopState.RUNNING
+    private fun stopDesktop() {
+        startService(Intent(this, DesktopService::class.java).setAction(DesktopService.ACTION_STOP))
+        statusView.postDelayed({ refreshUi() }, 300)
     }
 }
