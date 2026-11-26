@@ -1,0 +1,7 @@
+// Allow local Fedora 45 PRoot root/Termux UID to manage packages via dnf5daemon-server.
+polkit.addRule(function(action, subject) {
+    if (action.id.indexOf("org.rpm.dnf.v0.") === 0 &&
+        (subject.user === "root" || subject.user === "aid_u0_a528")) {
+        return polkit.Result.YES;
+    }
+});

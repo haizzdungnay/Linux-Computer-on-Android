@@ -30,3 +30,6 @@ tests/tmp*/
 Thumbs.db
 .idea/
 *.swp
+
+# Large third-party downloaded APKs
+artifacts/fedora45-20261126/AVNC-3.3.1.apk

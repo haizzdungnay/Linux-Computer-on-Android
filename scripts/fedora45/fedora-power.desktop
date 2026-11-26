@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Tắt Fedora
+Name[en]=Shutdown Fedora
+Comment=Đóng ứng dụng an toàn và tắt phiên Fedora 45
+Exec=/usr/bin/python3 /root/.local/share/fedora45-desktop/fedora-power.py
+Icon=system-shutdown
+Terminal=false
+OnlyShowIn=XFCE;
+Categories=System;
+StartupNotify=false
